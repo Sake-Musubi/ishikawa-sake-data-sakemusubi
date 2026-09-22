@@ -175,7 +175,7 @@ Tell us via the [contact form](https://find-sake.me/contact) (or an [issue](../.
 ## 更新・訂正・掲載終了 / Updates, corrections, delisting
 
 - 更新は不定期で、予告なく最新版を公開します。利用者に個別にお知らせする仕組みはありません。世代の判定は JSON 先頭の `generated_at`（UTC）。 / Updated irregularly and without prior notice; there is no individual notification. Check `generated_at`.
-- 訂正はサイトへ反映後、次の版に出します（目安2週間以内）。指摘いただいた項目だけを直し、確認済みは蔵元から回答があった軸にだけ付けます。 / Corrections appear in the next version (usually within two weeks); flags are set only for axes the brewery confirmed.
+- 訂正はサイトへ反映後、次の版に出します（不定期）。指摘いただいた項目だけを直し、確認済みは蔵元から回答があった軸にだけ付けます。 / Corrections appear in the next version (no fixed schedule); flags are set only for axes the brewery confirmed.
 - 掲載終了は蔵元からのご依頼で次の版から外します。**CC BY 4.0 は撤回できない**（第2条(a)(1)）ので、既に配布した版と第三者の複製からは消せません。過去の Release から下げるかは個別に相談。サイトには載せたままオープンデータからだけ外すことにも応じます。 / Delisting takes effect from the next version. **CC BY 4.0 is irrevocable**: distributed versions and third-party copies cannot be recalled; removal from past releases is handled case by case. Removal from the open data only is also possible.
 - 列の追加はあります。列の削除・意味の変更・キー名の変更も予告なく行うことがあり、何を変えたかは `CHANGELOG.md` に書きます。プログラムから使う場合は `generated_at` / `version` の変化を見て、取り込み前に構造を確かめてください。`public_id` は変えません。ライセンスは版ごとに固定で、後から狭めません。 / Columns may be added; removals and changes of meaning may also happen without notice and are recorded in `CHANGELOG.md`. Validate the structure before ingesting. `public_id` never changes. The license of a released version is never narrowed.
 

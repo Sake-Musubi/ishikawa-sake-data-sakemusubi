@@ -11,7 +11,7 @@
  "schema_version": "1.0.0",
  "schema_url": "https://find-sake.me/open-data/schema/1.0.0/sake_ishikawa.schema.json",
  "version": "2026-09-22",
- "generated_at": "2026-09-22T09:53:27.177Z",
+ "generated_at": "2026-09-22T10:32:10.212Z",
  "issued": "2026-09-22",
  "license": "CC-BY-4.0",
  "license_url": "https://creativecommons.org/licenses/by/4.0/",
@@ -21807,14 +21807,13 @@
    "ranges": {},
    "yeast": "海藻酵母",
    "water_source": "能登水系",
-   "starter_method": "古典的山廃",
+   "starter_method": "生酛",
    "pressing_filtration": "無濾過",
    "pasteurization": "生原酒",
    "undisclosed": [],
    "aroma_type": "melon_peach",
    "acidity_type": "lactic",
    "tags": [
-    "yamahai",
     "kimoto",
     "muroka",
     "nama",
@@ -21837,7 +21836,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-09-22"
   },
   {
    "public_id": 39396,

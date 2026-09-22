@@ -1,0 +1,5 @@
+# 既定は LF
+* text=auto eol=lf
+# データファイルは配信物と同一のバイト列で持つ（CSV は BOM 付き・CRLF。サイトの /open-data/ と一致させる）。後の行が勝つので * の後に書く
+data/*.csv -text
+data/*.json -text

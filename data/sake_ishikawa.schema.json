@@ -1,0 +1,466 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://find-sake.me/open-data/sake_ishikawa.schema.json",
+  "title": "Ishikawa Sake Taste Data (Sake-Musubi)",
+  "type": "object",
+  "required": [
+    "dataset",
+    "version",
+    "generated_at",
+    "license",
+    "records"
+  ],
+  "properties": {
+    "dataset": {
+      "const": "ishikawa-sake-data-sakemusubi"
+    },
+    "title": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "版（JST の日付）。同じ日に2回出した場合は generated_at で区別"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "生成日時（UTC）。世代の判定はこれを正とする"
+    },
+    "source_commit": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "酒結び内部のビルド識別子"
+    },
+    "license": {
+      "const": "CC-BY-4.0"
+    },
+    "license_url": {
+      "type": "string"
+    },
+    "attribution": {
+      "type": "string"
+    },
+    "homepage": {
+      "type": "string"
+    },
+    "repository": {
+      "type": "string"
+    },
+    "record_count": {
+      "type": "integer"
+    },
+    "brewery_count": {
+      "type": "integer"
+    },
+    "brewery_confirmed_count": {
+      "type": "object",
+      "properties": {
+        "spec": {
+          "type": "integer"
+        },
+        "taste": {
+          "type": "integer"
+        }
+      }
+    },
+    "notes_ja": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes_en": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "axes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label_ja",
+          "label_en",
+          "levels_ja",
+          "levels_en"
+        ],
+        "description": "label_<言語> / levels_<言語> を ja, en, fr, it, de, ko, zh_TW, zh_CN の8言語ぶん持つ",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "scale": {
+            "type": "object"
+          },
+          "label_ja": {
+            "type": "string"
+          },
+          "levels_ja": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 5,
+            "maxItems": 5
+          },
+          "label_en": {
+            "type": "string"
+          },
+          "levels_en": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 5,
+            "maxItems": 5
+          },
+          "label_fr": {
+            "type": "string"
+          },
+          "levels_fr": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 5,
+            "maxItems": 5
+          },
+          "label_it": {
+            "type": "string"
+          },
+          "levels_it": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 5,
+            "maxItems": 5
+          },
+          "label_de": {
+            "type": "string"
+          },
+          "levels_de": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 5,
+            "maxItems": 5
+          },
+          "label_ko": {
+            "type": "string"
+          },
+          "levels_ko": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 5,
+            "maxItems": 5
+          },
+          "label_zh_TW": {
+            "type": "string"
+          },
+          "levels_zh_TW": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 5,
+            "maxItems": 5
+          },
+          "label_zh_CN": {
+            "type": "string"
+          },
+          "levels_zh_CN": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 5,
+            "maxItems": 5
+          }
+        }
+      }
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/record"
+      }
+    }
+  },
+  "$defs": {
+    "record": {
+      "type": "object",
+      "required": [
+        "public_id",
+        "url",
+        "name",
+        "brewery",
+        "taste",
+        "brewery_confirmed",
+        "updated_at"
+      ],
+      "properties": {
+        "public_id": {
+          "type": "integer",
+          "description": "酒結びの公開ID（非連番）。/sake/{public_id} のURLと同じ"
+        },
+        "url": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "name_kana": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name_romaji": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "brewery": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "name": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "name_romaji": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "url": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "website": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "http(s) の URL のみ"
+            }
+          }
+        },
+        "category": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "特定名称（純米大吟醸など）"
+        },
+        "rice": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "polishing_ratio_pct": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "麹米と掛米で異なる場合は平均を丸めた値"
+        },
+        "abv_pct": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "範囲表記は中間値"
+        },
+        "sake_meter_value": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "日本酒度（符号付き）。範囲表記は中間値"
+        },
+        "acidity": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "酸度（分析値）。taste.acidity（酸味・1〜5）とは別"
+        },
+        "yeast": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "water_source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "starter_method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pressing_filtration": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pasteurization": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "milling_tech": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "has_gas": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "null = 記載なし"
+        },
+        "aroma_type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "A:メロン・白桃系",
+            "B:青リンゴ・レモン系",
+            "C:バナナ系",
+            "D:熟成系",
+            "E:穀物・ふくよか系",
+            null
+          ],
+          "description": "5値に正規化"
+        },
+        "acidity_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "taste": {
+          "type": "object",
+          "properties": {
+            "sweet_dry": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 5
+            },
+            "acidity": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 5
+            },
+            "umami": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 5
+            },
+            "aroma": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 5
+            },
+            "body": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 5
+            },
+            "finish": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 5
+            },
+            "drinkability": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          "description": "味わい7軸（1〜5）。酒結びの独自算出"
+        },
+        "volumes_ml": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "brewery_confirmed": {
+          "type": "object",
+          "required": [
+            "spec",
+            "taste"
+          ],
+          "properties": {
+            "spec": {
+              "type": "boolean"
+            },
+            "taste": {
+              "type": "boolean"
+            }
+          },
+          "description": "true = 蔵元が内容を確認した。false = 酒結びの独自調査値（蔵元は保証していない）"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date",
+          "description": "レコードの最終更新日。採取日ではない"
+        }
+      }
+    }
+  }
+}

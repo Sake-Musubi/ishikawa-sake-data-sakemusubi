@@ -16,7 +16,8 @@ A dataset of sake from Ishikawa Prefecture, Japan, compiled independently by [Sa
 | :---- | :---- |
 | `data/sake_ishikawa.json` | 全件 JSON（UTF-8） |
 | `data/sake_ishikawa.csv` | 全件 CSV（UTF-8 BOM 付き。Excel でそのまま開けます） |
-| `data/sake_ishikawa.schema.json` | JSON Schema（draft 2020-12） |
+| `data/sake_ishikawa.schema.json` | JSON Schema（draft 2020-12）。正規の URL は版付きの `data/schema/<schema_version>/` |
+| `data/datapackage.json` | CSV の列定義（Frictionless Data Package / Table Schema） |
 
 ```bash
 curl -s https://find-sake.me/open-data/sake_ishikawa.json | jq '.record_count'
@@ -38,7 +39,7 @@ curl -s https://find-sake.me/open-data/sake_ishikawa.json | jq '.record_count'
 - 酒結びがその利用を推奨・保証しているように見せないでください（CC BY 4.0 第2条(a)(6) の条件）。蔵元についても同様にお願いします（蔵元は確認者であって利用の当事者ではありません）。 / Do not imply endorsement by Sake-Musubi (§2(a)(6)) or by any brewery (a request).
 - お酒や蔵の名前を事実として記載・引用することはできます。蔵の商品や公認サービスであるかのように見せる使い方（出所を示す標識としての使用）はライセンスの範囲外です（第2条(b)(2)。商標その他の権利は各蔵に帰属）。 / You may cite names as facts; using them as a mark of origin is outside the license (§2(b)(2)).
 - `brewery_confirmed` の値にかかわらず「蔵元の公式値」と書かないでください。`true` は「蔵元が確認した」であって「蔵元が発表した値」ではありません。 / Do not describe the values as official brewery figures; `true` means reviewed, not published.
-- 値を改変して再配布する場合は `brewery_confirmed` を `false` にするか列を落としてください。 / If you modify values and redistribute, set `brewery_confirmed` to `false` or drop the field.
+- 値を改変して再配布する場合は `brewery_confirmed` を `false` にするか列を落としてください（お願いであって、ライセンスの条件ではありません）。 / If you modify values and redistribute, please set `brewery_confirmed` to `false` or drop the field (a request, not a licence condition).
 - 加工した場合は原データと区別がつくようにしてください（第3条(a)(1)(B)）。 / Indicate modifications (§3(a)(1)(B)).
 
 ## 出しているもの／出していないもの / What is and isn't included
@@ -47,10 +48,12 @@ curl -s https://find-sake.me/open-data/sake_ishikawa.json | jq '.record_count'
 
 - お酒の名前（日本語・かな・ローマ字）、酒結びのページURL / Sake name (Japanese, kana, romaji) and its page URL
 - 蔵元名（日本語・ローマ字）、蔵の公式サイト / Brewery name and official website
-- 特定名称、原料米、精米歩合、アルコール度数、日本酒度、酸度、使用酵母、仕込み水系、酒母・製法、搾り・濾過、火入れ・貯蔵、精米技術 / Designation, rice, polishing ratio, ABV, sake meter value, acidity, yeast, water source, starter method, pressing/filtration, pasteurization, milling technique
-- 味わい7軸（各1〜5）、ガス感、香りの質、酸のタイプ / 7 taste axes (1–5), carbonation, aroma type, acidity type
+- 特定名称（コード）、原料米、精米歩合、アルコール度数、日本酒度、酸度、使用酵母、仕込み水系、酒母・製法、搾り・濾過、火入れ・貯蔵 / Designation (code), rice, polishing ratio, ABV, sake meter value, acidity, yeast, water source, starter method, pressing/filtration, pasteurization
+- 味わい7軸（各1〜5）、香りの質・酸のタイプ（コード）、製法・状態のタグ `tags`（生酒・原酒・山廃・無濾過・微発泡 など16種。酒結びの画面の絞り込みと同じ ID）。コードの定義と8言語のラベルは JSON 先頭の `categories` / `aroma_types` / `acidity_types` / `tags` / 7 taste axes (1–5), aroma type and acidity type (codes), method/condition `tags` (16 IDs such as nama, genshu, yamahai, muroka, sparkling — the same IDs as the site filters). Code definitions with labels in 8 languages at the top of the JSON
+- 蔵元が意図して公開していない項目の列挙 `undisclosed` / `undisclosed`: fields the brewery intentionally does not disclose
 - 存在する容量（ml） / Available bottle sizes (ml)
-- 蔵元確認の状態（スペック／味わい）、情報の更新日 / Brewery-verification flags and the date of the information
+- 範囲表記の元の範囲（`ranges`）と麹米・掛米それぞれの精米歩合（`polishing_by_rice`） / Original ranges (`ranges`) and per-rice polishing ratios (`polishing_by_rice`)
+- 蔵元確認の状態（スペック／味わい）、レコードの更新日 / Brewery-verification flags and the date the record was last edited
 
 **出していないもの / Not included**
 
@@ -58,25 +61,26 @@ curl -s https://find-sake.me/open-data/sake_ishikawa.json | jq '.record_count'
 - 商品説明の本文・おすすめの理由・7言語の訳文は含まれていません。蔵元が書いた文章や公式サイトを元にした文章を含むためです。 / Product descriptions, pairing notes and translations are not included; they contain text by or based on breweries.
 - 取扱店・在庫・価格・店ごとの取扱容量は含まれていません。お店のデータであり、酒結びが公開を決められるものではないためです。 / Retailers, stock, prices and per-store bottle sizes are not included; that is the shops' data.
 - 蔵元の連絡先は含まれていません。各蔵の公式サイト（`brewery.website`）からお願いします。 / Brewery contact details are not included; use `brewery.website`.
-- アミノ酸度、共同醸造の第2蔵元、スペックの原文（範囲表記・「非公開」の別）はこの版に含まれていません（生成元の公開カタログが返さないため。次の版で検討）。 / Amino acidity, secondary breweries and original spec wording are not in this version.
+- アミノ酸度と共同醸造の第2蔵元は含まれていません。 / Amino acidity and secondary breweries are not included.
 
 ## こんな使い方 / Example uses
 
 - **お店の棚POP・飲食店のメニュー**：7軸をレーダーチャートにして貼る。「今日の魚に合う辛口」を `taste.sweet_dry >= 4` で絞る。 / Shelf tags and menus: radar charts of the 7 axes; filter dry sake with `taste.sweet_dry >= 4`.
 - **アプリ・Webサービス**：好みの7軸ベクトルに近いお酒を並べる。`public_id` で酒結びのページへリンクすれば説明文・写真はそちらで見られます。 / Apps: rank sake by distance to a preference vector; link to Sake-Musubi via `public_id` for descriptions and photos.
-- **研究・データ分析**：特定名称・原料米・精米歩合と味わい7軸の関係、蔵ごとの傾向。`brewery_confirmed` で蔵元確認済みの部分だけを取り出せます。 / Research: designation, rice, polishing ratio vs. taste; select verified records with `brewery_confirmed`.
-- **多言語の下敷き**：かな・ローマ字・英語の軸ラベル（`axes[].levels_en`）が入っています。 / Multilingual listings: kana, romaji and English axis labels are included.
+- **研究・データ分析**：特定名称（`category`）・原料米・精米歩合と味わい7軸の関係、蔵ごとの傾向。「生酒だけ」は `tags` に `nama` があるかで絞れます。`brewery_confirmed` で蔵元確認済みの部分だけを取り出せます。 / Research: designation, rice, polishing ratio vs. taste; select verified records with `brewery_confirmed`.
+- **多言語の下敷き**：かな・ローマ字と、軸名・5段階の言葉・分類コードのラベルの8言語（`axes[].label.en` のような言語マップ）が入っています。 / Multilingual listings: kana, romaji, and labels for axes, levels and codes in 8 languages (language maps such as `axes[].label.en`).
 
 ## 取得の仕様 / Format
 
 | 項目 / Item | 内容 / Value |
 | :---- | :---- |
-| 固定URL / Stable URLs | `https://find-sake.me/open-data/sake_ishikawa.json` ・ `sake_ishikawa.csv` ・ `sake_ishikawa.schema.json`（常に最新版 / always the latest） |
-| 言語 / Languages | 値は日本語（ラベル表記のまま）。名前にかな・ローマ字、蔵元名にローマ字を併記。キー名とスキーマは英語。7軸の軸名・5段階の言葉は8言語（日本語・英語・フランス語・イタリア語・ドイツ語・韓国語・繁体字・簡体字。`axes[].label_*` / `levels_*`）。商品説明の訳文は含まない / Values in Japanese as on the labels; kana and romaji for names; keys in English; axis names and level labels in 8 languages (ja, en, fr, it, de, ko, zh-TW, zh-CN) |
+| 固定URL / Stable URLs | `https://find-sake.me/open-data/sake_ishikawa.json` ・ `sake_ishikawa.csv` ・ `sake_ishikawa.schema.json`（正規は `schema/<schema_version>/sake_ishikawa.schema.json`）・ `datapackage.json`（常に最新版 / always the latest） |
+| 言語 / Languages | 値は日本語（ラベル表記のまま）。名前にかな・ローマ字、蔵元名にローマ字を併記。キー名とスキーマは英語。7軸の軸名・5段階の言葉・分類コードのラベルは8言語の言語マップ `{ "ja": …, "en": …, "fr": …, "it": …, "de": …, "ko": …, "zh-TW": …, "zh-CN": … }`（キーは BCP 47）。タイトル・説明・但し書きは日英。商品説明の訳文は含まない / Free-text values in Japanese as on the labels; kana and romaji for names; keys in English; labels for axes, levels and codes as 8-language maps keyed by BCP 47 tags; title, description and notes in ja/en |
 | 形式 / Encoding | JSON: UTF-8（BOM なし）。CSV: UTF-8 **BOM 付き**・CRLF・ヘッダ行あり / JSON: UTF-8 without BOM. CSV: UTF-8 with BOM, CRLF, header row |
-| CSV の平坦化 / CSV flattening | 入れ子は `_` でつなぐ（`brewery_name`、`taste_sweet_dry`）。`volumes_ml` は `;` 区切り。真偽値は `true`/`false`、欠測は空欄 / Nested keys joined with `_`; `volumes_ml` separated by `;`; booleans `true`/`false`; missing values empty |
+| CSV の平坦化 / CSV flattening | 入れ子は `_` でつなぐ（`brewery_name`、`taste_sweet_dry`）。`volumes_ml`・`tags`・`undisclosed` は `;` 区切り、`ranges` は `abv_pct_range` のように列にして「min〜max」、`polishing_by_rice` は `_koji` / `_kake` の2列。真偽値は `true`/`false`、欠測は空欄。型と規約は `datapackage.json` に機械可読で書いてある / Nested keys joined with `_`; `volumes_ml`, `tags`, `undisclosed` separated by `;`; `ranges` as `abv_pct_range` etc. ("min〜max"); `polishing_by_rice` as `_koji` / `_kake`; booleans `true`/`false`; missing values empty. Declared in `datapackage.json` |
 | CORS | `Access-Control-Allow-Origin: *` |
-| キャッシュ / Cache | `Cache-Control: max-age=3600`。版は JSON 先頭の `version`（YYYY-MM-DD）と `source_commit` / Check `version` and `source_commit` at the top of the JSON |
+| 版・キャッシュ / Versions, cache | `version` がデータの版（公開日。同じ日に出し直すときは `2026-09-22.1` のように枝番）、`schema_version` が構造の版、`generated_at` はビルド時刻（UTC）。1つの版名には1組のファイルしか対応しない。`Cache-Control: max-age=3600` / `version` = data version (release date; a same-day re-release gets a suffix), `schema_version` = structure version, `generated_at` = build time. One version name = one set of files |
+| 構造の版 / Schema version | `schema_version`（semver。現在 1.0.0）。列の追加は真ん中の数字、列の削除・改名・意味の変更は先頭の数字が上がる。先頭が変わったら取り込みを止めること / `schema_version` (semver, currently 1.0.0): the middle number rises for added columns, the first for removals, renames and changes of meaning — stop ingesting when the first number changes |
 | 認証・制限 / Auth, rate limit | なし。常識的な頻度で（1日1回で十分） / None. Please fetch at a reasonable rate |
 | 過去の版 / Past versions | [Releases](../../releases)。タグは `v`＋版 / tagged `v` + version |
 
@@ -84,6 +88,9 @@ curl -s https://find-sake.me/open-data/sake_ishikawa.json | jq '.record_count'
 
 フィールドの一覧と意味は https://find-sake.me/open-data/#fields、機械可読の定義は `data/sake_ishikawa.schema.json`（JSON Schema draft 2020-12）。
 Field list: https://find-sake.me/open-data/#fields. Machine-readable definition: `data/sake_ishikawa.schema.json`.
+
+`category`・`aroma_type`・`acidity_type`・`tags` は**コード**です（「純米」「純米酒」「山廃純米」はどれも `junmai`）。定義と8言語のラベルは JSON 先頭の `categories` / `aroma_types` / `acidity_types` / `tags`、一覧は https://find-sake.me/open-data/#codes。`category` は酒税法の特定名称8種＋普通酒だけで、貴醸酒・長期熟成・発泡は `tags` 側。`tags` は `name` と3つの自由記述列への部分一致で付けているので、`tags[].patterns` で再現できます（`sparkling`・`henpei` だけは酒結びの記録から）。`starter_method`・`pressing_filtration`・`pasteurization` はラベル表記のままの自由記述なので、絞り込みには `tags` を使ってください。
+`category`, `aroma_type`, `acidity_type` and `tags` are codes ("純米", "純米酒" and "山廃純米" are all `junmai`); definitions with labels in 8 languages are at the top of the JSON and listed at https://find-sake.me/open-data/#codes. `category` holds only the eight legal designations plus futsushu; kijoshu, long-aged and sparkling live in `tags`. Tags are set by substring match on `name` and the three free-text columns, so `tags[].patterns` lets you reproduce them (`sparkling` and `henpei` come from Sake-Musubi's records). `starter_method`, `pressing_filtration` and `pasteurization` are free text as on the label — filter with `tags`.
 
 ## 蔵元確認フラグ / Verification flags
 
@@ -111,8 +118,8 @@ Custom metrics calculated by Sake-Musubi to compare all sake on one scale. They 
 | `taste.finish` | キレ / Crispness | 長い余韻 / Long finish | 極めて爽快 / Very crisp |
 | `taste.drinkability` | 飲みやすさ / Drinkability | 通好みの個性 / For the initiated | スルスル飲める / Very easy |
 
-2〜4 の文言は `data/sake_ishikawa.json` の `axes[].levels_ja` / `levels_en` にあります。
-The wording for levels 2–4 is in `axes[].levels_ja` / `levels_en` in the JSON.
+2〜4 の文言は `data/sake_ishikawa.json` の `axes[].levels.ja` / `levels.en`（ほか6言語も）にあります。
+The wording for levels 2–4 is in `axes[].levels.ja` / `levels.en` (and six more languages) in the JSON.
 
 ## データの作り方 / How the data was made
 
@@ -125,9 +132,9 @@ The wording for levels 2–4 is in `axes[].levels_ja` / `levels_en` in the JSON.
 ## 限界と偏り / Limitations and bias
 
 - 7軸は主観を含む推定値。蔵元確認済みは約1割。相対比較に使うこと。 / The taste axes are estimates; about a tenth are brewery-verified. Use for relative comparison.
-- 県内の蔵はほぼ全蔵を収録しているが、蔵ごとの本数は 1〜70 本と偏る。酒販店で入手できたもの・公式サイトにあるものが中心で、限定品や小さな蔵のお酒は少ない。 / Almost every brewery is covered, but records per brewery range from 1 to 70; limited releases and small breweries are under-represented.
-- 日本酒度・酸度は半数前後しか入っていない。欠測の大半は酒結びが情報源に値を見つけられなかったもので、蔵が意図して公開していないものは一部。欠測は無作為ではない。 / Sake meter value and acidity are present for only about half; most gaps are values not found in the sources, a smaller number are undisclosed by the brewery. Missingness is not random.
-- 範囲表記は中間値、麹米・掛米で異なる精米歩合は平均値。測定値として引用しない。 / Ranges are midpoints and differing polishing ratios averages — do not cite as measurements.
+- 県内の蔵はほぼ全蔵を収録しているが、蔵ごとの本数は大きく偏る（版ごとの実数は案内ページの「限界と偏り」）。酒販店で入手できたもの・公式サイトにあるものが中心で、限定品や小さな蔵のお酒は少ない。 / Almost every brewery is covered, but records per brewery vary widely (see the guide page for this version's figures); limited releases and small breweries are under-represented.
+- 日本酒度・酸度は半数前後しか入っていない。欠測の大半は酒結びが情報源に値を見つけられなかったもので、蔵が意図して公開していないものは一部（`undisclosed` に列挙）。欠測は無作為ではない。 / Sake meter value and acidity are present for only about half; most gaps are values not found in the sources, a smaller number are undisclosed by the brewery (listed in `undisclosed`). Missingness is not random.
+- 範囲表記は中間値（元の範囲は `ranges`）、麹米・掛米で異なる精米歩合は平均値（元の2値は `polishing_by_rice`）。測定値として引用しない。 / Ranges are midpoints (original in `ranges`) and differing polishing ratios averages (originals in `polishing_by_rice`) — do not cite as measurements.
 - スペックは仕込みごとに変わる。`updated_at` はレコードの更新日で、採取日ではない（初回登録の基準日 2026-08-20 のままの本が多い。本数は案内ページの「この版の統計」に版ごとに出る）。 / Specifications change by batch; `updated_at` is the record's last-edited date, not the collection date.
 - 各項目の記入率は https://find-sake.me/open-data/#stats に版ごとに出ている。 / Per-field fill rates for each version: https://find-sake.me/open-data/#stats
 
@@ -151,7 +158,7 @@ If you modified the data, say so (e.g. "based on data from Sake-Musubi, modified
 BibTeX:
 
 ```bibtex
-@misc{sakemusubi_ishikawa_sake_data,
+@misc{sakemusubi_ishikawa_sake_data_YYYYMMDD,
   title   = {石川県のお酒 味わいデータ（オープンデータ） / Ishikawa Sake Taste Data (Open Data)},
   author  = {{酒結び / Sake-Musubi}},
   year    = {2026},
@@ -177,11 +184,11 @@ Tell us via the [contact form](https://find-sake.me/contact) (or an [issue](../.
 - 更新は不定期で、予告なく最新版を公開します。利用者に個別にお知らせする仕組みはありません。世代の判定は JSON 先頭の `generated_at`（UTC）。 / Updated irregularly and without prior notice; there is no individual notification. Check `generated_at`.
 - 訂正はサイトへ反映後、次の版に出します（不定期）。指摘いただいた項目だけを直し、確認済みは蔵元から回答があった軸にだけ付けます。 / Corrections appear in the next version (no fixed schedule); flags are set only for axes the brewery confirmed.
 - 掲載終了は蔵元からのご依頼で次の版から外します。**CC BY 4.0 は撤回できない**（第2条(a)(1)）ので、既に配布した版と第三者の複製からは消せません。過去の Release から下げるかは個別に相談。サイトには載せたままオープンデータからだけ外すことにも応じます。 / Delisting takes effect from the next version. **CC BY 4.0 is irrevocable**: distributed versions and third-party copies cannot be recalled; removal from past releases is handled case by case. Removal from the open data only is also possible.
-- 列の追加はあります。列の削除・意味の変更・キー名の変更も予告なく行うことがあり、何を変えたかは `CHANGELOG.md` に書きます。プログラムから使う場合は `generated_at` / `version` の変化を見て、取り込み前に構造を確かめてください。`public_id` は変えません。ライセンスは版ごとに固定で、後から狭めません。 / Columns may be added; removals and changes of meaning may also happen without notice and are recorded in `CHANGELOG.md`. Validate the structure before ingesting. `public_id` never changes. The license of a released version is never narrowed.
+- 列の追加はあります。列の削除・意味の変更・キー名の変更も予告なく行うことがあり、何を変えたかは `CHANGELOG.md` に書きます。プログラムから使う場合は `schema_version` を見てください（追加は真ん中、削除・改名・意味の変更は先頭の数字が上がる）。`public_id` は変えません。ライセンスは版ごとに固定で、後から狭めません。 / Columns may be added; removals and changes of meaning may also happen without notice and are recorded in `CHANGELOG.md`. Watch `schema_version` (middle number = additions, first number = breaking changes). `public_id` never changes. The license of a released version is never narrowed.
 
 ## ご注意 / Notes
 
-- `null` は「情報源に記載がない」または「蔵元が公開していない」のどちらかです。日本酒度・酸度を意図して公開していない蔵があります。 / `null` means either "not stated by the source" or "intentionally not disclosed by the brewery".
+- `null` のうち、蔵元が意図して公開していない項目は `undisclosed` に列挙しています。それ以外の `null` は「情報源に記載を見つけられなかった」です。 / Fields the brewery intentionally does not disclose are listed in `undisclosed`; any other `null` means "not found in the sources".
 - スペックは仕込みごとに変わります。値がいつ時点のものかは `updated_at` を見てください。 / Specifications vary from batch to batch; see `updated_at`.
 - 掲載の有無や数値は、お酒の品質や優劣を示すものではありません。 / Nothing here ranks or judges the quality of any sake.
 - 各レコードの値は `updated_at` 時点の情報です。蔵元確認は回答時点の内容に対するもので、確認日は載せていません。 / Each record is as of `updated_at`; verification refers to the content at the time of the reply.

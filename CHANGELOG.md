@@ -5,8 +5,8 @@
 
 ## 2026-09-22
 
-- 初版。掲載中の全お酒のスペック・味わい7軸・蔵元確認状態を公開（CC BY 4.0・申請不要）。
-- JSON / CSV / JSON Schema。軸名と5段階の言葉は8言語。
-- Initial release: specifications, 7 taste axes and brewery-verification flags for all listed sake (CC BY 4.0, no registration).
-- JSON / CSV / JSON Schema. Axis names and level labels in 8 languages.
+- 初版（schema 1.0.0）。掲載中の全お酒のスペック・味わい7軸・蔵元確認状態を公開（CC BY 4.0・申請不要）。
+- JSON / CSV / JSON Schema / Data Package。軸名・5段階の言葉・分類コード（特定名称・香りの質・酸のタイプ・製法/状態タグ）のラベルは8言語の言語マップ。範囲表記の元の範囲（ranges）、麹米・掛米の精米歩合（polishing_by_rice）、蔵元が意図して公開していない項目（undisclosed）を同梱。
+- Initial release (schema 1.0.0): specifications, 7 taste axes and brewery-verification flags for all listed sake (CC BY 4.0, no registration).
+- JSON / CSV / JSON Schema / Data Package. Axis names, level labels and code lists (designation, aroma type, acidity type, method/condition tags) as 8-language maps. Includes original ranges (ranges), per-rice polishing ratios (polishing_by_rice) and fields the brewery intentionally does not disclose (undisclosed).
 

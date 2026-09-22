@@ -1,0 +1,335 @@
+{
+  "profile": "tabular-data-package",
+  "name": "ishikawa-sake-data-sakemusubi",
+  "title": "Ishikawa Sake Taste Data (Sake-Musubi)",
+  "description": "Label specifications and a 7-axis taste profile of 710 sake from 35 breweries in Ishikawa, Japan, compiled by Sake-Musubi.",
+  "version": "2026-09-22",
+  "created": "2026-09-22T09:53:27.177Z",
+  "homepage": "https://find-sake.me/open-data/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Sake-Musubi",
+      "path": "https://find-sake.me/",
+      "role": "publisher"
+    }
+  ],
+  "resources": [
+    {
+      "name": "sake_ishikawa",
+      "path": "sake_ishikawa.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "public_id",
+            "type": "integer",
+            "description": "Sake-Musubi public ID (stable)",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "description": "Sake page on Sake-Musubi",
+            "format": "uri",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Name as on the label (Japanese)",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "name_kana",
+            "type": "string",
+            "description": "Reading in kana"
+          },
+          {
+            "name": "name_romaji",
+            "type": "string",
+            "description": "Name in romaji"
+          },
+          {
+            "name": "brewery_id",
+            "type": "integer",
+            "description": "Brewery public ID (stable)"
+          },
+          {
+            "name": "brewery_name",
+            "type": "string",
+            "description": "Brewery name (Japanese)"
+          },
+          {
+            "name": "brewery_name_romaji",
+            "type": "string",
+            "description": "Brewery name in romaji"
+          },
+          {
+            "name": "brewery_url",
+            "type": "string",
+            "description": "Brewery page on Sake-Musubi",
+            "format": "uri"
+          },
+          {
+            "name": "brewery_website",
+            "type": "string",
+            "description": "Official website",
+            "format": "uri"
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Designation code (see categories in the JSON)",
+            "constraints": {
+              "enum": [
+                "junmai_daiginjo",
+                "daiginjo",
+                "junmai_ginjo",
+                "ginjo",
+                "tokubetsu_junmai",
+                "junmai",
+                "tokubetsu_honjozo",
+                "honjozo",
+                "futsushu"
+              ]
+            }
+          },
+          {
+            "name": "rice",
+            "type": "string",
+            "description": "Rice, free text"
+          },
+          {
+            "name": "polishing_ratio_pct",
+            "type": "integer",
+            "description": "Rice polishing ratio (%); average when koji and kake differ"
+          },
+          {
+            "name": "polishing_by_rice_koji",
+            "type": "integer",
+            "description": "Polishing ratio of koji rice (%) when stated separately"
+          },
+          {
+            "name": "polishing_by_rice_kake",
+            "type": "integer",
+            "description": "Polishing ratio of kake rice (%) when stated separately"
+          },
+          {
+            "name": "abv_pct",
+            "type": "number",
+            "description": "Alcohol by volume (%); midpoint for ranges"
+          },
+          {
+            "name": "abv_pct_range",
+            "type": "string",
+            "description": "Original range as \"min〜max\" when the label gives a range"
+          },
+          {
+            "name": "sake_meter_value",
+            "type": "number",
+            "description": "Sake meter value, signed; midpoint for ranges"
+          },
+          {
+            "name": "sake_meter_value_range",
+            "type": "string",
+            "description": "Original range as \"min〜max\""
+          },
+          {
+            "name": "titratable_acidity",
+            "type": "number",
+            "description": "Titratable acidity as published; midpoint for ranges"
+          },
+          {
+            "name": "titratable_acidity_range",
+            "type": "string",
+            "description": "Original range as \"min〜max\""
+          },
+          {
+            "name": "yeast",
+            "type": "string",
+            "description": "Yeast, free text"
+          },
+          {
+            "name": "water_source",
+            "type": "string",
+            "description": "Brewing water, free text"
+          },
+          {
+            "name": "starter_method",
+            "type": "string",
+            "description": "Starter method, free text"
+          },
+          {
+            "name": "pressing_filtration",
+            "type": "string",
+            "description": "Pressing / filtration, free text"
+          },
+          {
+            "name": "pasteurization",
+            "type": "string",
+            "description": "Pasteurization / storage / dilution, free text"
+          },
+          {
+            "name": "undisclosed",
+            "type": "array",
+            "description": "Fields the brewery intentionally does not disclose; \";\"-separated keys",
+            "separator": ";"
+          },
+          {
+            "name": "aroma_type",
+            "type": "string",
+            "description": "Aroma type code",
+            "constraints": {
+              "enum": [
+                "melon_peach",
+                "green_apple_lemon",
+                "banana",
+                "matured",
+                "grain"
+              ]
+            }
+          },
+          {
+            "name": "acidity_type",
+            "type": "string",
+            "description": "Acidity style code",
+            "constraints": {
+              "enum": [
+                "lactic",
+                "malic",
+                "balanced"
+              ]
+            }
+          },
+          {
+            "name": "tags",
+            "type": "array",
+            "description": "Method / condition tags; \";\"-separated",
+            "separator": ";"
+          },
+          {
+            "name": "taste_sweet_dry",
+            "type": "integer",
+            "description": "Taste axis sweet_dry (1–5, ordinal)",
+            "constraints": {
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "taste_acidity",
+            "type": "integer",
+            "description": "Taste axis acidity (1–5, ordinal)",
+            "constraints": {
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "taste_umami",
+            "type": "integer",
+            "description": "Taste axis umami (1–5, ordinal)",
+            "constraints": {
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "taste_aroma",
+            "type": "integer",
+            "description": "Taste axis aroma (1–5, ordinal)",
+            "constraints": {
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "taste_body",
+            "type": "integer",
+            "description": "Taste axis body (1–5, ordinal)",
+            "constraints": {
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "taste_finish",
+            "type": "integer",
+            "description": "Taste axis finish (1–5, ordinal)",
+            "constraints": {
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "taste_drinkability",
+            "type": "integer",
+            "description": "Taste axis drinkability (1–5, ordinal)",
+            "constraints": {
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "volumes_ml",
+            "type": "array",
+            "description": "Bottle sizes (ml); \";\"-separated",
+            "separator": ";"
+          },
+          {
+            "name": "brewery_confirmed_spec",
+            "type": "boolean",
+            "description": "Brewery reviewed the specifications"
+          },
+          {
+            "name": "brewery_confirmed_taste",
+            "type": "boolean",
+            "description": "Brewery reviewed the taste axes"
+          },
+          {
+            "name": "updated_at",
+            "type": "date",
+            "description": "Date the record was last edited"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "public_id"
+      }
+    },
+    {
+      "name": "sake_ishikawa_json",
+      "path": "sake_ishikawa.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "schema": "https://find-sake.me/open-data/schema/1.0.0/sake_ishikawa.schema.json"
+    }
+  ]
+}

@@ -71,8 +71,8 @@ curl -s https://find-sake.me/open-data/sake_ishikawa.json | jq '.record_count'
 
 | 項目 / Item | 内容 / Value |
 | :---- | :---- |
-| 固定URL / Stable URLs | `https://find-sake.me/open-data/sake_ishikawa.json` ・ `sake_ishikawa.csv` ・ `schema.json`（常に最新版 / always the latest） |
-| 言語 / Languages | 値は日本語（ラベル表記のまま）。名前にかな・ローマ字、蔵元名にローマ字を併記。キー名と `schema.json` は英語。7軸の軸名・5段階の言葉は日本語と英語（`axes[].label_en` / `levels_en`）。商品説明の訳文は含まない / Values in Japanese as on the labels; kana and romaji for names; keys in English; axis names and level labels in Japanese and English |
+| 固定URL / Stable URLs | `https://find-sake.me/open-data/sake_ishikawa.json` ・ `sake_ishikawa.csv` ・ `sake_ishikawa.schema.json`（常に最新版 / always the latest） |
+| 言語 / Languages | 値は日本語（ラベル表記のまま）。名前にかな・ローマ字、蔵元名にローマ字を併記。キー名とスキーマは英語。7軸の軸名・5段階の言葉は8言語（日本語・英語・フランス語・イタリア語・ドイツ語・韓国語・繁体字・簡体字。`axes[].label_*` / `levels_*`）。商品説明の訳文は含まない / Values in Japanese as on the labels; kana and romaji for names; keys in English; axis names and level labels in 8 languages (ja, en, fr, it, de, ko, zh-TW, zh-CN) |
 | 形式 / Encoding | JSON: UTF-8（BOM なし）。CSV: UTF-8 **BOM 付き**・CRLF・ヘッダ行あり / JSON: UTF-8 without BOM. CSV: UTF-8 with BOM, CRLF, header row |
 | CSV の平坦化 / CSV flattening | 入れ子は `_` でつなぐ（`brewery_name`、`taste_sweet_dry`）。`volumes_ml` は `;` 区切り。真偽値は `true`/`false`、欠測は空欄 / Nested keys joined with `_`; `volumes_ml` separated by `;`; booleans `true`/`false`; missing values empty |
 | CORS | `Access-Control-Allow-Origin: *` |
@@ -82,8 +82,8 @@ curl -s https://find-sake.me/open-data/sake_ishikawa.json | jq '.record_count'
 
 ## データの構造 / Fields
 
-フィールドの一覧と意味は https://find-sake.me/open-data/#fields、機械可読の定義は `data/schema.json`（JSON Schema draft 2020-12）。
-Field list: https://find-sake.me/open-data/#fields. Machine-readable definition: `data/schema.json`.
+フィールドの一覧と意味は https://find-sake.me/open-data/#fields、機械可読の定義は `data/sake_ishikawa.schema.json`（JSON Schema draft 2020-12）。
+Field list: https://find-sake.me/open-data/#fields. Machine-readable definition: `data/sake_ishikawa.schema.json`.
 
 ## 蔵元確認フラグ / Verification flags
 
@@ -128,7 +128,7 @@ The wording for levels 2–4 is in `axes[].levels_ja` / `levels_en` in the JSON.
 - 県内の蔵はほぼ全蔵を収録しているが、蔵ごとの本数は 1〜70 本と偏る。酒販店で入手できたもの・公式サイトにあるものが中心で、限定品や小さな蔵のお酒は少ない。 / Almost every brewery is covered, but records per brewery range from 1 to 70; limited releases and small breweries are under-represented.
 - 日本酒度・酸度は半数前後しか入っていない。欠測の大半は酒結びが情報源に値を見つけられなかったもので、蔵が意図して公開していないものは一部。欠測は無作為ではない。 / Sake meter value and acidity are present for only about half; most gaps are values not found in the sources, a smaller number are undisclosed by the brewery. Missingness is not random.
 - 範囲表記は中間値、麹米・掛米で異なる精米歩合は平均値。測定値として引用しない。 / Ranges are midpoints and differing polishing ratios averages — do not cite as measurements.
-- スペックは仕込みごとに変わる。`updated_at` はレコードの更新日で、採取日ではない（392本は初回登録の基準日 2026-08-20）。 / Specifications change by batch; `updated_at` is the record's last-edited date, not the collection date.
+- スペックは仕込みごとに変わる。`updated_at` はレコードの更新日で、採取日ではない（初回登録の基準日 2026-08-20 のままの本が多い。本数は案内ページの「この版の統計」に版ごとに出る）。 / Specifications change by batch; `updated_at` is the record's last-edited date, not the collection date.
 - 各項目の記入率は https://find-sake.me/open-data/#stats に版ごとに出ている。 / Per-field fill rates for each version: https://find-sake.me/open-data/#stats
 
 **推奨 / Recommendation**：数値スペックは蔵元の公式情報を正とし、このデータは索引に使う。7軸は「近い／遠い」の比較に使う。厳密さが要る用途では `brewery_confirmed = true` に絞る。

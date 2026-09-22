@@ -54,7 +54,7 @@ curl -s https://find-sake.me/open-data/sake_ishikawa.json | jq '.record_count'
 
 **出していないもの / Not included**
 
-- 商品画像は含まれていません。画像を第三者へ再配布できる権利を酒結びが持っていないためです。 / Product images are not included; Sake-Musubi does not hold the right to redistribute them.
+- 商品画像は含まれていません。**酒結びのサイトに載っている画像も CC BY 4.0 の対象外です。**蔵元から酒結びに対して掲載の許諾を受けているもので、酒結びが第三者に使用を許可することはできません。使いたい場合は各蔵元へ直接（`brewery.website`）。ページへのリンク（`url`）は自由です。 / Product images are not included, **and the images on the Sake-Musubi site are not covered by this license either**: they are used with permission granted to Sake-Musubi, which cannot pass that permission on. Contact the brewery directly. Linking to the page (`url`) is fine.
 - 商品説明の本文・おすすめの理由・7言語の訳文は含まれていません。蔵元が書いた文章や公式サイトを元にした文章を含むためです。 / Product descriptions, pairing notes and translations are not included; they contain text by or based on breweries.
 - 取扱店・在庫・価格・店ごとの取扱容量は含まれていません。お店のデータであり、酒結びが公開を決められるものではないためです。 / Retailers, stock, prices and per-store bottle sizes are not included; that is the shops' data.
 - 蔵元の連絡先は含まれていません。各蔵の公式サイト（`brewery.website`）からお願いします。 / Brewery contact details are not included; use `brewery.website`.

@@ -87,10 +87,10 @@ curl -s https://find-sake.me/open-data/sake_ishikawa.json | jq '.record_count'
 ## データの構造 / Fields
 
 フィールドの一覧と意味は https://find-sake.me/open-data/#fields、機械可読の定義は `data/sake_ishikawa.schema.json`（JSON Schema draft 2020-12）。
-Field list: https://find-sake.me/open-data/#fields. Machine-readable definition: `data/sake_ishikawa.schema.json`.
+Field list: https://find-sake.me/open-data/en/#fields. Machine-readable definition: `data/sake_ishikawa.schema.json`.
 
 `category`・`aroma_type`・`acidity_type`・`tags` は**コード**です（「純米」「純米酒」「山廃純米」はどれも `junmai`）。定義と8言語のラベルは JSON 先頭の `categories` / `aroma_types` / `acidity_types` / `tags`、一覧は https://find-sake.me/open-data/#codes。`category` は酒税法の特定名称8種＋普通酒だけで、貴醸酒・長期熟成・発泡は `tags` 側。`tags` は `name` と3つの自由記述列への部分一致で付けているので、`tags[].patterns` で再現できます（`sparkling`・`henpei` だけは酒結びの記録から）。`starter_method`・`pressing_filtration`・`pasteurization` はラベル表記のままの自由記述なので、絞り込みには `tags` を使ってください。
-`category`, `aroma_type`, `acidity_type` and `tags` are codes ("純米", "純米酒" and "山廃純米" are all `junmai`); definitions with labels in 8 languages are at the top of the JSON and listed at https://find-sake.me/open-data/#codes. `category` holds only the eight legal designations plus futsushu; kijoshu, long-aged and sparkling live in `tags`. Tags are set by substring match on `name` and the three free-text columns, so `tags[].patterns` lets you reproduce them (`sparkling` and `henpei` come from Sake-Musubi's records). `starter_method`, `pressing_filtration` and `pasteurization` are free text as on the label — filter with `tags`.
+`category`, `aroma_type`, `acidity_type` and `tags` are codes ("純米", "純米酒" and "山廃純米" are all `junmai`); definitions with labels in 8 languages are at the top of the JSON and listed at https://find-sake.me/open-data/en/#codes. `category` holds only the eight legal designations plus futsushu; kijoshu, long-aged and sparkling live in `tags`. Tags are set by substring match on `name` and the three free-text columns, so `tags[].patterns` lets you reproduce them (`sparkling` and `henpei` come from Sake-Musubi's records). `starter_method`, `pressing_filtration` and `pasteurization` are free text as on the label — filter with `tags`.
 
 ## 蔵元確認フラグ / Verification flags
 
@@ -136,7 +136,7 @@ The wording for levels 2–4 is in `axes[].levels.ja` / `levels.en` (and six mor
 - 日本酒度・酸度は半数前後しか入っていない。欠測の大半は酒結びが情報源に値を見つけられなかったもので、蔵が意図して公開していないものは一部（`undisclosed` に列挙）。欠測は無作為ではない。 / Sake meter value and acidity are present for only about half; most gaps are values not found in the sources, a smaller number are undisclosed by the brewery (listed in `undisclosed`). Missingness is not random.
 - 範囲表記は中間値（元の範囲は `ranges`）、麹米・掛米で異なる精米歩合は平均値（元の2値は `polishing_by_rice`）。測定値として引用しない。 / Ranges are midpoints (original in `ranges`) and differing polishing ratios averages (originals in `polishing_by_rice`) — do not cite as measurements.
 - スペックは仕込みごとに変わる。`updated_at` はレコードの更新日で、採取日ではない（初回登録の基準日 2026-08-20 のままの本が多い。本数は案内ページの「この版の統計」に版ごとに出る）。 / Specifications change by batch; `updated_at` is the record's last-edited date, not the collection date.
-- 各項目の記入率は https://find-sake.me/open-data/#stats に版ごとに出ている。 / Per-field fill rates for each version: https://find-sake.me/open-data/#stats
+- 各項目の記入率は https://find-sake.me/open-data/#stats に版ごとに出ている。 / Per-field fill rates for each version: https://find-sake.me/open-data/en/#stats
 
 **推奨 / Recommendation**：数値スペックは蔵元の公式情報を正とし、このデータは索引に使う。7軸は「近い／遠い」の比較に使う。厳密さが要る用途では `brewery_confirmed = true` に絞る。
 

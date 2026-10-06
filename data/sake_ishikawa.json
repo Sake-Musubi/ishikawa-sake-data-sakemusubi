@@ -5,13 +5,13 @@
   "en": "Ishikawa Sake Taste Data (Open Data)"
  },
  "description": {
-  "ja": "石川県の日本酒 716 本（35 蔵）のラベル上のスペックと、酒結びが独自に算出した味わい7軸。お酒ごとに蔵元が内容を確認したかどうかの状態付き。",
-  "en": "Label specifications and a 7-axis taste profile, estimated by Sake-Musubi, for 716 sake from 35 breweries in Ishikawa, Japan, with a per-sake flag showing whether the brewery reviewed the content."
+  "ja": "石川県の日本酒 748 本（35 蔵）のラベル上のスペックと、酒結びが独自に算出した味わい7軸。お酒ごとに蔵元が内容を確認したかどうかの状態付き。",
+  "en": "Label specifications and a 7-axis taste profile, estimated by Sake-Musubi, for 748 sake from 35 breweries in Ishikawa, Japan, with a per-sake flag showing whether the brewery reviewed the content."
  },
  "schema_version": "1.0.0",
  "schema_url": "https://find-sake.me/open-data/schema/1.0.0/sake_ishikawa.schema.json",
- "version": "2026-09-26",
- "generated_at": "2026-09-25T23:49:21.356Z",
+ "version": "2026-10-06",
+ "generated_at": "2026-10-06T13:41:49.596Z",
  "issued": "2026-09-22",
  "license": "CC-BY-4.0",
  "license_url": "https://creativecommons.org/licenses/by/4.0/",
@@ -40,7 +40,7 @@
   "zh-CN"
  ],
  "spatial": "JP-17",
- "record_count": 716,
+ "record_count": 748,
  "brewery_count": 35,
  "brewery_confirmed_count": {
   "spec": 73,
@@ -1108,7 +1108,7 @@
     "it": "Pressato a goccia",
     "de": "Tropfgepresst",
     "ko": "시즈쿠·후쿠로시보리",
-    "zh-TW": "雫取、袋搾",
+    "zh-TW": "雫取、袋榨",
     "zh-CN": "滴取、袋吊压榨"
    }
   },
@@ -1328,6 +1328,56 @@
    "updated_at": "2026-09-05"
   },
   {
+   "public_id": 65,
+   "url": "https://find-sake.me/sake/65",
+   "name": "加賀ノ月 生酛純米吟醸",
+   "name_kana": "かがのつき きもとじゅんまいぎんじょう",
+   "name_romaji": "Kaga-no-tsuki Kimoto Junmai Ginjo",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "junmai_ginjo",
+   "rice": "五百万石",
+   "polishing_ratio_pct": 60,
+   "polishing_by_rice": null,
+   "abv_pct": 15.9,
+   "sake_meter_value": 2.6,
+   "titratable_acidity": 2,
+   "ranges": {},
+   "yeast": "協会7号",
+   "water_source": "白山・手取川水系",
+   "starter_method": "生酛",
+   "pressing_filtration": null,
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": "banana",
+   "acidity_type": "lactic",
+   "tags": [
+    "kimoto"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 5,
+    "umami": 4,
+    "aroma": 4,
+    "body": 4,
+    "finish": 3,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
    "public_id": 349,
    "url": "https://find-sake.me/sake/349",
    "name": "宗玄 能登乃国 旨口",
@@ -1523,7 +1573,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 657,
@@ -1590,7 +1640,7 @@
     "website": "http://mioya-sake.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白100%（石川県産）",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 48,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -1638,7 +1688,7 @@
     "website": "https://manzairaku.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -1675,7 +1725,7 @@
     "spec": true,
     "taste": false
    },
-   "updated_at": "2026-09-02"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 809,
@@ -1748,7 +1798,7 @@
     "website": "https://shishinosato.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県産）",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -1780,7 +1830,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 947,
@@ -1950,7 +2000,7 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "honjozo",
-   "rice": "五百万石（石川県産100%）",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 68,
    "polishing_by_rice": null,
    "abv_pct": 19,
@@ -2000,7 +2050,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "ginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -2034,7 +2084,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 1242,
@@ -2205,7 +2255,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "ginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -2239,7 +2289,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 1414,
@@ -2288,6 +2338,58 @@
     "taste": false
    },
    "updated_at": "2026-09-22"
+  },
+  {
+   "public_id": 1499,
+   "url": "https://find-sake.me/sake/1499",
+   "name": "加賀ノ月 朏 しぼりたて本醸造",
+   "name_kana": "かがのつき みかづき しぼりたてほんじょうぞう",
+   "name_romaji": "Kaga-no-tsuki Mikazuki Shiboritate Honjozo",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "honjozo",
+   "rice": "五百万石、一般米",
+   "polishing_ratio_pct": 65,
+   "polishing_by_rice": null,
+   "abv_pct": 19,
+   "sake_meter_value": 5,
+   "titratable_acidity": 1.7,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": "しぼりたて",
+   "pasteurization": "生原酒（要冷蔵）",
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [
+    "nama",
+    "genshu"
+   ],
+   "taste": {
+    "sweet_dry": 4,
+    "acidity": 4,
+    "umami": 3,
+    "aroma": 3,
+    "body": 4,
+    "finish": 4,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    720,
+    1800
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 1684,
@@ -2339,6 +2441,54 @@
    "updated_at": "2026-09-07"
   },
   {
+   "public_id": 1689,
+   "url": "https://find-sake.me/sake/1689",
+   "name": "歌舞伎のまち こまつ",
+   "name_kana": "かぶきのまち こまつ",
+   "name_romaji": "Kabuki-no-machi Komatsu",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "junmai",
+   "rice": null,
+   "polishing_ratio_pct": 65,
+   "polishing_by_rice": null,
+   "abv_pct": 15.5,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 4,
+    "acidity": 3,
+    "umami": 4,
+    "aroma": 2,
+    "body": 3,
+    "finish": 3,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
    "public_id": 1759,
    "url": "https://find-sake.me/sake/1759",
    "name": "福正宗 純米にごり酒 しろき",
@@ -2352,7 +2502,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": "フクノハナ",
+   "rice": "フクノハナ（兵庫県豊岡市出石町産・契約栽培米）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -2387,7 +2537,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 1775,
@@ -2505,7 +2655,7 @@
     "website": "https://www.taniizumi.com/"
    },
    "category": null,
-   "rice": "百万石乃白（石川県産100%）",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 11,
@@ -2558,7 +2708,7 @@
     "website": "https://noguchi-naohiko.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -2595,7 +2745,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 2302,
@@ -2645,7 +2795,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 2357,
@@ -2710,7 +2860,7 @@
     "website": "http://www.sake-sinsen.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 11,
@@ -2742,7 +2892,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 2532,
@@ -2808,7 +2958,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "tokubetsu_junmai",
-   "rice": null,
+   "rice": "麹米：酒造好適米／掛米：国産米",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -2843,7 +2993,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 2718,
@@ -2859,7 +3009,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": {
     "koji": 55,
@@ -2896,7 +3046,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 2770,
@@ -2912,7 +3062,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai",
-   "rice": "山田錦、石川門",
+   "rice": "麹米：山田錦／掛米：石川門",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -2949,7 +3099,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 2792,
@@ -2965,7 +3115,7 @@
     "website": "https://www.hakusan-takasago.jp/"
    },
    "category": "junmai",
-   "rice": "石川門",
+   "rice": "石川門（石川県産）",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16.1,
@@ -2997,7 +3147,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 2878,
@@ -3013,7 +3163,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦100%（兵庫県多可町中区産・全量契約栽培米）",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -3063,7 +3213,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -3096,7 +3246,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 3149,
@@ -3148,6 +3298,55 @@
    "updated_at": "2026-09-07"
   },
   {
+   "public_id": 3202,
+   "url": "https://find-sake.me/sake/3202",
+   "name": "加賀ノ月 百万石乃白 純米大吟醸 生原酒",
+   "name_kana": "かがのつき ひゃくまんごくのしろ じゅんまいだいぎんじょう なまげんしゅ",
+   "name_romaji": "Kaga-no-tsuki Hyakumangoku-no-shiro Junmai Daiginjo Nama Genshu",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "junmai_daiginjo",
+   "rice": "百万石乃白（石川県産）",
+   "polishing_ratio_pct": null,
+   "polishing_by_rice": null,
+   "abv_pct": null,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": "生原酒",
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [
+    "nama",
+    "genshu"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 3,
+    "aroma": 5,
+    "body": 4,
+    "finish": 4,
+    "drinkability": 2
+   },
+   "volumes_ml": [],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
    "public_id": 3299,
    "url": "https://find-sake.me/sake/3299",
    "name": "農口尚彦研究所 春のしぼりたて 無濾過生原酒 うすにごり 2025",
@@ -3161,7 +3360,7 @@
     "website": "https://noguchi-naohiko.co.jp/"
    },
    "category": null,
-   "rice": "五百万石",
+   "rice": "五百万石100%",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 19,
@@ -3202,7 +3401,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 3358,
@@ -3371,7 +3570,7 @@
     "website": null
    },
    "category": "junmai",
-   "rice": "コシヒカリ",
+   "rice": "コシヒカリ（石川県金沢市千坂産）100%",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -3407,7 +3606,55 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
+  },
+  {
+   "public_id": 3967,
+   "url": "https://find-sake.me/sake/3967",
+   "name": "福正宗 金色のしずく 淡麗旨口",
+   "name_kana": "ふくまさむね きんいろのしずく たんれいうまくち",
+   "name_romaji": "Fukumasamune Kiniro no Shizuku Tanrei Umakuchi",
+   "brewery": {
+    "id": 10004,
+    "name": "株式会社福光屋",
+    "name_romaji": "Fukumitsuya",
+    "url": "https://find-sake.me/brewery/10004",
+    "website": "https://www.fukumitsuya.co.jp/"
+   },
+   "category": "junmai",
+   "rice": "国産米",
+   "polishing_ratio_pct": 75,
+   "polishing_by_rice": null,
+   "abv_pct": 14,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": "grain",
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 3,
+    "aroma": 2,
+    "body": 2,
+    "finish": 4,
+    "drinkability": 4
+   },
+   "volumes_ml": [
+    1800
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 4028,
@@ -3423,7 +3670,7 @@
     "website": "https://www.kanpaku.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）20%、一般米（石川県産）80%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15.5,
@@ -3459,7 +3706,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 4093,
@@ -3475,7 +3722,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -3508,7 +3755,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 4101,
@@ -3556,7 +3803,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 4176,
@@ -3572,7 +3819,7 @@
     "website": null
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石（100%使用）",
+   "rice": "五百万石100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15.5,
@@ -3625,7 +3872,7 @@
     "website": "https://nishidesake.com/"
    },
    "category": "honjozo",
-   "rice": "石川県産米",
+   "rice": "米（石川県産）",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -3675,7 +3922,7 @@
     "website": "http://mioya-sake.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦（兵庫県西脇市黒田庄「躍感塾」産100%）",
+   "rice": "山田錦（兵庫県西脇市黒田庄・躍感塾産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -3778,7 +4025,7 @@
     "website": "https://www.kanpaku.co.jp/"
    },
    "category": "junmai",
-   "rice": "一般米",
+   "rice": "一般米（石川県産）100%",
    "polishing_ratio_pct": 75,
    "polishing_by_rice": null,
    "abv_pct": 14.5,
@@ -3810,7 +4057,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 4705,
@@ -3826,7 +4073,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県野々市市産）",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": {
     "koji": 55,
@@ -3864,7 +4111,60 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
+  },
+  {
+   "public_id": 4728,
+   "url": "https://find-sake.me/sake/4728",
+   "name": "加賀ノ月 生酛純米吟醸 無濾過生原酒",
+   "name_kana": "かがのつき きもとじゅんまいぎんじょう むろかなまげんしゅ",
+   "name_romaji": "Kaga-no-tsuki Kimoto Junmai Ginjo Muroka Nama Genshu",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "junmai_ginjo",
+   "rice": "百万石乃白（石川県産）",
+   "polishing_ratio_pct": 60,
+   "polishing_by_rice": null,
+   "abv_pct": 17,
+   "sake_meter_value": 0,
+   "titratable_acidity": 2.3,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": "生酛",
+   "pressing_filtration": "無濾過",
+   "pasteurization": "生酒、原酒",
+   "undisclosed": [],
+   "aroma_type": "banana",
+   "acidity_type": "lactic",
+   "tags": [
+    "kimoto",
+    "muroka",
+    "nama",
+    "genshu"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 5,
+    "umami": 5,
+    "aroma": 4,
+    "body": 5,
+    "finish": 3,
+    "drinkability": 2
+   },
+   "volumes_ml": [
+    1800
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 4754,
@@ -3880,7 +4180,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（契約栽培米）",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -3914,7 +4214,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 4861,
@@ -3930,7 +4230,7 @@
     "website": "https://www.kanpaku.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県産）",
    "polishing_ratio_pct": 38,
    "polishing_by_rice": null,
    "abv_pct": 15.5,
@@ -3963,7 +4263,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 4863,
@@ -3979,7 +4279,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石（能登島産100%）",
+   "rice": "五百万石（石川県能登島産・契約栽培米）100%",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -4011,7 +4311,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 5000,
@@ -4027,7 +4327,7 @@
     "website": "https://hiyoshisyuzou.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "百万石乃白100%（石川県産）",
+   "rice": "百万石乃白100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -4059,7 +4359,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 5007,
@@ -4075,7 +4375,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai",
-   "rice": "山田錦",
+   "rice": "山田錦（石川県能登産・契約栽培米）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 15.5,
@@ -4113,7 +4413,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 5095,
@@ -4280,7 +4580,7 @@
     "website": "https://noguchi-naohiko.co.jp/"
    },
    "category": null,
-   "rice": "五百万石",
+   "rice": "五百万石100%",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -4319,7 +4619,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 5295,
@@ -4335,7 +4635,7 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "honjozo",
-   "rice": "石川県産五百万石",
+   "rice": "五百万石",
    "polishing_ratio_pct": 68,
    "polishing_by_rice": null,
    "abv_pct": 19,
@@ -4370,7 +4670,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 5398,
@@ -4386,7 +4686,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai",
-   "rice": "山田錦、石川門",
+   "rice": "麹米：山田錦／掛米：石川門",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -4424,7 +4724,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-14"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 5413,
@@ -4440,7 +4740,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai",
-   "rice": "雄町（岡山県赤磐産100%）",
+   "rice": "雄町（岡山県赤磐産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -4544,7 +4844,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": null,
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 9,
@@ -4579,7 +4879,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 5736,
@@ -4595,7 +4895,7 @@
     "website": "https://www.kanpaku.co.jp/"
    },
    "category": "junmai",
-   "rice": "一般米",
+   "rice": "一般米（石川県産）",
    "polishing_ratio_pct": 75,
    "polishing_by_rice": null,
    "abv_pct": 17.5,
@@ -4629,7 +4929,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 5985,
@@ -4645,7 +4945,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -4680,7 +4980,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 6123,
@@ -4696,7 +4996,7 @@
     "website": "https://nishidesake.com/"
    },
    "category": "honjozo",
-   "rice": "石川県産米",
+   "rice": null,
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -4728,7 +5028,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 6155,
@@ -4744,7 +5044,7 @@
     "website": "https://www.kanpaku.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石、一般米",
+   "rice": "五百万石（石川県産）20%、一般米（石川県産）80%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15.5,
@@ -4778,7 +5078,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 6179,
@@ -4842,7 +5142,7 @@
     "website": "https://shishinosato.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "糀米：雄町、掛米：山田錦",
+   "rice": "麹米：雄町／掛米：山田錦",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -5030,7 +5330,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 6318,
@@ -5046,7 +5346,7 @@
     "website": "http://www.yachiya-sake.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -5080,7 +5380,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-22"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 6497,
@@ -5096,7 +5396,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai",
-   "rice": "山田錦（兵庫県特A地区産100%）",
+   "rice": "山田錦（兵庫県産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -5129,7 +5429,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 6522,
@@ -5245,7 +5545,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -5277,7 +5577,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 6783,
@@ -5293,7 +5593,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -5328,7 +5628,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 6916,
@@ -5433,7 +5733,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 7372,
@@ -5449,7 +5749,7 @@
     "website": "http://www.hakutousyuzou.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -5482,7 +5782,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 7476,
@@ -5498,7 +5798,7 @@
     "website": "https://www.choseimai.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県金沢産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -5530,7 +5830,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 7606,
@@ -5546,7 +5846,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県能登産・契約栽培米・特別栽培米）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -5582,7 +5882,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-05"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 7894,
@@ -5683,6 +5983,54 @@
    "updated_at": "2026-08-20"
   },
   {
+   "public_id": 8081,
+   "url": "https://find-sake.me/sake/8081",
+   "name": "純米酒 金華",
+   "name_kana": "じゅんまいしゅ きんか",
+   "name_romaji": "Junmaishu Kinka",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "junmai",
+   "rice": null,
+   "polishing_ratio_pct": 65,
+   "polishing_by_rice": null,
+   "abv_pct": 15.5,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": "grain",
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 4,
+    "acidity": 3,
+    "umami": 4,
+    "aroma": 2,
+    "body": 4,
+    "finish": 3,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    300
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
    "public_id": 8095,
    "url": "https://find-sake.me/sake/8095",
    "name": "吟醸酒 もろみー（甘口ジューシー）",
@@ -5696,7 +6044,7 @@
     "website": "https://nishidesake.com/"
    },
    "category": "ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県小松市産）",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -5728,7 +6076,55 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
+  },
+  {
+   "public_id": 8351,
+   "url": "https://find-sake.me/sake/8351",
+   "name": "福正宗 金色のしずく 豊醇旨口",
+   "name_kana": "ふくまさむね きんいろのしずく ほうじゅんうまくち",
+   "name_romaji": "Fukumasamune Kiniro no Shizuku Hojun Umakuchi",
+   "brewery": {
+    "id": 10004,
+    "name": "株式会社福光屋",
+    "name_romaji": "Fukumitsuya",
+    "url": "https://find-sake.me/brewery/10004",
+    "website": "https://www.fukumitsuya.co.jp/"
+   },
+   "category": "junmai",
+   "rice": "国産米",
+   "polishing_ratio_pct": 75,
+   "polishing_by_rice": null,
+   "abv_pct": 14,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": "grain",
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 4,
+    "aroma": 2,
+    "body": 4,
+    "finish": 3,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    1800
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 8382,
@@ -5795,7 +6191,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "futsushu",
-   "rice": "能登産米",
+   "rice": "米（石川県能登産）100%",
    "polishing_ratio_pct": 67,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -5828,7 +6224,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 8689,
@@ -5895,7 +6291,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県・特A地区産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -5928,7 +6324,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 9021,
@@ -5995,7 +6391,7 @@
     "website": "https://www.choseimai.co.jp/"
    },
    "category": "tokubetsu_junmai",
-   "rice": "長生米",
+   "rice": "長生米（自社田）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -6028,7 +6424,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 9188,
@@ -6128,7 +6524,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 9940,
@@ -6144,7 +6540,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "junmai",
-   "rice": "兵庫県三木市吉川町産山田錦100%",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -6179,7 +6575,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 10090,
@@ -6195,7 +6591,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai",
-   "rice": "山田錦、石川門",
+   "rice": "麹米：山田錦／掛米：石川門",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -6232,7 +6628,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-14"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 10111,
@@ -6248,7 +6644,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "国産米（全量酒造好適米）",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -6283,7 +6679,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 10138,
@@ -6299,7 +6695,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "全量契約栽培米・酒造好適米使用",
+   "rice": "酒造好適米（契約栽培米）",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -6332,6 +6728,56 @@
     "taste": false
    },
    "updated_at": "2026-08-20"
+  },
+  {
+   "public_id": 10280,
+   "url": "https://find-sake.me/sake/10280",
+   "name": "福正宗 金色のしずく 純米酒",
+   "name_kana": "ふくまさむね きんいろのしずく じゅんまいしゅ",
+   "name_romaji": "Fukumasamune Kiniro no Shizuku Junmaishu",
+   "brewery": {
+    "id": 10004,
+    "name": "株式会社福光屋",
+    "name_romaji": "Fukumitsuya",
+    "url": "https://find-sake.me/brewery/10004",
+    "website": "https://www.fukumitsuya.co.jp/"
+   },
+   "category": "junmai",
+   "rice": "国産米",
+   "polishing_ratio_pct": 75,
+   "polishing_by_rice": null,
+   "abv_pct": 13,
+   "sake_meter_value": 1,
+   "titratable_acidity": 1.7,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": "grain",
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 4,
+    "umami": 4,
+    "aroma": 2,
+    "body": 3,
+    "finish": 3,
+    "drinkability": 4
+   },
+   "volumes_ml": [
+    200,
+    900,
+    1800
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 10359,
@@ -6499,7 +6945,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "ginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -6535,7 +6981,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 10638,
@@ -6551,7 +6997,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "futsushu",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -6584,7 +7030,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 10734,
@@ -6681,7 +7127,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 10997,
@@ -6697,7 +7143,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦、金紋錦",
+   "rice": "金紋錦（長野県下高井郡木島平産・契約栽培米）80%、山田錦（兵庫県多可町中区産・契約栽培米）20%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -6732,7 +7178,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 11056,
@@ -6857,7 +7303,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": "金紋錦100%（長野県下高井郡木島平産・有機栽培）",
+   "rice": "金紋錦（長野県下高井郡木島平産・契約栽培米・有機栽培米）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -6891,7 +7337,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 11338,
@@ -6994,7 +7440,7 @@
    "url": "https://find-sake.me/sake/11493",
    "name": "吉田蔵u 巾着 エピソード2",
    "name_kana": "よしだぐらゆー きんちゃく えぴそーどつー",
-   "name_romaji": "Yoshidagura u Kinchaku Episode 2",
+   "name_romaji": "Yoshidagura-u Kinchaku Episode 2",
    "brewery": {
     "id": 10010,
     "name": "株式会社吉田酒造店",
@@ -7003,7 +7449,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": null,
-   "rice": "巾着",
+   "rice": "巾着（石川県産）",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 13,
@@ -7043,7 +7489,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 11495,
@@ -7096,6 +7542,57 @@
     "taste": false
    },
    "updated_at": "2026-09-07"
+  },
+  {
+   "public_id": 11506,
+   "url": "https://find-sake.me/sake/11506",
+   "name": "加賀ノ月 蔵人たちの秘蔵酒 大吟醸原酒",
+   "name_kana": "かがのつき くらびとたちのひぞうしゅ だいぎんじょうげんしゅ",
+   "name_romaji": "Kaga-no-tsuki Kurabito-tachi no Hizoshu Daiginjo Genshu",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "daiginjo",
+   "rice": "山田錦",
+   "polishing_ratio_pct": 38,
+   "polishing_by_rice": null,
+   "abv_pct": 17,
+   "sake_meter_value": 5.5,
+   "titratable_acidity": 1.3,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": "原酒、熟成",
+   "undisclosed": [],
+   "aroma_type": "melon_peach",
+   "acidity_type": "balanced",
+   "tags": [
+    "genshu",
+    "koshu"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 3,
+    "aroma": 4,
+    "body": 4,
+    "finish": 5,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 11559,
@@ -7159,7 +7656,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦（能登産100%・契約栽培）",
+   "rice": "山田錦（石川県能登産・契約栽培米）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -7358,7 +7855,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai",
-   "rice": "石川門（石川県奥能登産100%）",
+   "rice": "石川門（石川県奥能登産）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -7397,6 +7894,54 @@
    "updated_at": "2026-09-06"
   },
   {
+   "public_id": 12274,
+   "url": "https://find-sake.me/sake/12274",
+   "name": "深山流水 純米酒",
+   "name_kana": "みやまりゅうすい じゅんまいしゅ",
+   "name_romaji": "Miyama Ryusui Junmaishu",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "junmai",
+   "rice": null,
+   "polishing_ratio_pct": 75,
+   "polishing_by_rice": null,
+   "abv_pct": 14.5,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": "grain",
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 4,
+    "umami": 4,
+    "aroma": 2,
+    "body": 3,
+    "finish": 3,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
    "public_id": 12295,
    "url": "https://find-sake.me/sake/12295",
    "name": "天狗舞 有歓伯",
@@ -7410,7 +7955,7 @@
     "website": "https://www.tengumai.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "特A地区 山田錦",
+   "rice": "山田錦（特A地区産）100%",
    "polishing_ratio_pct": 35,
    "polishing_by_rice": null,
    "abv_pct": 16.6,
@@ -7445,7 +7990,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 12351,
@@ -7509,7 +8054,7 @@
     "website": "https://shishinosato.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "愛山",
+   "rice": "山田錦（兵庫県産）",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -7542,7 +8087,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 12460,
@@ -7558,7 +8103,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai",
-   "rice": "神子原米",
+   "rice": "神子原米（石川県羽咋市神子原地区産）、米（石川県産）",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": {
     "koji": 60,
@@ -7596,7 +8141,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 12653,
@@ -7612,7 +8157,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦（兵庫県産100%）",
+   "rice": "山田錦（兵庫県産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -7718,7 +8263,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "futsushu",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": {
     "koji": 60,
@@ -7755,7 +8300,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 12734,
@@ -7806,6 +8351,58 @@
    "updated_at": "2026-09-22"
   },
   {
+   "public_id": 12742,
+   "url": "https://find-sake.me/sake/12742",
+   "name": "加賀ノ月 耀 大吟醸原酒 令和8年全国新酒鑑評会金賞受賞酒",
+   "name_kana": "かがのつき かがやき だいぎんじょうげんしゅ れいわはちねん ぜんこくしんしゅかんぴょうかい きんしょうじゅしょうしゅ",
+   "name_romaji": "Kaga-no-tsuki Kagayaki Daiginjo Genshu Reiwa 8 Zenkoku Shinshu Kanpyokai Kinsho Jushoshu",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "daiginjo",
+   "rice": "山田錦",
+   "polishing_ratio_pct": 38,
+   "polishing_by_rice": null,
+   "abv_pct": 17.5,
+   "sake_meter_value": 5.5,
+   "titratable_acidity": 1.3,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": "雫取り、中汲み",
+   "pasteurization": "原酒",
+   "undisclosed": [],
+   "aroma_type": "melon_peach",
+   "acidity_type": "balanced",
+   "tags": [
+    "nakadori",
+    "shizuku",
+    "genshu"
+   ],
+   "taste": {
+    "sweet_dry": 4,
+    "acidity": 3,
+    "umami": 3,
+    "aroma": 4,
+    "body": 4,
+    "finish": 4,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
    "public_id": 12757,
    "url": "https://find-sake.me/sake/12757",
    "name": "手取川 冬 純米辛口",
@@ -7819,7 +8416,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai",
-   "rice": "山田錦、石川門",
+   "rice": "麹米：山田錦／掛米：石川門",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -7855,7 +8452,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 12811,
@@ -7871,7 +8468,7 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石（掛米）、百万石乃白（麹米）",
+   "rice": "麹米：百万石乃白（石川県産）／掛米：五百万石（石川県産）",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 14.5,
@@ -7904,7 +8501,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 12837,
@@ -7920,7 +8517,7 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "junmai",
-   "rice": "五百万石（掛米・石川県産78%）、山田錦（麹米・石川県産22%）",
+   "rice": "麹米：山田錦（石川県産）22%／掛米：五百万石（石川県産）78%",
    "polishing_ratio_pct": 57,
    "polishing_by_rice": {
     "koji": 45,
@@ -7973,7 +8570,7 @@
     "website": "http://www.sake-sinsen.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県産）",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -8008,7 +8605,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 12944,
@@ -8024,7 +8621,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県奥能登産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -8061,7 +8658,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 12957,
@@ -8077,7 +8674,7 @@
     "website": "https://www.taniizumi.com/"
    },
    "category": "honjozo",
-   "rice": "麹米：五百万石（石川県産）、掛米：加工用米",
+   "rice": "麹米：五百万石／掛米：加工用米",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -8116,7 +8713,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-05"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 13350,
@@ -8231,7 +8828,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 63,
    "polishing_by_rice": {
     "koji": 60,
@@ -8270,7 +8867,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 13463,
@@ -8286,7 +8883,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県能登産・契約栽培米）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -8321,7 +8918,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 13581,
@@ -8421,6 +9018,59 @@
    "updated_at": "2026-09-04"
   },
   {
+   "public_id": 13634,
+   "url": "https://find-sake.me/sake/13634",
+   "name": "加賀のおいしい地酒み～つけた 本造り",
+   "name_kana": "かがのおいしいじざけみ～つけた ほんづくり",
+   "name_romaji": "Kaga no Oishii Jizake Mitsuketa Honzukuri",
+   "brewery": {
+    "id": 10013,
+    "name": "合資会社手塚酒造場",
+    "name_romaji": "Tezuka Shuzojo",
+    "url": "https://find-sake.me/brewery/10013",
+    "website": null
+   },
+   "category": "honjozo",
+   "rice": null,
+   "polishing_ratio_pct": 65,
+   "polishing_by_rice": null,
+   "abv_pct": 14.5,
+   "sake_meter_value": 2,
+   "titratable_acidity": 1.5,
+   "ranges": {
+    "abv_pct": [
+     14,
+     15
+    ]
+   },
+   "yeast": null,
+   "water_source": null,
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": "grain",
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 4,
+    "acidity": 4,
+    "umami": 3,
+    "aroma": 2,
+    "body": 2,
+    "finish": 4,
+    "drinkability": 4
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
    "public_id": 13756,
    "url": "https://find-sake.me/sake/13756",
    "name": "常きげん 特別純米 幻の加賀の庄",
@@ -8434,7 +9084,7 @@
     "website": "https://www.jokigen.co.jp/"
    },
    "category": "tokubetsu_junmai",
-   "rice": "山田錦",
+   "rice": "山田錦（石川県加賀市産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -8467,7 +9117,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 13796,
@@ -8483,7 +9133,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": null,
-   "rice": "巾着",
+   "rice": "巾着（石川県産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 11,
@@ -8519,7 +9169,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 13810,
@@ -8535,7 +9185,7 @@
     "website": "https://noguchi-naohiko.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "山田錦（兵庫県東条特A地区産）",
+   "rice": "山田錦（兵庫県東条・特A地区産）",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -8587,7 +9237,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 45,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -8622,7 +9272,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 14287,
@@ -8677,7 +9327,7 @@
    "url": "https://find-sake.me/sake/14306",
    "name": "奥能登の白菊 純米酒 寧音",
    "name_kana": "おくのとのしらぎく じゅんまいしゅ ねね",
-   "name_romaji": "Okunoto no Shiragiku Junmaishu Nene",
+   "name_romaji": "Okunoto-no-shiragiku Junmaishu Nene",
    "brewery": {
     "id": 10030,
     "name": "株式会社白藤酒造店",
@@ -8737,7 +9387,7 @@
     "website": "https://www.jokigen.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白（100%使用）",
+   "rice": "百万石乃白100%",
    "polishing_ratio_pct": 48,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -8786,7 +9436,7 @@
     "website": "https://www.tengumai.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦等",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -8819,7 +9469,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 14420,
@@ -8835,7 +9485,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": "フクノハナ100%（兵庫県豊岡市出石町産・有機栽培）",
+   "rice": "フクノハナ（兵庫県豊岡市出石町産・契約栽培米・有機栽培米）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -8869,7 +9519,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 14518,
@@ -8885,7 +9535,7 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白（石川県産100%）",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -9131,7 +9781,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "futsushu",
-   "rice": "山田錦",
+   "rice": "山田錦、五百万石、もち米他",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -9167,7 +9817,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 15099,
@@ -9183,7 +9833,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -9218,7 +9868,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 15188,
@@ -9482,7 +10132,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "honjozo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -9516,7 +10166,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 15569,
@@ -9569,6 +10219,56 @@
    "updated_at": "2026-08-20"
   },
   {
+   "public_id": 15655,
+   "url": "https://find-sake.me/sake/15655",
+   "name": "SHUN by KAGATOBI 2026",
+   "name_kana": "しゅん ばい かがとび 2026",
+   "name_romaji": "Shun by Kagatobi 2026",
+   "brewery": {
+    "id": 10004,
+    "name": "株式会社福光屋",
+    "name_romaji": "Fukumitsuya",
+    "url": "https://find-sake.me/brewery/10004",
+    "website": "https://www.fukumitsuya.co.jp/"
+   },
+   "category": "junmai",
+   "rice": "山田錦（兵庫県多可町中区坂本産・契約栽培米・有機栽培米）100%",
+   "polishing_ratio_pct": 65,
+   "polishing_by_rice": null,
+   "abv_pct": 14,
+   "sake_meter_value": 2,
+   "titratable_acidity": 1.6,
+   "ranges": {},
+   "yeast": "自社酵母",
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": "生貯蔵酒",
+   "undisclosed": [],
+   "aroma_type": "banana",
+   "acidity_type": "balanced",
+   "tags": [
+    "namachozo"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 4,
+    "umami": 4,
+    "aroma": 3,
+    "body": 3,
+    "finish": 3,
+    "drinkability": 4
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
    "public_id": 15789,
    "url": "https://find-sake.me/sake/15789",
    "name": "日榮 本醸造 榮",
@@ -9582,7 +10282,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "honjozo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -9614,7 +10314,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 15798,
@@ -9681,7 +10381,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "junmai",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 19,
@@ -9717,7 +10417,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 15933,
@@ -9782,7 +10482,7 @@
     "website": "https://shishinosato.com/"
    },
    "category": "junmai",
-   "rice": "出羽燦々",
+   "rice": "出羽燦々（山形県産）",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -9814,7 +10514,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 15956,
@@ -9830,7 +10530,7 @@
     "website": "https://shishinosato.com/"
    },
    "category": "junmai",
-   "rice": "糀米：八反錦（広島県産）、掛米：石川門（石川県産）",
+   "rice": "麹米：八反錦（広島県産）／掛米：石川門（石川県産）",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -9882,7 +10582,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "futsushu",
-   "rice": "山田錦（兵庫県三木市吉川町・特Ａ地区産）",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -9971,7 +10671,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 16316,
@@ -10083,7 +10783,7 @@
     "website": "http://www.sake-sinsen.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -10117,7 +10817,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 16572,
@@ -10182,7 +10882,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産・契約栽培米）100%",
    "polishing_ratio_pct": 46,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -10217,7 +10917,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 17163,
@@ -10233,7 +10933,7 @@
     "website": "https://manzairaku.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県白山市産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -10269,7 +10969,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 17229,
@@ -10333,7 +11033,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区坂本産・契約栽培米・有機栽培米）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -10368,7 +11068,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 17370,
@@ -10589,7 +11289,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai",
-   "rice": "能登産五百万石",
+   "rice": "五百万石",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -10622,7 +11322,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 17827,
@@ -10689,7 +11389,7 @@
     "website": "https://www.tengumai.co.jp/"
    },
    "category": null,
-   "rice": "特A地区口吉川産山田錦100%",
+   "rice": "山田錦（兵庫県口吉川・特A地区産）100%",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -10837,7 +11537,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "junmai",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -10873,7 +11573,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 18168,
@@ -11179,6 +11879,57 @@
    "updated_at": "2026-09-07"
   },
   {
+   "public_id": 18504,
+   "url": "https://find-sake.me/sake/18504",
+   "name": "常きげん 純米吟醸生原酒 爽純",
+   "name_kana": "じょうきげん じゅんまいぎんじょうなまげんしゅ そうじゅん",
+   "name_romaji": "Jokigen Junmai Ginjo Nama Genshu Sojun",
+   "brewery": {
+    "id": 10012,
+    "name": "鹿野酒造株式会社",
+    "name_romaji": "Kano Shuzo",
+    "url": "https://find-sake.me/brewery/10012",
+    "website": "https://www.jokigen.co.jp/"
+   },
+   "category": "junmai_ginjo",
+   "rice": "山田錦",
+   "polishing_ratio_pct": 55,
+   "polishing_by_rice": null,
+   "abv_pct": 16,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": "生原酒",
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [
+    "nama",
+    "genshu"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 4,
+    "aroma": 3,
+    "body": 4,
+    "finish": 4,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
    "public_id": 18588,
    "url": "https://find-sake.me/sake/18588",
    "name": "奥能登の白菊 純米酒 輪島物語",
@@ -11192,7 +11943,7 @@
     "website": "http://www.hakutousyuzou.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石（輪島市町野・三井産100%）",
+   "rice": "五百万石（石川県輪島市町野・三井産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -11344,7 +12095,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県産）",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -11380,7 +12131,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 19130,
@@ -11396,7 +12147,7 @@
     "website": "https://www.tengumai.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（特A地区産）100%",
    "polishing_ratio_pct": 35,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -11429,7 +12180,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 19170,
@@ -11445,7 +12196,7 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "junmai",
-   "rice": "兵庫県産山田錦、石川県産五百万石",
+   "rice": "五百万石",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -11477,7 +12228,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 19336,
@@ -11586,7 +12337,7 @@
    "url": "https://find-sake.me/sake/19458",
    "name": "吉田蔵u 巾着 貴醸酒",
    "name_kana": "よしだぐらゆー きんちゃく きじょうしゅ",
-   "name_romaji": "Yoshidagura u Kinchaku Kijoshu",
+   "name_romaji": "Yoshidagura-u Kinchaku Kijoshu",
    "brewery": {
     "id": 10010,
     "name": "株式会社吉田酒造店",
@@ -11595,7 +12346,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": null,
-   "rice": "巾着",
+   "rice": "巾着（石川県産）",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 12,
@@ -11636,7 +12387,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 19472,
@@ -11688,6 +12439,54 @@
    "updated_at": "2026-09-07"
   },
   {
+   "public_id": 19794,
+   "url": "https://find-sake.me/sake/19794",
+   "name": "加賀ノ月 しぼりたて",
+   "name_kana": "かがのつき しぼりたて",
+   "name_romaji": "Kaga-no-tsuki Shiboritate",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": null,
+   "rice": null,
+   "polishing_ratio_pct": 65,
+   "polishing_by_rice": null,
+   "abv_pct": 19,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": "しぼりたて",
+   "pasteurization": "要冷蔵",
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 3,
+    "aroma": 2,
+    "body": 4,
+    "finish": 4,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    500
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
    "public_id": 19818,
    "url": "https://find-sake.me/sake/19818",
    "name": "ほまれ 純米吟醸 五百万石",
@@ -11701,7 +12500,7 @@
     "website": "http://mioya-sake.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石（石川県産100%）",
+   "rice": "五百万石",
    "polishing_ratio_pct": 57,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -11733,7 +12532,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 19985,
@@ -11749,7 +12548,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石（石川県産100%）",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": {
     "koji": 55,
@@ -11803,7 +12602,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "tokubetsu_junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": {
     "koji": 55,
@@ -11841,7 +12640,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 20061,
@@ -11857,7 +12656,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "ginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -11894,7 +12693,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 20099,
@@ -12110,7 +12909,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": null,
+   "rice": "麹米：酒造好適米（契約栽培米）／掛米：国産米",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -12145,7 +12944,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 20636,
@@ -12314,7 +13113,7 @@
     "website": "https://www.kanpaku.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15.5,
@@ -12348,7 +13147,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 20870,
@@ -12521,7 +13320,7 @@
     "website": "https://www.tengumai.co.jp/"
    },
    "category": "tokubetsu_junmai",
-   "rice": "山田錦",
+   "rice": "山田錦他",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -12554,7 +13353,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 21760,
@@ -12570,7 +13369,7 @@
     "website": null
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県産）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -12603,7 +13402,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 21865,
@@ -12667,7 +13466,7 @@
     "website": "https://noguchi-naohiko.co.jp/"
    },
    "category": null,
-   "rice": "雄町",
+   "rice": "雄町（岡山県産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 20,
@@ -12704,7 +13503,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 22123,
@@ -12768,7 +13567,7 @@
     "website": "https://www.choseimai.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 20,
@@ -12804,7 +13603,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 22268,
@@ -12922,7 +13721,7 @@
     "website": "https://manzairaku.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白（石川県産100%）",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -12971,7 +13770,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦（兵庫県特A地区産100%）",
+   "rice": "山田錦（兵庫県・特A地区産）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -13007,6 +13806,56 @@
    "updated_at": "2026-09-07"
   },
   {
+   "public_id": 22485,
+   "url": "https://find-sake.me/sake/22485",
+   "name": "加賀ノ月 純米原酒",
+   "name_kana": "かがのつき じゅんまいげんしゅ",
+   "name_romaji": "Kaga-no-tsuki Junmai Genshu",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "junmai",
+   "rice": null,
+   "polishing_ratio_pct": 75,
+   "polishing_by_rice": null,
+   "abv_pct": 17.5,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": "原酒",
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [
+    "genshu"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 4,
+    "aroma": 2,
+    "body": 5,
+    "finish": 3,
+    "drinkability": 2
+   },
+   "volumes_ml": [
+    1800
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
    "public_id": 22498,
    "url": "https://find-sake.me/sake/22498",
    "name": "加賀鳶 いかづち 山廃仕込み 純米大吟醸",
@@ -13020,7 +13869,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区坂本産・契約栽培米・特別栽培米）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -13055,7 +13904,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 22502,
@@ -13071,7 +13920,7 @@
     "website": "http://www.sake-sinsen.co.jp/"
    },
    "category": "tokubetsu_junmai",
-   "rice": "蛍米（コシヒカリ）",
+   "rice": "コシヒカリ（石川県小松産・蛍米）100%",
    "polishing_ratio_pct": 68,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -13103,7 +13952,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 22607,
@@ -13161,9 +14010,9 @@
   {
    "public_id": 22976,
    "url": "https://find-sake.me/sake/22976",
-   "name": "御幸誉 蔵出し原酒",
-   "name_kana": "みゆきのほまれ くらだしげんしゅ",
-   "name_romaji": "Miyuki-no-homare Kuradashi Genshu",
+   "name": "御幸誉 しぼりたて",
+   "name_kana": "みゆきのほまれ しぼりたて",
+   "name_romaji": "Miyuki-no-homare Shiboritate",
    "brewery": {
     "id": 10013,
     "name": "合資会社手塚酒造場",
@@ -13182,18 +14031,18 @@
    "yeast": null,
    "water_source": "白山・手取川水系",
    "starter_method": null,
-   "pressing_filtration": "しぼりたて、おりがらみ",
+   "pressing_filtration": "しぼりたて、にごり",
    "pasteurization": "原酒",
    "undisclosed": [],
    "aroma_type": "grain",
    "acidity_type": "balanced",
    "tags": [
-    "origarami",
+    "nigori",
     "genshu",
     "sparkling"
    ],
    "taste": {
-    "sweet_dry": 2,
+    "sweet_dry": 3,
     "acidity": 3,
     "umami": 4,
     "aroma": 2,
@@ -13208,7 +14057,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 23009,
@@ -13224,7 +14073,7 @@
     "website": "https://shishinosato.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "糀米：雄町、掛米：山田錦",
+   "rice": "麹米：雄町／掛米：山田錦",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -13328,7 +14177,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦（兵庫県特A地区産100%）",
+   "rice": "山田錦（兵庫県産）100%",
    "polishing_ratio_pct": 53,
    "polishing_by_rice": {
     "koji": 50,
@@ -13364,7 +14213,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 23555,
@@ -13416,7 +14265,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 23643,
@@ -13432,7 +14281,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "futsushu",
-   "rice": "能登産米100%",
+   "rice": "米（石川県能登産）",
    "polishing_ratio_pct": 67,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -13468,7 +14317,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 23656,
@@ -13484,7 +14333,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai",
-   "rice": "石川門（石川県珠洲産・100%）",
+   "rice": "石川門（石川県珠洲産）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -13536,7 +14385,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "酒造好適米（全量契約栽培米）",
+   "rice": "酒造好適米100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -13579,7 +14428,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-22"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 23865,
@@ -13634,6 +14483,56 @@
    "updated_at": "2026-08-30"
   },
   {
+   "public_id": 23924,
+   "url": "https://find-sake.me/sake/23924",
+   "name": "加賀ノ月 生酛 純米",
+   "name_kana": "かがのつき きもと じゅんまい",
+   "name_romaji": "Kaga-no-tsuki Kimoto Junmai",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "junmai",
+   "rice": "百万石乃白",
+   "polishing_ratio_pct": 60,
+   "polishing_by_rice": null,
+   "abv_pct": 15.5,
+   "sake_meter_value": 0,
+   "titratable_acidity": 2.3,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": "生酛",
+   "pressing_filtration": null,
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": "matured",
+   "acidity_type": "lactic",
+   "tags": [
+    "kimoto"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 5,
+    "umami": 4,
+    "aroma": 2,
+    "body": 4,
+    "finish": 2,
+    "drinkability": 2
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
    "public_id": 23938,
    "url": "https://find-sake.me/sake/23938",
    "name": "夢醸 限定純米吟醸 原酒 silver",
@@ -13683,7 +14582,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-22"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 23952,
@@ -13737,9 +14636,9 @@
   {
    "public_id": 24055,
    "url": "https://find-sake.me/sake/24055",
-   "name": "能登半島地震 酒造復興応援酒 能登大慶×天狗舞",
-   "name_kana": "のとはんとうじしん しゅぞうふっこうおうえんしゅ のとたいけい×てんぐまい",
-   "name_romaji": "Noto Hanto Jishin Shuzo Fukko Oenshu Noto Taikei × Tengumai",
+   "name": "能登半島地震 酒蔵復興応援酒 能登大慶×天狗舞",
+   "name_kana": "のとはんとうじしん さかぐらふっこうおうえんしゅ のとたいけい×てんぐまい",
+   "name_romaji": "Noto Hanto Jishin Sakagura Fukko Oenshu Noto Taikei × Tengumai",
    "brewery": {
     "id": 10023,
     "name": "櫻田酒造株式会社",
@@ -13757,21 +14656,21 @@
    "ranges": {},
    "yeast": null,
    "water_source": null,
-   "starter_method": "共同醸造（車多酒造仕込み）/ 大慶純米アッサンブラージュ",
+   "starter_method": "共同醸造（車多酒造で醸造）",
    "pressing_filtration": null,
-   "pasteurization": null,
+   "pasteurization": "火入れ",
    "undisclosed": [],
    "aroma_type": null,
    "acidity_type": null,
    "tags": [],
    "taste": {
-    "sweet_dry": 4,
-    "acidity": 4,
-    "umami": 5,
-    "aroma": 3,
-    "body": 5,
-    "finish": 4,
-    "drinkability": 4
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 4,
+    "aroma": 2,
+    "body": 4,
+    "finish": 3,
+    "drinkability": 3
    },
    "volumes_ml": [
     720
@@ -13780,7 +14679,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 24115,
@@ -13846,7 +14745,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -13880,7 +14779,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 24277,
@@ -13994,7 +14893,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "tokubetsu_junmai",
-   "rice": "国産米（契約栽培米・酒造好適米使用（麹米））",
+   "rice": "麹米：酒造好適米（契約栽培米）／掛米：国産米",
    "polishing_ratio_pct": 36,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -14042,7 +14941,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県能登産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -14074,14 +14973,14 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 24539,
    "url": "https://find-sake.me/sake/24539",
    "name": "常きげん 純米大吟醸 KISS of LEGEND",
    "name_kana": "じょうきげん じゅんまいだいぎんじょう きす おぶ れじぇんど",
-   "name_romaji": "Jokigen Junmai Daiginjo KISS of LEGEND",
+   "name_romaji": "Jokigen Junmai Daiginjo Kiss of Legend",
    "brewery": {
     "id": 10012,
     "name": "鹿野酒造株式会社",
@@ -14140,7 +15039,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県能登産）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -14173,7 +15072,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 24854,
@@ -14287,7 +15186,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai",
-   "rice": "石川門（石川県奥能登産100%）",
+   "rice": "石川門（石川県奥能登産）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -14335,7 +15234,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -14371,7 +15270,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 25157,
@@ -14582,7 +15481,7 @@
     "website": "https://www.kanpaku.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -14616,7 +15515,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 25430,
@@ -14632,7 +15531,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -14667,7 +15566,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 25456,
@@ -14683,7 +15582,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県能登産・水田環境特A地区の契約栽培米・特別栽培米）100%",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -14718,7 +15617,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 25597,
@@ -14876,6 +15775,57 @@
    "updated_at": "2026-09-07"
   },
   {
+   "public_id": 26042,
+   "url": "https://find-sake.me/sake/26042",
+   "name": "加賀ノ月 花 純米吟醸 生原酒",
+   "name_kana": "かがのつき はな じゅんまいぎんじょう なまげんしゅ",
+   "name_romaji": "Kaga-no-tsuki Hana Junmai Ginjo Nama Genshu",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "junmai_ginjo",
+   "rice": "百万石乃白（石川県産）",
+   "polishing_ratio_pct": 60,
+   "polishing_by_rice": null,
+   "abv_pct": 14,
+   "sake_meter_value": -28,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": "兼六園桜酵母 KEP8n",
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": "生酒、低アル原酒",
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [
+    "nama",
+    "genshu"
+   ],
+   "taste": {
+    "sweet_dry": 1,
+    "acidity": 3,
+    "umami": 4,
+    "aroma": 4,
+    "body": 3,
+    "finish": 2,
+    "drinkability": 4
+   },
+   "volumes_ml": [
+    1800
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
    "public_id": 26062,
    "url": "https://find-sake.me/sake/26062",
    "name": "天平 本醸造五年古酒 上撰",
@@ -14971,7 +15921,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 26148,
@@ -14987,7 +15937,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "futsushu",
-   "rice": "山田錦、五百万石、糯米他",
+   "rice": "山田錦、五百万石、もち米他",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 19,
@@ -15039,7 +15989,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県・特A地区産）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -15072,7 +16022,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 26561,
@@ -15189,7 +16139,7 @@
     "website": "https://www.tengumai.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石（石川県白山市林中地区の自社田産100%）",
+   "rice": "五百万石（石川県白山市林中地区・自社田産）100%",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -15240,7 +16190,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": "山田錦、金紋錦",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米）60%、金紋錦（長野県下高井郡木島平産・契約栽培米）40%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -15275,7 +16225,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 26745,
@@ -15291,7 +16241,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai",
-   "rice": "山田錦、五百万石",
+   "rice": "麹米：山田錦／掛米：五百万石",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -15330,7 +16280,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 27014,
@@ -15493,7 +16443,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区坂本産・契約栽培米・有機栽培米）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -15529,7 +16479,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 27160,
@@ -15545,7 +16495,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -15579,7 +16529,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 27291,
@@ -15595,7 +16545,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -15632,7 +16582,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 27299,
@@ -15648,7 +16598,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦、五百万石",
+   "rice": "麹米：山田錦／掛米：石川門",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": {
     "koji": 50,
@@ -15687,7 +16637,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 27388,
@@ -15703,7 +16653,7 @@
     "website": "https://www.tengumai.co.jp/"
    },
    "category": null,
-   "rice": "白山市産百万石乃白100%",
+   "rice": "百万石乃白（石川県白山市産）100%",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -15751,7 +16701,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米・特別栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -15785,7 +16735,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 27567,
@@ -15850,7 +16800,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "フクノハナ100%（全量契約栽培米・特別栽培米）",
+   "rice": "フクノハナ（兵庫県豊岡市出石町産・契約栽培米）100%",
    "polishing_ratio_pct": 59,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -15891,7 +16841,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 27856,
@@ -15907,7 +16857,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": "山田錦 / 五百万石",
+   "rice": "山田錦（契約栽培米）、五百万石（契約栽培米）",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -15940,7 +16890,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 28002,
@@ -15990,7 +16940,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 28145,
@@ -16106,7 +17056,7 @@
     "website": "https://shishinosato.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦100%（兵庫県産）",
+   "rice": "山田錦（兵庫県産）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -16202,7 +17152,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "junmai",
-   "rice": "兵庫県三木市吉川町産山田錦100%",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -16235,7 +17185,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 28811,
@@ -16251,7 +17201,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "futsushu",
-   "rice": "山田錦、五百万石、糯米他",
+   "rice": "山田錦、五百万石、もち米他",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -16354,7 +17304,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "tokubetsu_junmai",
-   "rice": "山田錦、金紋錦",
+   "rice": "山田錦（契約栽培米）、金紋錦（契約栽培米）",
    "polishing_ratio_pct": 68,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -16389,7 +17339,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 29106,
@@ -16457,12 +17407,12 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "daiginjo",
-   "rice": "山田錦（兵庫県特A地区産100%）",
+   "rice": "山田錦（兵庫県・特A地区産）100%",
    "polishing_ratio_pct": 35,
    "polishing_by_rice": null,
    "abv_pct": 17,
-   "sake_meter_value": null,
-   "titratable_acidity": null,
+   "sake_meter_value": 4,
+   "titratable_acidity": 1.4,
    "ranges": {},
    "yeast": null,
    "water_source": "能登水系",
@@ -16490,7 +17440,58 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
+  },
+  {
+   "public_id": 29281,
+   "url": "https://find-sake.me/sake/29281",
+   "name": "手取川 純米大吟醸 無濾過原酒 はなもり",
+   "name_kana": "てどりがわ じゅんまいだいぎんじょう むろかげんしゅ はなもり",
+   "name_romaji": "Tedorigawa Junmai Daiginjo Muroka Genshu Hanamori",
+   "brewery": {
+    "id": 10010,
+    "name": "株式会社吉田酒造店",
+    "name_romaji": "Yoshida Shuzoten",
+    "url": "https://find-sake.me/brewery/10010",
+    "website": "https://tedorigawa.com/"
+   },
+   "category": "junmai_daiginjo",
+   "rice": "山田錦（兵庫県産）100%",
+   "polishing_ratio_pct": 40,
+   "polishing_by_rice": null,
+   "abv_pct": 16,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": "無濾過",
+   "pasteurization": "原酒",
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [
+    "muroka",
+    "genshu"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 4,
+    "aroma": 4,
+    "body": 4,
+    "finish": 3,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 29396,
@@ -16506,7 +17507,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -16541,7 +17542,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 29568,
@@ -16763,7 +17764,7 @@
     "website": "http://mioya-sake.com/"
    },
    "category": "junmai",
-   "rice": "美山錦",
+   "rice": "美山錦（長野県上伊那郡飯島産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -16799,7 +17800,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 29858,
@@ -16918,7 +17919,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": "酒造好適米（全量契約栽培米）",
+   "rice": "酒造好適米（契約栽培米）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -16950,7 +17951,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-22"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 30043,
@@ -16966,7 +17967,7 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "石川県産五百万石、百万石乃白",
+   "rice": "五百万石（石川県産）、百万石乃白（石川県産）",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -17000,7 +18001,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 30392,
@@ -17016,7 +18017,7 @@
     "website": "https://ikezuki.net/"
    },
    "category": "junmai_ginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -17049,7 +18050,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 30416,
@@ -17116,7 +18117,7 @@
     "website": "https://www.kanpaku.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -17153,7 +18154,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 30593,
@@ -17217,7 +18218,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -17253,7 +18254,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 30721,
@@ -17366,7 +18367,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 30907,
@@ -17382,7 +18383,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai",
-   "rice": "八反錦（広島県産100%）",
+   "rice": "八反錦",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -17424,7 +18425,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 30909,
@@ -17440,7 +18441,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦（兵庫県産100%）",
+   "rice": "山田錦（兵庫県産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -17489,7 +18490,7 @@
     "website": "http://mioya-sake.com/"
    },
    "category": "junmai",
-   "rice": "玉栄",
+   "rice": "玉栄（鳥取県産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -17525,7 +18526,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 31038,
@@ -17541,7 +18542,7 @@
     "website": "http://www.hakutousyuzou.jp/"
    },
    "category": "tokubetsu_junmai",
-   "rice": "八反錦（広島県産100%）",
+   "rice": "八反錦",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -17578,7 +18579,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 31329,
@@ -17594,7 +18595,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区坂本産・契約栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -17630,7 +18631,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 31433,
@@ -17695,7 +18696,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai",
-   "rice": "山田錦（兵庫県産100%）",
+   "rice": "山田錦（兵庫県産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -17748,7 +18749,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai",
-   "rice": "ゆめみづほ",
+   "rice": "ゆめみづほ（石川県能登産・契約栽培米）100%",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -17780,7 +18781,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 31619,
@@ -17796,7 +18797,7 @@
     "website": "https://www.tengumai.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -17830,7 +18831,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 31717,
@@ -17846,7 +18847,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "junmai",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）100%",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 19,
@@ -17884,7 +18885,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 31788,
@@ -17951,7 +18952,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区坂本産・契約栽培米・特別栽培米）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -17987,7 +18988,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 31895,
@@ -18052,7 +19053,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石（能登産100%）",
+   "rice": "五百万石（石川県能登産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 17.5,
@@ -18253,7 +19254,7 @@
     "website": "http://mioya-sake.com/"
    },
    "category": "junmai",
-   "rice": "麹米:五百万石（石川県産） / 掛米:能登ひかり（石川県産）",
+   "rice": "麹米：五百万石／掛米：能登ひかり",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": {
     "koji": 60,
@@ -18289,7 +19290,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 32105,
@@ -18357,7 +19358,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": "山田錦、金紋錦",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米）37%、金紋錦（長野県下高井郡木島平産・契約栽培米）63%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -18392,7 +19393,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 32315,
@@ -18408,7 +19409,7 @@
     "website": "https://www.tengumai.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石等",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -18441,7 +19442,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 32588,
@@ -18598,7 +19599,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 33003,
@@ -18768,7 +19769,7 @@
     "website": "http://www.yachiya-sake.co.jp/"
    },
    "category": "junmai",
-   "rice": "石川門、五百万石",
+   "rice": "石川門68%、五百万石24%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15.5,
@@ -18800,7 +19801,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 33390,
@@ -18864,7 +19865,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai",
-   "rice": "八反錦（広島県産100%）",
+   "rice": "八反錦（広島県産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -18916,7 +19917,7 @@
     "website": "https://nishidesake.com/"
    },
    "category": null,
-   "rice": "旭（100%使用）",
+   "rice": "旭100%",
    "polishing_ratio_pct": 87,
    "polishing_by_rice": null,
    "abv_pct": 15.5,
@@ -19172,7 +20173,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai",
-   "rice": "石川門",
+   "rice": "石川門（石川県産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -19210,7 +20211,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 34099,
@@ -19263,7 +20264,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 34105,
@@ -19372,6 +20373,57 @@
    "updated_at": "2026-09-22"
   },
   {
+   "public_id": 34246,
+   "url": "https://find-sake.me/sake/34246",
+   "name": "天狗舞 TEN mousseux Sparkling Dry Sake 純米吟醸生酒",
+   "name_kana": "てんぐまい てん むすー すぱーくりんぐ どらい さけ じゅんまいぎんじょうなまざけ",
+   "name_romaji": "Tengumai TEN mousseux Sparkling Dry Sake Junmai Ginjo Namazake",
+   "brewery": {
+    "id": 10009,
+    "name": "株式会社車多酒造",
+    "name_romaji": "Shata Shuzo",
+    "url": "https://find-sake.me/brewery/10009",
+    "website": "https://www.tengumai.co.jp/"
+   },
+   "category": "junmai_ginjo",
+   "rice": "山田錦等",
+   "polishing_ratio_pct": 50,
+   "polishing_by_rice": null,
+   "abv_pct": 15,
+   "sake_meter_value": -1,
+   "titratable_acidity": 1.6,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": "生酒",
+   "undisclosed": [],
+   "aroma_type": "banana",
+   "acidity_type": "balanced",
+   "tags": [
+    "nama",
+    "sparkling"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 4,
+    "umami": 3,
+    "aroma": 3,
+    "body": 3,
+    "finish": 4,
+    "drinkability": 4
+   },
+   "volumes_ml": [
+    300
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
    "public_id": 34262,
    "url": "https://find-sake.me/sake/34262",
    "name": "天平 七年古酒 天平寺",
@@ -19436,7 +20488,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "junmai",
-   "rice": "山田錦（兵庫県三木市吉川町・特A地区産100%）",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）100%",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -19487,7 +20539,7 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白（石川県産100%）",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 14.5,
@@ -19585,7 +20637,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区坂本産・契約栽培米・特別栽培米）100%",
    "polishing_ratio_pct": 35,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -19620,7 +20672,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 34452,
@@ -19737,7 +20789,7 @@
     "website": "https://noguchi-naohiko.co.jp/"
    },
    "category": null,
-   "rice": "愛山",
+   "rice": "愛山（兵庫県産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 19,
@@ -19775,7 +20827,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 34588,
@@ -19791,7 +20843,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": {
     "koji": 55,
@@ -19829,7 +20881,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 34817,
@@ -19894,7 +20946,7 @@
     "website": "https://www.notosuehiro.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -19926,7 +20978,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 34963,
@@ -19995,7 +21047,7 @@
     "website": "https://www.kanpaku.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県産）100%",
    "polishing_ratio_pct": 38,
    "polishing_by_rice": null,
    "abv_pct": 17.5,
@@ -20031,7 +21083,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 35006,
@@ -20148,7 +21200,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石、米（石川県産）",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": {
     "koji": 60,
@@ -20183,7 +21235,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 35199,
@@ -20247,7 +21299,7 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白（100%使用）",
+   "rice": "百万石乃白100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -20354,7 +21406,7 @@
     "website": "http://mioya-sake.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦（麹米・兵庫県西脇市黒田庄躍感塾産）／美山錦（掛米・長野県上伊那郡飯島町産）",
+   "rice": "麹米：山田錦／掛米：美山錦",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 16.3,
@@ -20396,7 +21448,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 35635,
@@ -20412,7 +21464,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "futsushu",
-   "rice": "能登産米100%",
+   "rice": "米（石川県能登産・契約栽培米）100%",
    "polishing_ratio_pct": 67,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -20448,7 +21500,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 35640,
@@ -20464,7 +21516,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": null,
-   "rice": "五百万石",
+   "rice": "五百万石（石川県能登産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -20498,7 +21550,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 35889,
@@ -20514,7 +21566,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": null,
+   "rice": "麹米：酒造好適米／掛米：国産米",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -20546,7 +21598,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 35967,
@@ -20562,7 +21614,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "junmai",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -20598,7 +21650,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 36398,
@@ -20720,7 +21772,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -20756,14 +21808,14 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 36527,
    "url": "https://find-sake.me/sake/36527",
    "name": "吉田蔵u 巾着 生酒",
    "name_kana": "よしだぐらゆー きんちゃく なまざけ",
-   "name_romaji": "Yoshidagura u Kinchaku Namazake",
+   "name_romaji": "Yoshidagura-u Kinchaku Namazake",
    "brewery": {
     "id": 10010,
     "name": "株式会社吉田酒造店",
@@ -20772,7 +21824,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": null,
-   "rice": "巾着",
+   "rice": "巾着（石川県産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 12,
@@ -20813,7 +21865,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 36639,
@@ -20829,7 +21881,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産・契約栽培米）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -20863,7 +21915,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 36671,
@@ -20929,7 +21981,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -20963,7 +22015,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 36819,
@@ -20979,7 +22031,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "石川門100%（石川県産）",
+   "rice": "石川門（石川県産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -21029,7 +22081,7 @@
     "website": "http://www.mujou.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -21065,7 +22117,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 37099,
@@ -21081,7 +22133,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県能登産・契約栽培米）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -21114,7 +22166,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 37137,
@@ -21130,7 +22182,7 @@
     "website": "http://www.mujou.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -21166,7 +22218,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 37187,
@@ -21182,7 +22234,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦、金紋錦",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米）70%、金紋錦（長野県下高井郡木島平産・契約栽培米）30%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -21216,7 +22268,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 37330,
@@ -21272,6 +22324,54 @@
    "updated_at": "2026-09-04"
   },
   {
+   "public_id": 37450,
+   "url": "https://find-sake.me/sake/37450",
+   "name": "加賀ノ月 御神酒 純米酒 金箔入り",
+   "name_kana": "かがのつき おみき じゅんまいしゅ きんぱくいり",
+   "name_romaji": "Kaga-no-tsuki Omiki Junmaishu Kinpaku-iri",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "junmai",
+   "rice": null,
+   "polishing_ratio_pct": 65,
+   "polishing_by_rice": null,
+   "abv_pct": 15.5,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": "grain",
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 3,
+    "aroma": 2,
+    "body": 3,
+    "finish": 3,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    300
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
    "public_id": 37536,
    "url": "https://find-sake.me/sake/37536",
    "name": "竹葉 能登純米しずく 無濾過生原酒",
@@ -21322,7 +22422,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 37670,
@@ -21338,7 +22438,7 @@
     "website": "https://noguchi-naohiko.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "雄町（岡山県産）75%、山田錦（兵庫県東条特A地区産）25%",
+   "rice": "雄町（岡山県産）75%、山田錦（兵庫県東条・特A地区産）25%",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -21394,7 +22494,7 @@
     "website": "http://mioya-sake.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦 / 美山錦",
+   "rice": "麹米：山田錦／掛米：美山錦",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 16.5,
@@ -21436,7 +22536,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 37731,
@@ -21500,7 +22600,7 @@
     "website": "https://www.choseimai.co.jp/"
    },
    "category": "tokubetsu_junmai",
-   "rice": "長生米",
+   "rice": "長生米（自社田）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -21534,7 +22634,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 38008,
@@ -21600,7 +22700,7 @@
     "website": "https://www.notosuehiro.com/"
    },
    "category": "junmai",
-   "rice": "兵庫県産山田錦100%",
+   "rice": "山田錦（兵庫県産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16.5,
@@ -21705,7 +22805,7 @@
     "website": "https://www.kanpaku.co.jp/"
    },
    "category": "honjozo",
-   "rice": "一般米",
+   "rice": "麹米：五百万石（石川県産）20%／掛米：一般米（石川県産）80%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 14.5,
@@ -21737,7 +22837,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 38310,
@@ -21905,7 +23005,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県能登産・契約栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -21937,7 +23037,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 38881,
@@ -21953,7 +23053,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -21986,7 +23086,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 39050,
@@ -22002,7 +23102,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県能登産）100%",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -22040,7 +23140,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-22"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 39396,
@@ -22156,7 +23256,7 @@
     "website": "https://www.notosuehiro.com/"
    },
    "category": "junmai",
-   "rice": "兵庫県産山田錦100%",
+   "rice": "山田錦（兵庫県産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -22204,7 +23304,7 @@
     "website": "http://www.sake-sinsen.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "コシヒカリ",
+   "rice": "コシヒカリ（蛍米）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -22239,7 +23339,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 39841,
@@ -22255,7 +23355,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区坂本産・契約栽培米・特別栽培米）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -22290,7 +23390,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 39899,
@@ -22306,7 +23406,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "junmai",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -22341,7 +23441,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 39973,
@@ -22408,7 +23508,7 @@
     "website": "https://noguchi-naohiko.co.jp/"
    },
    "category": null,
-   "rice": "五百万石",
+   "rice": "五百万石100%",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 20,
@@ -22443,7 +23543,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 40028,
@@ -22459,7 +23559,7 @@
     "website": "https://shishinosato.com/"
    },
    "category": "junmai",
-   "rice": "糀米：八反錦（広島県産）、掛米：百万石乃白（石川県産）",
+   "rice": "麹米：八反錦（広島県産）／掛米：百万石乃白（石川県加賀市産）",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -22492,7 +23592,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-05"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 40297,
@@ -22541,7 +23641,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 40370,
@@ -22557,7 +23657,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai",
-   "rice": "山田錦、五百万石",
+   "rice": "麹米：山田錦／掛米：石川門",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -22593,7 +23693,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 40409,
@@ -22657,7 +23757,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "futsushu",
-   "rice": "能登産米100%",
+   "rice": "米（石川県能登産・契約栽培米）100%",
    "polishing_ratio_pct": 67,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -22694,7 +23794,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 40430,
@@ -22845,7 +23945,55 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
+  },
+  {
+   "public_id": 40714,
+   "url": "https://find-sake.me/sake/40714",
+   "name": "加賀ノ月 御神酒 本醸造",
+   "name_kana": "かがのつき おみき ほんじょうぞう",
+   "name_romaji": "Kaga-no-tsuki Omiki Honjozo",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "honjozo",
+   "rice": null,
+   "polishing_ratio_pct": 65,
+   "polishing_by_rice": null,
+   "abv_pct": 14.5,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 2,
+    "aroma": 2,
+    "body": 2,
+    "finish": 4,
+    "drinkability": 4
+   },
+   "volumes_ml": [
+    180
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 40735,
@@ -22861,7 +24009,7 @@
     "website": "https://manzairaku.co.jp/"
    },
    "category": "junmai",
-   "rice": "石川門",
+   "rice": "石川門（石川県白山市鶴来産）",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -22898,7 +24046,7 @@
     "spec": true,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 40812,
@@ -22914,7 +24062,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦100%（兵庫県多可町中区産・全量契約栽培米）",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -22962,7 +24110,7 @@
     "website": "http://www.yachiya-sake.co.jp/"
    },
    "category": "junmai",
-   "rice": "百万石乃白（JA金沢市三谷やちや部会の契約栽培米100%）",
+   "rice": "百万石乃白（JA金沢市三谷やちや部会・契約栽培米）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -23113,7 +24261,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦100%（契約栽培米・特別栽培米）",
+   "rice": "山田錦（契約栽培米・特別栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -23195,7 +24343,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 41286,
@@ -23211,7 +24359,7 @@
     "website": "https://noguchi-naohiko.co.jp/"
    },
    "category": null,
-   "rice": "美山錦、山田錦",
+   "rice": "美山錦（長野県産）78%、山田錦（兵庫県産）22%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 19,
@@ -23251,7 +24399,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 41312,
@@ -23299,7 +24447,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 41470,
@@ -23348,7 +24496,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 41505,
@@ -23462,7 +24610,7 @@
     "website": "https://manzairaku.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -23498,7 +24646,7 @@
     "spec": true,
     "taste": false
    },
-   "updated_at": "2026-09-02"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 41660,
@@ -23514,7 +24662,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai",
-   "rice": "有機米",
+   "rice": "米（石川県産・契約栽培米・有機栽培米）100%",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -23547,7 +24695,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 41753,
@@ -23614,7 +24762,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": {
     "koji": 55,
@@ -23650,7 +24798,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 42050,
@@ -23666,7 +24814,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県能登産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -23702,7 +24850,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 42084,
@@ -23819,7 +24967,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai",
-   "rice": "八反錦（広島県産100%）",
+   "rice": "八反錦（広島県産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -23874,7 +25022,7 @@
     "website": null
    },
    "category": "junmai_ginjo",
-   "rice": "石川門",
+   "rice": "石川門（石川県産）",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -23909,7 +25057,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 42222,
@@ -24168,7 +25316,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 42378,
@@ -24184,7 +25332,7 @@
     "website": "https://noguchi-naohiko.co.jp/"
    },
    "category": null,
-   "rice": "五百万石",
+   "rice": "五百万石100%",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 20,
@@ -24219,7 +25367,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 42414,
@@ -24235,7 +25383,7 @@
     "website": "https://nishidesake.com/"
    },
    "category": "junmai",
-   "rice": "石川県産米",
+   "rice": "米（石川県産）",
    "polishing_ratio_pct": 87,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -24270,7 +25418,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 42417,
@@ -24286,7 +25434,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": {
     "koji": 55,
@@ -24324,7 +25472,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 42440,
@@ -24450,7 +25598,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai",
-   "rice": "石川門",
+   "rice": "石川門（石川県産）100%",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 12,
@@ -24488,7 +25636,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 42541,
@@ -24504,7 +25652,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -24539,14 +25687,14 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 42608,
    "url": "https://find-sake.me/sake/42608",
-   "name": "加賀のおいしい地酒み～つけた 純米酒",
-   "name_kana": "かがのおいしいじざけみ～つけた じゅんまいしゅ",
-   "name_romaji": "Kaga no Oishii Jizake Mitsuketa Junmaishu",
+   "name": "加賀のおいしい地酒み～つけた 純米造り",
+   "name_kana": "かがのおいしいじざけみ～つけた じゅんまいづくり",
+   "name_romaji": "Kaga no Oishii Jizake Mitsuketa Junmai-zukuri",
    "brewery": {
     "id": 10013,
     "name": "合資会社手塚酒造場",
@@ -24555,32 +25703,35 @@
     "website": null
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": null,
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15.5,
    "sake_meter_value": null,
-   "titratable_acidity": 1.4,
-   "ranges": {},
+   "titratable_acidity": null,
+   "ranges": {
+    "abv_pct": [
+     15,
+     16
+    ]
+   },
    "yeast": null,
    "water_source": "白山・手取川水系",
-   "starter_method": "速醸",
+   "starter_method": null,
    "pressing_filtration": null,
-   "pasteurization": "火入れ",
+   "pasteurization": null,
    "undisclosed": [],
    "aroma_type": null,
    "acidity_type": "balanced",
-   "tags": [
-    "sokujo"
-   ],
+   "tags": [],
    "taste": {
     "sweet_dry": 4,
     "acidity": 3,
     "umami": 4,
-    "aroma": 2,
-    "body": 3,
-    "finish": 4,
-    "drinkability": 4
+    "aroma": 3,
+    "body": 4,
+    "finish": 3,
+    "drinkability": 3
    },
    "volumes_ml": [
     720
@@ -24589,7 +25740,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-14"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 42686,
@@ -24605,7 +25756,7 @@
     "website": "https://nishidesake.com/"
    },
    "category": "junmai",
-   "rice": "石川県産米",
+   "rice": "米（石川県産）",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -24851,7 +26002,7 @@
     "website": "http://mioya-sake.com/"
    },
    "category": "junmai",
-   "rice": "麹米:五百万石（石川県産） / 掛米:能登ひかり（石川県産）",
+   "rice": "麹米：五百万石／掛米：能登ひかり",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": {
     "koji": 60,
@@ -24904,7 +26055,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 43305,
@@ -24955,7 +26106,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 43412,
@@ -24971,7 +26122,7 @@
     "website": "https://www.kanpaku.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": null,
    "abv_pct": 15.5,
@@ -25005,7 +26156,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 43527,
@@ -25071,7 +26222,7 @@
     "website": "https://www.kanpaku.co.jp/"
    },
    "category": "honjozo",
-   "rice": "五百万石、一般米",
+   "rice": "五百万石（石川県産）20%、一般米（石川県産）80%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15.5,
@@ -25105,7 +26256,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 43730,
@@ -25121,7 +26272,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -25155,7 +26306,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 43785,
@@ -25327,7 +26478,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": null,
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 39,
    "polishing_by_rice": null,
    "abv_pct": 12,
@@ -25362,7 +26513,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 44538,
@@ -25378,7 +26529,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "金沢美人",
+   "rice": "コシヒカリ（石川県金沢市普正寺町産・特別栽培米・金沢美人）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 13,
@@ -25410,7 +26561,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 44658,
@@ -25524,7 +26675,7 @@
     "website": "https://www.taniizumi.com/"
    },
    "category": "junmai",
-   "rice": "麹米：山田錦、掛米：五百万石（能登産）",
+   "rice": "麹米：山田錦／掛米：五百万石",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": {
     "koji": 50,
@@ -25560,7 +26711,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-05"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 44788,
@@ -25576,7 +26727,7 @@
     "website": "https://www.kanpaku.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "白鶴錦",
+   "rice": "白鶴錦（兵庫県産）",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -25613,7 +26764,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 44866,
@@ -25629,7 +26780,7 @@
     "website": "https://www.choseimai.co.jp/"
    },
    "category": "honjozo",
-   "rice": "長生米",
+   "rice": "長生米（自社田）",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -25661,7 +26812,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 44936,
@@ -25766,6 +26917,64 @@
     "taste": false
    },
    "updated_at": "2026-08-30"
+  },
+  {
+   "public_id": 45060,
+   "url": "https://find-sake.me/sake/45060",
+   "name": "農口尚彦研究所 PREMIUM NOUVEAU 丙午年 宝船 限定版",
+   "name_kana": "のぐちなおひこけんきゅうしょ ぷれみあむ ぬーぼー ひのえうまどし たからぶね げんていばん",
+   "name_romaji": "Noguchi Naohiko Sake Institute Premium Nouveau Hinoeuma-doshi Takarabune Genteiban",
+   "brewery": {
+    "id": 10033,
+    "name": "農口尚彦研究所",
+    "name_romaji": "Noguchi Naohiko Sake Institute",
+    "url": "https://find-sake.me/brewery/10033",
+    "website": "https://noguchi-naohiko.co.jp/"
+   },
+   "category": null,
+   "rice": "五百万石100%",
+   "polishing_ratio_pct": 60,
+   "polishing_by_rice": null,
+   "abv_pct": 19,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": "無濾過、うすにごり",
+   "pasteurization": "生酒、原酒",
+   "undisclosed": [
+    "sake_meter_value",
+    "titratable_acidity",
+    "category"
+   ],
+   "aroma_type": "green_apple_lemon",
+   "acidity_type": "balanced",
+   "tags": [
+    "muroka",
+    "nigori",
+    "nama",
+    "genshu",
+    "sparkling"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 3,
+    "aroma": 3,
+    "body": 5,
+    "finish": 4,
+    "drinkability": 2
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 45355,
@@ -25884,7 +27093,7 @@
     "website": "http://www.sake-sinsen.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "蛍米（コシヒカリ）",
+   "rice": "コシヒカリ（石川県小松産・蛍米）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -25916,7 +27125,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 45482,
@@ -26031,7 +27240,7 @@
     "website": "http://www.sake-sinsen.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦",
+   "rice": "山田錦100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -26065,7 +27274,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 45576,
@@ -26081,7 +27290,7 @@
     "website": "https://www.taniizumi.com/"
    },
    "category": "junmai",
-   "rice": "山田錦、五百万石（能登産）",
+   "rice": "麹米：山田錦／掛米：五百万石",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -26118,7 +27327,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-05"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 45730,
@@ -26134,7 +27343,7 @@
     "website": "http://www.sake-sinsen.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県産）",
    "polishing_ratio_pct": 35,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -26169,7 +27378,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 45792,
@@ -26288,7 +27497,7 @@
     "website": "http://mioya-sake.com/"
    },
    "category": "junmai",
-   "rice": "山田錦（兵庫県黒田庄「躍動塾」産）",
+   "rice": "山田錦",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -26332,7 +27541,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 46421,
@@ -26348,7 +27557,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区坂本産・契約栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -26384,7 +27593,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 46580,
@@ -26602,7 +27811,7 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "daiginjo",
-   "rice": "山田錦（兵庫県産100%）",
+   "rice": "山田錦（兵庫県産）",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -26636,7 +27845,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 46858,
@@ -26701,7 +27910,7 @@
     "website": "http://www.mujou.co.jp/"
    },
    "category": "tokubetsu_junmai",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -26733,7 +27942,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 46930,
@@ -26851,7 +28060,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県能登産・契約栽培米）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -26883,7 +28092,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 47307,
@@ -26999,7 +28208,7 @@
     "website": "https://ikezuki.net/"
    },
    "category": "junmai_ginjo",
-   "rice": "石川門",
+   "rice": "石川門（石川県産）",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -27031,7 +28240,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 47775,
@@ -27134,7 +28343,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 48043,
@@ -27150,7 +28359,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai",
-   "rice": "山田錦（兵庫県特A地区産100%）",
+   "rice": "山田錦100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -27196,7 +28405,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 48075,
@@ -27212,7 +28421,7 @@
     "website": "https://www.tengumai.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "特A地区 山田錦",
+   "rice": "山田錦（兵庫県三木市・特A地区産）100%",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -27247,7 +28456,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 48096,
@@ -27396,7 +28605,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 48357,
@@ -27412,7 +28621,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦100%（兵庫県多可町中区産・全量契約栽培米）",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 13,
@@ -27559,7 +28768,7 @@
     "website": "http://www.mujou.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "山田錦特A",
+   "rice": "山田錦（特A地区産）",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -27714,7 +28923,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai",
-   "rice": "石川門",
+   "rice": "石川門（石川県能登産・契約栽培米）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -27751,7 +28960,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 49622,
@@ -27767,7 +28976,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "futsushu",
-   "rice": null,
+   "rice": "米（石川県産）",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -27799,7 +29008,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 49757,
@@ -27815,7 +29024,7 @@
     "website": "https://nishidesake.com/"
    },
    "category": null,
-   "rice": "石川県産米",
+   "rice": "米（石川県小松市産）",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -27850,7 +29059,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 49781,
@@ -27955,7 +29164,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 49994,
@@ -28019,7 +29228,7 @@
     "website": "https://www.taniizumi.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "雄町（100%）",
+   "rice": "雄町100%",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -28125,7 +29334,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": null,
+   "rice": "酒造好適米（国産）",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -28162,7 +29371,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 50390,
@@ -28178,7 +29387,7 @@
     "website": "https://shishinosato.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "酒未来",
+   "rice": "酒未来（山形県産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -28211,7 +29420,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 50463,
@@ -28227,7 +29436,7 @@
     "website": "https://www.kanpaku.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県産）100%",
    "polishing_ratio_pct": 38,
    "polishing_by_rice": null,
    "abv_pct": 17.5,
@@ -28237,12 +29446,14 @@
    "yeast": null,
    "water_source": "白山・手取川水系",
    "starter_method": null,
-   "pressing_filtration": null,
+   "pressing_filtration": "雫取り、中汲み",
    "pasteurization": "原酒",
    "undisclosed": [],
    "aroma_type": "melon_peach",
    "acidity_type": "balanced",
    "tags": [
+    "nakadori",
+    "shizuku",
     "genshu"
    ],
    "taste": {
@@ -28261,7 +29472,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 50523,
@@ -28277,7 +29488,7 @@
     "website": null
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -28309,7 +29520,59 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
+  },
+  {
+   "public_id": 50788,
+   "url": "https://find-sake.me/sake/50788",
+   "name": "谷泉 山廃純米 Prototype α",
+   "name_kana": "たにいずみ やまはいじゅんまい ぷろとたいぷ あるふぁ",
+   "name_romaji": "Taniizumi Yamahai Junmai Prototype Alpha",
+   "brewery": {
+    "id": 10026,
+    "name": "株式会社鶴野酒造店",
+    "name_romaji": "Tsuruno Shuzoten",
+    "url": "https://find-sake.me/brewery/10026",
+    "website": "https://www.taniizumi.com/"
+   },
+   "category": "junmai",
+   "rice": null,
+   "polishing_ratio_pct": 70,
+   "polishing_by_rice": null,
+   "abv_pct": 13,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": "金沢酵母",
+   "water_source": "白山・手取川水系",
+   "starter_method": "モダン山廃",
+   "pressing_filtration": null,
+   "pasteurization": "火入れ、低アル原酒",
+   "undisclosed": [],
+   "aroma_type": "banana",
+   "acidity_type": "malic",
+   "tags": [
+    "yamahai",
+    "genshu"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 4,
+    "umami": 3,
+    "aroma": 3,
+    "body": 2,
+    "finish": 4,
+    "drinkability": 4
+   },
+   "volumes_ml": [
+    720,
+    1800
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 50921,
@@ -28425,7 +29688,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "daiginjo",
-   "rice": "山田錦（兵庫県特A地区産100%）",
+   "rice": "山田錦（兵庫県・特A地区産）100%",
    "polishing_ratio_pct": 35,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -28463,55 +29726,6 @@
     "taste": false
    },
    "updated_at": "2026-08-20"
-  },
-  {
-   "public_id": 51068,
-   "url": "https://find-sake.me/sake/51068",
-   "name": "宗玄 大吟醸",
-   "name_kana": "そうげん だいぎんじょう",
-   "name_romaji": "Sogen Daiginjo",
-   "brewery": {
-    "id": 10025,
-    "name": "宗玄酒造株式会社",
-    "name_romaji": "Sogen Shuzo",
-    "url": "https://find-sake.me/brewery/10025",
-    "website": "https://www.sougen-shuzou.com/"
-   },
-   "category": "daiginjo",
-   "rice": "山田錦（兵庫県特A地区産100%）",
-   "polishing_ratio_pct": 35,
-   "polishing_by_rice": null,
-   "abv_pct": 17,
-   "sake_meter_value": 4,
-   "titratable_acidity": 1.4,
-   "ranges": {},
-   "yeast": null,
-   "water_source": "能登水系",
-   "starter_method": null,
-   "pressing_filtration": null,
-   "pasteurization": "火入れ",
-   "undisclosed": [],
-   "aroma_type": "melon_peach",
-   "acidity_type": "balanced",
-   "tags": [],
-   "taste": {
-    "sweet_dry": 3,
-    "acidity": 3,
-    "umami": 2,
-    "aroma": 5,
-    "body": 3,
-    "finish": 5,
-    "drinkability": 4
-   },
-   "volumes_ml": [
-    720,
-    1800
-   ],
-   "brewery_confirmed": {
-    "spec": false,
-    "taste": false
-   },
-   "updated_at": "2026-09-07"
   },
   {
    "public_id": 51070,
@@ -28564,7 +29778,7 @@
   {
    "public_id": 51467,
    "url": "https://find-sake.me/sake/51467",
-   "name": "宗玄 特別純米酒 純粋無垢",
+   "name": "宗玄 特別純米酒 純酔無垢",
    "name_kana": "そうげん とくべつじゅんまいしゅ じゅんすいむく",
    "name_romaji": "Sogen Tokubetsu Junmaishu Junsui Muku",
    "brewery": {
@@ -28575,7 +29789,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "tokubetsu_junmai",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -28608,7 +29822,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 51472,
@@ -28624,7 +29838,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": "山田錦100%（兵庫県多可町中区坂本産・有機栽培）",
+   "rice": "山田錦（兵庫県多可町中区坂本産・契約栽培米・有機栽培米）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -28658,7 +29872,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 51478,
@@ -28674,7 +29888,7 @@
     "website": "https://www.notosuehiro.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石94%（山田錦6%）",
+   "rice": "五百万石94%、山田錦6%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -28723,7 +29937,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": {
     "koji": 55,
@@ -28758,7 +29972,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 51538,
@@ -28774,7 +29988,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": "全量契約栽培米、酒造好適米使用（麹米）国産米100%",
+   "rice": "麹米：酒造好適米／掛米：国産米",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -28806,7 +30020,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 51547,
@@ -28913,7 +30127,59 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
+  },
+  {
+   "public_id": 51723,
+   "url": "https://find-sake.me/sake/51723",
+   "name": "加賀ノ月 ぱちぱち 純米生にごり",
+   "name_kana": "かがのつき ぱちぱち じゅんまいなまにごり",
+   "name_romaji": "Kaga-no-tsuki Pachipachi Junmai Nama Nigori",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "junmai",
+   "rice": null,
+   "polishing_ratio_pct": 58,
+   "polishing_by_rice": null,
+   "abv_pct": 17,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": "にごり",
+   "pasteurization": "生酒",
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [
+    "nigori",
+    "nama",
+    "sparkling"
+   ],
+   "taste": {
+    "sweet_dry": 2,
+    "acidity": 3,
+    "umami": 4,
+    "aroma": 3,
+    "body": 5,
+    "finish": 3,
+    "drinkability": 2
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 51751,
@@ -28929,7 +30195,7 @@
     "website": null
    },
    "category": "daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -28961,7 +30227,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 51817,
@@ -28977,7 +30243,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県能登産・契約栽培米）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -29011,7 +30277,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 51868,
@@ -29027,7 +30293,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県能登産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -29064,7 +30330,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 51872,
@@ -29080,7 +30346,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": null,
+   "rice": "麹米：酒造好適米（契約栽培米）／掛米：国産米（契約栽培米）",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -29117,7 +30383,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 51895,
@@ -29133,7 +30399,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県産・契約栽培米）",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -29168,7 +30434,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 51999,
@@ -29184,7 +30450,7 @@
     "website": "https://www.taniizumi.com/"
    },
    "category": null,
-   "rice": "国産米（能登産米）",
+   "rice": "米（石川県能登産）",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 13.5,
@@ -29284,7 +30550,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -29320,7 +30586,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 52060,
@@ -29336,7 +30602,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "futsushu",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -29369,7 +30635,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 52164,
@@ -29385,7 +30651,7 @@
     "website": "http://mioya-sake.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦（兵庫県西脇市黒田庄「躍感塾」産100%）",
+   "rice": "山田錦（兵庫県西脇市黒田庄・躍感塾産）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 16.6,
@@ -29435,7 +30701,7 @@
     "website": "https://noguchi-naohiko.co.jp/"
    },
    "category": null,
-   "rice": "五百万石",
+   "rice": "五百万石（北陸産）75%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 19,
@@ -29473,7 +30739,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 52240,
@@ -29489,7 +30755,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白（石川県産・奥能登産100%）",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -29521,7 +30787,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 52254,
@@ -29537,7 +30803,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "百万石乃白（石川県産・奥能登産100%）",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -29569,7 +30835,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 52302,
@@ -29835,7 +31101,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai",
-   "rice": "石川門",
+   "rice": "石川門（石川県産）100%",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 12,
@@ -29874,7 +31140,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 52480,
@@ -29890,7 +31156,7 @@
     "website": "https://www.choseimai.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県津幡町河合谷産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -29922,7 +31188,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 52562,
@@ -29938,7 +31204,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦、金紋錦",
+   "rice": "金紋錦（長野県下高井郡木島平産・契約栽培米）80%、山田錦（兵庫県多可町中区産・契約栽培米）20%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -29979,7 +31245,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 52591,
@@ -30027,7 +31293,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 52604,
@@ -30043,7 +31309,7 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦（兵庫県産100%）",
+   "rice": "山田錦（兵庫県産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -30130,7 +31396,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 52733,
@@ -30194,7 +31460,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": {
     "koji": 55,
@@ -30232,7 +31498,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 52850,
@@ -30248,7 +31514,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区坂本産・契約栽培米・特別栽培米）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -30283,7 +31549,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 52860,
@@ -30299,7 +31565,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": {
     "koji": 55,
@@ -30337,7 +31603,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 53023,
@@ -30353,7 +31619,7 @@
     "website": "http://mioya-sake.com/"
    },
    "category": "honjozo",
-   "rice": "麹米：五百万石（石川県産）、掛米：うるち米（石川県産）",
+   "rice": "麹米：五百万石／掛米：うるち米",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -30394,7 +31660,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 53212,
@@ -30445,6 +31711,57 @@
     "taste": false
    },
    "updated_at": "2026-08-20"
+  },
+  {
+   "public_id": 53281,
+   "url": "https://find-sake.me/sake/53281",
+   "name": "天狗舞 蔵元限定酒 山廃純米大吟醸 LIMITED 2026BY",
+   "name_kana": "てんぐまい くらもとげんていしゅ やまはいじゅんまいだいぎんじょう りみてっど 2026びーわい",
+   "name_romaji": "Tengumai Kuramoto Genteishu Yamahai Junmai Daiginjo LIMITED 2026BY",
+   "brewery": {
+    "id": 10009,
+    "name": "株式会社車多酒造",
+    "name_romaji": "Shata Shuzo",
+    "url": "https://find-sake.me/brewery/10009",
+    "website": "https://www.tengumai.co.jp/"
+   },
+   "category": "junmai_daiginjo",
+   "rice": "山田錦",
+   "polishing_ratio_pct": 45,
+   "polishing_by_rice": null,
+   "abv_pct": 17,
+   "sake_meter_value": 1.7,
+   "titratable_acidity": 1.5,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": "山廃",
+   "pressing_filtration": null,
+   "pasteurization": "原酒",
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "lactic",
+   "tags": [
+    "yamahai",
+    "genshu"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 5,
+    "umami": 5,
+    "aroma": 4,
+    "body": 5,
+    "finish": 3,
+    "drinkability": 2
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 53346,
@@ -30513,7 +31830,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区坂本産・契約栽培米・特別栽培米）100%",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -30548,7 +31865,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 53513,
@@ -30564,7 +31881,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai",
-   "rice": "山田錦（兵庫県産100%）",
+   "rice": "山田錦（兵庫県産）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -30600,6 +31917,54 @@
     "taste": false
    },
    "updated_at": "2026-08-20"
+  },
+  {
+   "public_id": 53516,
+   "url": "https://find-sake.me/sake/53516",
+   "name": "金冠 大江山 純米吟醸 奥能登の夏酒",
+   "name_kana": "きんかん おおえやま じゅんまいぎんじょう おくのとのなつざけ",
+   "name_romaji": "Kinkan Oeyama Junmai Ginjo Okunoto-no-natsuzake",
+   "brewery": {
+    "id": 10032,
+    "name": "松波酒造株式会社",
+    "name_romaji": "Matsunami Shuzo",
+    "url": "https://find-sake.me/brewery/10032",
+    "website": "https://www.o-eyama.com/"
+   },
+   "category": "junmai_ginjo",
+   "rice": "五百万石",
+   "polishing_ratio_pct": 50,
+   "polishing_by_rice": null,
+   "abv_pct": 15,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 4,
+    "acidity": 3,
+    "umami": 3,
+    "aroma": 3,
+    "body": 3,
+    "finish": 4,
+    "drinkability": 4
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 53571,
@@ -30712,7 +32077,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県野々市市産）",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": {
     "koji": 55,
@@ -30748,7 +32113,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 53815,
@@ -30870,7 +32235,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "honjozo",
-   "rice": "麹米:山田錦 / 掛米:五百万石",
+   "rice": "麹米：山田錦／掛米：五百万石",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": null,
@@ -31029,7 +32394,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "雄町（岡山県赤磐産100%）",
+   "rice": "雄町（岡山県赤磐産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -31077,7 +32442,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": {
     "koji": 55,
@@ -31114,7 +32479,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 53992,
@@ -31432,7 +32797,7 @@
     "website": "http://www.hakutousyuzou.jp/"
    },
    "category": "junmai",
-   "rice": "自然栽培米",
+   "rice": "米（石川県輪島市三井町産・自然栽培米）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -31466,7 +32831,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 54469,
@@ -31616,7 +32981,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 54574,
@@ -31685,7 +33050,7 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 16.4,
@@ -31720,7 +33085,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 54752,
@@ -31885,31 +33250,31 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石（掛米）、百万石乃白（麹米）",
-   "polishing_ratio_pct": 50,
+   "rice": "五百万石（石川県産）",
+   "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16,
-   "sake_meter_value": 1.3,
-   "titratable_acidity": 1.7,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
    "ranges": {},
-   "yeast": "金沢酵母",
+   "yeast": null,
    "water_source": "白山・手取川水系",
    "starter_method": null,
    "pressing_filtration": null,
    "pasteurization": "生酒",
    "undisclosed": [],
-   "aroma_type": "melon_peach",
+   "aroma_type": null,
    "acidity_type": "balanced",
    "tags": [
     "nama"
    ],
    "taste": {
-    "sweet_dry": 2,
-    "acidity": 4,
+    "sweet_dry": 3,
+    "acidity": 3,
     "umami": 3,
     "aroma": 4,
     "body": 4,
-    "finish": 5,
+    "finish": 4,
     "drinkability": 3
    },
    "volumes_ml": [
@@ -31920,7 +33285,103 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
+  },
+  {
+   "public_id": 54962,
+   "url": "https://find-sake.me/sake/54962",
+   "name": "こっそり吟醸 魚貝亭",
+   "name_kana": "こっそりぎんじょう ぎょかいてい",
+   "name_romaji": "Kossori Ginjo Gyokaitei",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "ginjo",
+   "rice": "米（石川県産）100%",
+   "polishing_ratio_pct": 60,
+   "polishing_by_rice": null,
+   "abv_pct": 15.5,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 3,
+    "aroma": 3,
+    "body": 2,
+    "finish": 4,
+    "drinkability": 4
+   },
+   "volumes_ml": [
+    300
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
+   "public_id": 55001,
+   "url": "https://find-sake.me/sake/55001",
+   "name": "加賀ノ月 氷温熟成 本醸造",
+   "name_kana": "かがのつき ひょうおんじゅくせい ほんじょうぞう",
+   "name_romaji": "Kaga-no-tsuki Hyoon Jukusei Honjozo",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "honjozo",
+   "rice": null,
+   "polishing_ratio_pct": 65,
+   "polishing_by_rice": null,
+   "abv_pct": 19,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": "氷温熟成（要冷蔵）",
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 3,
+    "aroma": 2,
+    "body": 4,
+    "finish": 4,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    500
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 55003,
@@ -31936,7 +33397,7 @@
     "website": "https://shishinosato.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "八反錦",
+   "rice": "八反錦（広島県産）",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -31969,7 +33430,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 55284,
@@ -31985,7 +33446,7 @@
     "website": "https://www.kanpaku.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -32020,7 +33481,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 55334,
@@ -32184,7 +33645,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": null,
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 63,
    "polishing_by_rice": {
     "koji": 60,
@@ -32222,7 +33683,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-05"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 55871,
@@ -32342,7 +33803,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": "フクノハナ100%（兵庫県産）",
+   "rice": "フクノハナ（兵庫県産・契約栽培米）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -32377,7 +33838,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 56208,
@@ -32497,7 +33958,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": "国産米（全量契約栽培・有機栽培の酒造好適米）",
+   "rice": "酒造好適米（国産・契約栽培米・有機栽培米）",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -32545,7 +34006,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": null,
+   "rice": "五百万石（石川県産・契約栽培米）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": null,
@@ -32581,7 +34042,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 56464,
@@ -32645,7 +34106,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦、金紋錦",
+   "rice": "金紋錦（長野県下高井郡木島平産・契約栽培米・特別栽培米）80%、山田錦（兵庫県多可町中区産・契約栽培米・特別栽培米）20%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -32680,7 +34141,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 56509,
@@ -32696,7 +34157,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦（兵庫県産・麹米／掛米とも）",
+   "rice": "山田錦100%",
    "polishing_ratio_pct": 45,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -32732,7 +34193,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 56597,
@@ -32907,7 +34368,7 @@
     "website": "https://noguchi-naohiko.co.jp/"
    },
    "category": "honjozo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 19,
@@ -32944,7 +34405,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 57331,
@@ -33009,7 +34470,7 @@
     "website": "https://www.sougen-shuzou.com/"
    },
    "category": "junmai",
-   "rice": "石川門",
+   "rice": "石川門（石川県奥能登産）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -33045,7 +34506,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 57480,
@@ -33111,7 +34572,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -33145,7 +34606,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 57578,
@@ -33161,7 +34622,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai",
-   "rice": "山田錦",
+   "rice": "山田錦（石川県能登産・水田環境特A地区の契約栽培米）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -33197,7 +34658,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 57616,
@@ -33300,7 +34761,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 57783,
@@ -33316,7 +34777,7 @@
     "website": "http://www.hakutousyuzou.jp/"
    },
    "category": "tokubetsu_junmai",
-   "rice": "八反錦（広島県産100%）",
+   "rice": "八反錦",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 17.8,
@@ -33351,7 +34812,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 57797,
@@ -33367,7 +34828,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": null,
-   "rice": "石川門",
+   "rice": "石川門（石川県産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 11,
@@ -33404,7 +34865,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 57993,
@@ -33470,7 +34931,7 @@
     "website": "https://ikezuki.net/"
    },
    "category": "junmai",
-   "rice": "能登ひかり",
+   "rice": "能登ひかり（石川県中能登産）",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -33503,7 +34964,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 58134,
@@ -33519,7 +34980,7 @@
     "website": "https://manzairaku.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県白山市鳥越地区産・晩植米・契約栽培米）100%",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -33558,7 +35019,7 @@
     "spec": true,
     "taste": false
    },
-   "updated_at": "2026-09-02"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 58267,
@@ -33574,7 +35035,7 @@
     "website": "http://mioya-sake.com/"
    },
    "category": "junmai",
-   "rice": "麹米:五百万石（石川県産・25%） / 掛米:能登ひかり（石川県産・75%）",
+   "rice": "麹米：五百万石／掛米：能登ひかり",
    "polishing_ratio_pct": 58,
    "polishing_by_rice": {
     "koji": 60,
@@ -33611,7 +35072,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 58328,
@@ -33627,7 +35088,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai",
-   "rice": null,
+   "rice": "山田錦、金紋錦、五百万石など（契約栽培米）",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -33659,7 +35120,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 58336,
@@ -33774,7 +35235,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "futsushu",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": {
     "koji": 60,
@@ -33809,7 +35270,55 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
+  },
+  {
+   "public_id": 58446,
+   "url": "https://find-sake.me/sake/58446",
+   "name": "加賀山水 純米酒",
+   "name_kana": "かがさんすい じゅんまいしゅ",
+   "name_romaji": "Kaga Sansui Junmaishu",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "junmai",
+   "rice": "米（石川県産）100%",
+   "polishing_ratio_pct": 75,
+   "polishing_by_rice": null,
+   "abv_pct": 14.5,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": "grain",
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 4,
+    "umami": 4,
+    "aroma": 2,
+    "body": 3,
+    "finish": 3,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 58616,
@@ -33825,7 +35334,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県能登産・契約栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -33858,7 +35367,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 58659,
@@ -33874,7 +35383,7 @@
     "website": "https://manzairaku.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市口吉川・特A-a地区産）",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -33911,7 +35420,7 @@
     "spec": true,
     "taste": false
    },
-   "updated_at": "2026-09-02"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 58768,
@@ -33980,7 +35489,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "futsushu",
-   "rice": "山田錦",
+   "rice": "山田錦（特A地区産）、もち米（四段用）",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -34015,7 +35524,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 58793,
@@ -34082,7 +35591,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "tokubetsu_honjozo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -34116,7 +35625,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 58848,
@@ -34132,7 +35641,7 @@
     "website": "https://manzairaku.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石（石川県白山市産）",
+   "rice": "五百万石（石川県白山市鳥越地区産・契約栽培米）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -34168,7 +35677,107 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-05"
+   "updated_at": "2026-10-06"
+  },
+  {
+   "public_id": 58951,
+   "url": "https://find-sake.me/sake/58951",
+   "name": "加賀ノ月 生酛 純米酒",
+   "name_kana": "かがのつき きもと じゅんまいしゅ",
+   "name_romaji": "Kaga-no-tsuki Kimoto Junmaishu",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "junmai",
+   "rice": "百万石乃白",
+   "polishing_ratio_pct": 60,
+   "polishing_by_rice": null,
+   "abv_pct": 17,
+   "sake_meter_value": 0,
+   "titratable_acidity": 2.3,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": "生酛",
+   "pressing_filtration": null,
+   "pasteurization": "生酒",
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "lactic",
+   "tags": [
+    "kimoto",
+    "nama"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 5,
+    "umami": 4,
+    "aroma": 3,
+    "body": 5,
+    "finish": 3,
+    "drinkability": 2
+   },
+   "volumes_ml": [
+    720,
+    1800
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
+  },
+  {
+   "public_id": 58959,
+   "url": "https://find-sake.me/sake/58959",
+   "name": "加賀ノ月 藍ノ月 辛口 吟醸",
+   "name_kana": "かがのつき あいのつき からくち ぎんじょう",
+   "name_romaji": "Kaga-no-tsuki Ai-no-tsuki Karakuchi Ginjo",
+   "brewery": {
+    "id": 10011,
+    "name": "株式会社加越",
+    "name_romaji": "Kaetsu",
+    "url": "https://find-sake.me/brewery/10011",
+    "website": "https://www.kanpaku.co.jp/"
+   },
+   "category": "ginjo",
+   "rice": null,
+   "polishing_ratio_pct": 60,
+   "polishing_by_rice": null,
+   "abv_pct": 15.5,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": "白山・手取川水系",
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 4,
+    "acidity": 3,
+    "umami": 2,
+    "aroma": 3,
+    "body": 2,
+    "finish": 4,
+    "drinkability": 4
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 59077,
@@ -34184,7 +35793,7 @@
     "website": "https://noguchi-naohiko.co.jp/"
    },
    "category": null,
-   "rice": "雄町",
+   "rice": "雄町（岡山県産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -34222,7 +35831,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 59088,
@@ -34287,7 +35896,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -34322,7 +35931,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 59329,
@@ -34387,7 +35996,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai",
-   "rice": "コシヒカリ（神子原米）",
+   "rice": "コシヒカリ（石川県羽咋市神子原地区産・神子原米）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -34419,7 +36028,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 59377,
@@ -34534,7 +36143,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "石川門",
+   "rice": "石川門（石川県産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 14,
@@ -34571,7 +36180,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 59577,
@@ -34785,7 +36394,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県能登産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 11,
@@ -34817,7 +36426,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 59784,
@@ -34882,7 +36491,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": null,
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米・特別栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 11,
@@ -34916,7 +36525,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 59837,
@@ -35034,7 +36643,7 @@
     "website": "http://mioya-sake.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦24%（麹米・兵庫県黒田庄躍感塾産）／美山錦76%（掛米・長野県飯島産）",
+   "rice": "麹米：山田錦／掛米：美山錦",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -35071,7 +36680,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 60174,
@@ -35191,7 +36800,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": null,
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 13,
@@ -35227,7 +36836,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 60552,
@@ -35293,7 +36902,7 @@
     "website": "https://www.fukumitsuya.co.jp/"
    },
    "category": null,
-   "rice": "全量契約栽培米・特別栽培米使用 山田錦100%（兵庫県多可町産）",
+   "rice": "山田錦（兵庫県多可町中区産・契約栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 13,
@@ -35327,7 +36936,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 60848,
@@ -35376,7 +36985,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 61052,
@@ -35392,7 +37001,7 @@
     "website": "https://www.notosuehiro.com/"
    },
    "category": "honjozo",
-   "rice": "五百万石（石川県産100%）",
+   "rice": "五百万石（石川県産）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -35441,7 +37050,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "石川門",
+   "rice": "石川門（石川県産）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -35473,7 +37082,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 61154,
@@ -35644,7 +37253,7 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "tokubetsu_junmai",
-   "rice": "五百万石、百万石乃白（いずれも石川県産）",
+   "rice": "五百万石（石川県産）、百万石乃白（石川県産）",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -35696,7 +37305,7 @@
     "website": "http://www.sake-sinsen.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -35730,7 +37339,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 61630,
@@ -35781,7 +37390,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 61810,
@@ -35797,7 +37406,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -35829,7 +37438,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 61825,
@@ -35845,7 +37454,7 @@
     "website": "https://www.choseimai.co.jp/"
    },
    "category": "futsushu",
-   "rice": "長生米",
+   "rice": "長生米（自社田）",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -35878,7 +37487,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 61888,
@@ -35894,7 +37503,7 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "honjozo",
-   "rice": "石川県産五百万石",
+   "rice": "五百万石（石川県産）、一般米",
    "polishing_ratio_pct": 68,
    "polishing_by_rice": null,
    "abv_pct": 15.5,
@@ -35932,7 +37541,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 61902,
@@ -35948,7 +37557,7 @@
     "website": "https://www.o-eyama.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "百万石乃白（石川県産100%）",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -36045,7 +37654,7 @@
     "website": "https://www.nakamura-shuzou.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産）",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": {
     "koji": 60,
@@ -36083,7 +37692,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-26"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 62576,
@@ -36147,7 +37756,7 @@
     "website": "https://manzairaku.co.jp/"
    },
    "category": "junmai",
-   "rice": "北陸12号",
+   "rice": "北陸12号（石川県白山市鶴来産）",
    "polishing_ratio_pct": 68,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -36184,7 +37793,7 @@
     "spec": true,
     "taste": false
    },
-   "updated_at": "2026-09-02"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 62714,
@@ -36200,7 +37809,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": "junmai",
-   "rice": "山田錦、五百万石",
+   "rice": "麹米：山田錦／掛米：石川門",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -36233,7 +37842,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 62747,
@@ -36301,7 +37910,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 17.5,
@@ -36339,7 +37948,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 62979,
@@ -36355,7 +37964,7 @@
     "website": "https://tedorigawa.com/"
    },
    "category": null,
-   "rice": "百万石乃白",
+   "rice": "百万石乃白（石川県産）100%",
    "polishing_ratio_pct": null,
    "polishing_by_rice": null,
    "abv_pct": 12,
@@ -36394,7 +38003,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 63166,
@@ -36410,7 +38019,7 @@
     "website": "https://shishinosato.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "酒未来（山形県産100%）",
+   "rice": "酒未来（山形県産）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -36462,7 +38071,7 @@
     "website": "https://www.tengumai.co.jp/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県産・契約栽培米）100%",
    "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": null,
@@ -36496,7 +38105,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 63296,
@@ -36512,7 +38121,7 @@
     "website": "https://sakurada.co.jp/"
    },
    "category": "junmai",
-   "rice": "百万石乃白（全量使用）",
+   "rice": "百万石乃白100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -36613,7 +38222,7 @@
     "website": "http://www.hakutousyuzou.jp/"
    },
    "category": "junmai",
-   "rice": "自然栽培米",
+   "rice": "コシヒカリ（石川県輪島市三井町産・自然栽培米）100%",
    "polishing_ratio_pct": 65,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -36645,7 +38254,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 63572,
@@ -36661,7 +38270,7 @@
     "website": "https://shishinosato.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県産）",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 13,
@@ -36697,7 +38306,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 63630,
@@ -36761,7 +38370,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "ginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -36796,7 +38405,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 63951,
@@ -36844,7 +38453,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-30"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 64020,
@@ -36908,7 +38517,7 @@
     "website": "https://www.choseimai.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "山田錦 / 長生米",
+   "rice": "山田錦、長生米",
    "polishing_ratio_pct": 53,
    "polishing_by_rice": null,
    "abv_pct": 18,
@@ -36959,7 +38568,7 @@
     "website": "https://www.kikuhime.co.jp/"
    },
    "category": "ginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（兵庫県三木市吉川町・特A地区産）",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -36994,7 +38603,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 64251,
@@ -37157,9 +38766,9 @@
   {
    "public_id": 64573,
    "url": "https://find-sake.me/sake/64573",
-   "name": "天狗舞 純米吟醸酒 文政六年",
-   "name_kana": "てんぐまい じゅんまいぎんじょうしゅ ぶんせいろくねん",
-   "name_romaji": "Tengumai Junmai Ginjoshu Bunsei Rokunen",
+   "name": "天狗舞 純米吟醸 文政六年GI白山",
+   "name_kana": "てんぐまい じゅんまいぎんじょう ぶんせいろくねん じーあいはくさん",
+   "name_romaji": "Tengumai Junmai Ginjo Bunsei Rokunen GI Hakusan",
    "brewery": {
     "id": 10009,
     "name": "株式会社車多酒造",
@@ -37173,7 +38782,7 @@
    "polishing_by_rice": null,
    "abv_pct": 16,
    "sake_meter_value": 3,
-   "titratable_acidity": 1.5,
+   "titratable_acidity": 1.6,
    "ranges": {},
    "yeast": null,
    "water_source": "白山・手取川水系",
@@ -37181,12 +38790,12 @@
    "pressing_filtration": null,
    "pasteurization": null,
    "undisclosed": [],
-   "aroma_type": "banana",
+   "aroma_type": "matured",
    "acidity_type": "balanced",
    "tags": [],
    "taste": {
     "sweet_dry": 3,
-    "acidity": 3,
+    "acidity": 4,
     "umami": 3,
     "aroma": 3,
     "body": 3,
@@ -37201,7 +38810,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 64880,
@@ -37308,7 +38917,7 @@
     "spec": true,
     "taste": true
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 65055,
@@ -37358,7 +38967,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 65182,
@@ -37520,7 +39129,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 65332,
@@ -37571,7 +39180,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-07"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 65392,
@@ -37587,7 +39196,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "daiginjo",
-   "rice": "石川門",
+   "rice": "石川門（石川県能登産・契約栽培米）100%",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
@@ -37620,7 +39229,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   },
   {
    "public_id": 65465,
@@ -37636,7 +39245,7 @@
     "website": "https://chikuha.co.jp/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（石川県能登産・水田環境特A地区の契約栽培米）100%",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
    "abv_pct": 16,
@@ -37673,7 +39282,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-06"
   }
  ]
 }

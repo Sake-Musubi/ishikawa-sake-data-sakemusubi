@@ -1,7 +1,7 @@
 # Changelog
 
 版は `data/sake_ishikawa.json` の `version`（YYYY-MM-DD）と同じ。Release のタグは `v`＋版。
-正は `dev/frontend/tools/open-data-changelog.json`（このファイルは生成物）。
+案内ページ（https://find-sake.me/open-data/）の「更新履歴」と同じ内容です。
 
 ## 2026-10-06
 

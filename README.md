@@ -201,16 +201,6 @@ Tell us via the [contact form](https://find-sake.me/contact) (or an [issue](../.
 - データについての問い合わせ・訂正の依頼（蔵元の方を含む）・利用のご報告 / Questions, corrections and usage reports: https://find-sake.me/contact
 - [Issues](../../issues) も開いていますが確認の頻度は低いので、急ぎはフォームへ。 / Issues are open but checked less often; use the form for anything urgent.
 
-## 更新のしかた（管理者向け） / Maintainer notes
+## このリポジトリについて / About this repository
 
-データはアプリのビルド時に本番の公開カタログAPIから生成されます（`dev/frontend/tools/build-open-data.mjs`）。
-このリポジトリは配信物のミラーで、**ここを手で直しても本番には反映されません**。
-
-```bash
-# アプリ側リポジトリで
-cd 実装/dev/frontend && npm run build
-python ../../scripts/export_open_data_repo.py <このリポジトリのクローン先>
-# クローン先で commit → tag vYYYY-MM-DD → Release に data/ の3ファイルを添付
-```
-
-仕様の正は `実装/docs/仕様書/17_オープンデータ公開仕様.md`。
+https://find-sake.me/open-data/ で配信しているファイルの写しです。ここを直しても配信元には反映されないため、訂正は上の連絡先からお知らせください。 / A mirror of the files served at https://find-sake.me/open-data/. Changes made here are not reflected at the source; please send corrections via the contact form above.

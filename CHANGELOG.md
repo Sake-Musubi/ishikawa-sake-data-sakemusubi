@@ -3,6 +3,13 @@
 版は `data/sake_ishikawa.json` の `version`（YYYY-MM-DD）と同じ。Release のタグは `v`＋版。
 案内ページ（https://find-sake.me/open-data/）の「更新履歴」と同じ内容です。
 
+## 2026-10-13
+
+- お酒を13本追加しました（748→761本）。
+- 5本の値を訂正しました。「竹葉 百万石乃白 大吟醸 初しぼり」は2026年の裏ラベルに合わせて度数17→15度・生原酒→生酒（tags から genshu を外す）。「奥能登の白菊 のとのなつやすみ」の原料米を「五百万石64%、山田錦36%」に、「能登末廣 純米吟醸 輪」の原料米は根拠が確認できないため未記載（null）に。「手取川 大吟醸生酒 あらばしり」と「能登大慶 純米酒 powered by Tengumai」は店頭表示（2026-10-11）に合わせて日本酒度を訂正し、前者は香りのタイプ、後者は仕込み水系（製造所に合わせ白山・手取川水系）と味わい7軸も見直しました。構造（schema）の変更なし。
+- Added 13 sake (748 → 761).
+- Corrected values for 5 sake: 竹葉 百万石乃白 大吟醸 初しぼり now follows the 2026 back label (ABV 17 → 15, 生原酒 → 生酒; genshu removed from tags); the rice of 奥能登の白菊 のとのなつやすみ is now "五百万石64%、山田錦36%"; the rice of 能登末廣 純米吟醸 輪 is now null (not documented) because its source could not be confirmed; the sake meter values of 手取川 大吟醸生酒 あらばしり and 能登大慶 純米酒 powered by Tengumai were corrected to match the in-store display (2026-10-11), along with the aroma type of the former and the water source (now that of the actual brewery, Hakusan/Tedori River system) and seven taste axes of the latter. No schema change.
+
 ## 2026-10-06
 
 - お酒を33本追加し、5本の名前を改め、同じ商品が2件に分かれていた1本（宗玄 大吟醸 → 宗玄 大吟醸 Samurai King）を統合しました（716→748本）。

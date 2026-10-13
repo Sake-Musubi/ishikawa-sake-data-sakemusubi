@@ -2,9 +2,9 @@
   "profile": "tabular-data-package",
   "name": "ishikawa-sake-data-sakemusubi",
   "title": "Ishikawa Sake Taste Data (Sake-Musubi)",
-  "description": "Label specifications and a 7-axis taste profile of 748 sake from 35 breweries in Ishikawa, Japan, compiled by Sake-Musubi.",
-  "version": "2026-10-06",
-  "created": "2026-10-06T14:58:56.903Z",
+  "description": "Label specifications and a 7-axis taste profile of 761 sake from 35 breweries in Ishikawa, Japan, compiled by Sake-Musubi.",
+  "version": "2026-10-13",
+  "created": "2026-10-13T13:01:16.283Z",
   "homepage": "https://find-sake.me/open-data/",
   "licenses": [
     {

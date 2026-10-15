@@ -10,8 +10,8 @@
  },
  "schema_version": "1.0.0",
  "schema_url": "https://find-sake.me/open-data/schema/1.0.0/sake_ishikawa.schema.json",
- "version": "2026-10-13",
- "generated_at": "2026-10-13T13:01:16.283Z",
+ "version": "2026-10-16",
+ "generated_at": "2026-10-15T15:26:35.165Z",
  "issued": "2026-09-22",
  "license": "CC-BY-4.0",
  "license_url": "https://creativecommons.org/licenses/by/4.0/",
@@ -38149,9 +38149,9 @@
   {
    "public_id": 61917,
    "url": "https://find-sake.me/sake/61917",
-   "name": "宗玄 そっ甦",
-   "name_kana": "そうげん そっ",
-   "name_romaji": "Sogen So",
+   "name": "宗玄 純米酒 甦",
+   "name_kana": "そうげん じゅんまいしゅ そっ",
+   "name_romaji": "Sogen Junmaishu So",
    "brewery": {
     "id": 10025,
     "name": "宗玄酒造株式会社",
@@ -38193,7 +38193,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-08-20"
+   "updated_at": "2026-10-16"
   },
   {
    "public_id": 62169,

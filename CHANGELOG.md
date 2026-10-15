@@ -3,6 +3,11 @@
 版は `data/sake_ishikawa.json` の `version`（YYYY-MM-DD）と同じ。Release のタグは `v`＋版。
 案内ページ（https://find-sake.me/open-data/）の「更新履歴」と同じ内容です。
 
+## 2026-10-16
+
+- 1本の名前を表ラベル・区分と小売店の表記に合わせて改めました（「宗玄 そっ甦」→「宗玄 純米酒 甦」、name_kana「そうげん じゅんまいしゅ そっ」、name_romaji「Sogen Junmaishu So」）。public_id と URL は変わりません。本数は761本のまま。構造（schema）の変更なし。
+- Renamed one sake to match its label category and retail listings (宗玄 そっ甦 → 宗玄 純米酒 甦; name_kana "そうげん じゅんまいしゅ そっ", name_romaji "Sogen Junmaishu So"). Its public_id and URL are unchanged. Still 761 sake. No schema change.
+
 ## 2026-10-13
 
 - お酒を13本追加しました（748→761本）。

@@ -3,6 +3,15 @@
 版は `data/sake_ishikawa.json` の `version`（YYYY-MM-DD）と同じ。Release のタグは `v`＋版。
 案内ページ（https://find-sake.me/open-data/）の「更新履歴」と同じ内容です。
 
+## 2026-11-16
+
+- 橋本酒造のお酒を、蔵の店頭（2026-11-15）と蔵元公式通販で確認し直しました（770→768本）。7本を追加し（大日盛 上撰、酒袋吊るししずく酒 吟彩金箔、純米酒 十代目 くらねこ酒、吟醸 雪古九谷、升々半升 十代目純米大吟醸原酒、熟成大吟醸 1992年醸造、熟成大吟醸 2002年醸造）、現行品として確認できなかった9本の掲載を終えました（十代目 しぼりたて生酒、十代目 本醸造、大日盛 普通酒 佳撰、真艫 本醸造 原酒、純米大吟醸 十代目 原酒 生詰、辛口 鐘馗 本醸造、酒袋吊るし 十代目 しぼりたて生酒、酒袋吊るし 純米生原酒 重右衛門、酒袋吊るし 醪のささやき）。
+- 3本の名前を蔵の表記に合わせて改めました（「大吟醸 現代の名工」→「十年熟成大吟醸原酒 現代の名工」、「黄綬褒章受章 記念酒 大吟醸 前良平」→「十七年秘蔵酒 大吟醸原酒 黄綬褒章受章記念 前 良平」、「木槽 酒袋 しぼり 純米原酒 実盛」→「木槽酒袋しぼり 純米原酒 実盛」）。public_id と URL は変わりません。
+- 同じ蔵の7本の値を、店頭の値札・裏ラベル・公式通販に合わせて直しました（原料米を「五百万石（国産）」「山田錦（国産）」に、容量・アルコール度数・日本酒度・酸度・火入れ／貯蔵・味わい7軸）。「純米吟醸 雪月花の舞」の日本酒度・酸度は、精米歩合が現行品と違う旧資料の値だったため null にしました。構造（schema）の変更なし。
+- Re-checked Hashimoto Shuzo's sake against the brewery shop (2026-11-15) and its official online store (770 → 768). Added 7 sake (大日盛 上撰, 酒袋吊るししずく酒 吟彩金箔, 純米酒 十代目 くらねこ酒, 吟醸 雪古九谷, 升々半升 十代目純米大吟醸原酒, 熟成大吟醸 1992年醸造, 熟成大吟醸 2002年醸造) and delisted 9 that could not be confirmed as current products (十代目 しぼりたて生酒, 十代目 本醸造, 大日盛 普通酒 佳撰, 真艫 本醸造 原酒, 純米大吟醸 十代目 原酒 生詰, 辛口 鐘馗 本醸造, 酒袋吊るし 十代目 しぼりたて生酒, 酒袋吊るし 純米生原酒 重右衛門, 酒袋吊るし 醪のささやき).
+- Renamed 3 sake to match the brewery's own labelling (大吟醸 現代の名工 → 十年熟成大吟醸原酒 現代の名工; 黄綬褒章受章 記念酒 大吟醸 前良平 → 十七年秘蔵酒 大吟醸原酒 黄綬褒章受章記念 前 良平; 木槽 酒袋 しぼり 純米原酒 実盛 → 木槽酒袋しぼり 純米原酒 実盛). Their public_id and URL are unchanged.
+- Corrected values for 7 sake from the same brewery to match shop price cards, back labels and the official store (rice now 五百万石（国産） / 山田錦（国産）, volumes, ABV, Sake Meter Value, acidity, pasteurization, and the 7 taste axes). For 純米吟醸 雪月花の舞, the Sake Meter Value and acidity came from an older source whose polishing ratio differs from the current product, so they are now null. No schema change.
+
 ## 2026-11-14
 
 - お酒を9本追加しました（761→770本）。既存のお酒の値の変更はありません。構造（schema）の変更なし。

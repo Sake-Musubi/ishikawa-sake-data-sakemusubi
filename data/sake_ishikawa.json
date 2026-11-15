@@ -5,13 +5,13 @@
   "en": "Ishikawa Sake Taste Data (Open Data)"
  },
  "description": {
-  "ja": "石川県の日本酒 770 本（35 蔵）のラベル上のスペックと、酒結びが独自に算出した味わい7軸。お酒ごとに蔵元が内容を確認したかどうかの状態付き。",
-  "en": "Label specifications and a 7-axis taste profile, estimated by Sake-Musubi, for 770 sake from 35 breweries in Ishikawa, Japan, with a per-sake flag showing whether the brewery reviewed the content."
+  "ja": "石川県の日本酒 768 本（35 蔵）のラベル上のスペックと、酒結びが独自に算出した味わい7軸。お酒ごとに蔵元が内容を確認したかどうかの状態付き。",
+  "en": "Label specifications and a 7-axis taste profile, estimated by Sake-Musubi, for 768 sake from 35 breweries in Ishikawa, Japan, with a per-sake flag showing whether the brewery reviewed the content."
  },
  "schema_version": "1.0.0",
  "schema_url": "https://find-sake.me/open-data/schema/1.0.0/sake_ishikawa.schema.json",
- "version": "2026-11-14",
- "generated_at": "2026-11-14T14:47:58.329Z",
+ "version": "2026-11-16",
+ "generated_at": "2026-11-15T22:35:57.978Z",
  "issued": "2026-09-22",
  "license": "CC-BY-4.0",
  "license_url": "https://creativecommons.org/licenses/by/4.0/",
@@ -40,7 +40,7 @@
   "zh-CN"
  ],
  "spatial": "JP-17",
- "record_count": 770,
+ "record_count": 768,
  "brewery_count": 35,
  "brewery_confirmed_count": {
   "spec": 73,
@@ -8651,59 +8651,6 @@
    "updated_at": "2026-09-07"
   },
   {
-   "public_id": 12659,
-   "url": "https://find-sake.me/sake/12659",
-   "name": "大日盛 普通酒 佳撰",
-   "name_kana": "だいにちざかり ふつうしゅ かせん",
-   "name_romaji": "Dainichizakari Futsushu Kasen",
-   "brewery": {
-    "id": 10034,
-    "name": "橋本酒造株式会社",
-    "name_romaji": "Hashimoto Shuzo",
-    "url": "https://find-sake.me/brewery/10034",
-    "website": "https://judaime.com/"
-   },
-   "category": "futsushu",
-   "rice": "五百万石",
-   "polishing_ratio_pct": 70,
-   "polishing_by_rice": null,
-   "abv_pct": 15.5,
-   "sake_meter_value": 2,
-   "titratable_acidity": 1.7,
-   "ranges": {
-    "abv_pct": [
-     15,
-     15.9
-    ]
-   },
-   "yeast": null,
-   "water_source": null,
-   "starter_method": null,
-   "pressing_filtration": "木槽酒袋しぼり（槽しぼり）",
-   "pasteurization": null,
-   "undisclosed": [],
-   "aroma_type": null,
-   "acidity_type": "balanced",
-   "tags": [],
-   "taste": {
-    "sweet_dry": 4,
-    "acidity": 4,
-    "umami": 3,
-    "aroma": 2,
-    "body": 3,
-    "finish": 4,
-    "drinkability": 3
-   },
-   "volumes_ml": [
-    1800
-   ],
-   "brewery_confirmed": {
-    "spec": false,
-    "taste": false
-   },
-   "updated_at": "2026-09-04"
-  },
-  {
    "public_id": 12680,
    "url": "https://find-sake.me/sake/12680",
    "name": "日榮 菊酒 普通酒",
@@ -9421,55 +9368,6 @@
     "taste": false
    },
    "updated_at": "2026-08-20"
-  },
-  {
-   "public_id": 13589,
-   "url": "https://find-sake.me/sake/13589",
-   "name": "辛口 鐘馗 本醸造",
-   "name_kana": "からくち しょうき ほんじょうぞう",
-   "name_romaji": "Karakuchi Shoki Honjozo",
-   "brewery": {
-    "id": 10034,
-    "name": "橋本酒造株式会社",
-    "name_romaji": "Hashimoto Shuzo",
-    "url": "https://find-sake.me/brewery/10034",
-    "website": "https://judaime.com/"
-   },
-   "category": "honjozo",
-   "rice": null,
-   "polishing_ratio_pct": null,
-   "polishing_by_rice": null,
-   "abv_pct": 15,
-   "sake_meter_value": null,
-   "titratable_acidity": null,
-   "ranges": {},
-   "yeast": null,
-   "water_source": null,
-   "starter_method": null,
-   "pressing_filtration": "木槽酒袋しぼり",
-   "pasteurization": null,
-   "undisclosed": [],
-   "aroma_type": null,
-   "acidity_type": "balanced",
-   "tags": [],
-   "taste": {
-    "sweet_dry": 4,
-    "acidity": 3,
-    "umami": 2,
-    "aroma": 2,
-    "body": 2,
-    "finish": 4,
-    "drinkability": 4
-   },
-   "volumes_ml": [
-    720,
-    1800
-   ],
-   "brewery_confirmed": {
-    "spec": false,
-    "taste": false
-   },
-   "updated_at": "2026-09-04"
   },
   {
    "public_id": 13634,
@@ -11071,6 +10969,54 @@
    "updated_at": "2026-09-07"
   },
   {
+   "public_id": 15991,
+   "url": "https://find-sake.me/sake/15991",
+   "name": "純米酒 十代目 くらねこ酒",
+   "name_kana": "じゅんまいしゅ じゅうだいめ くらねこざけ",
+   "name_romaji": "Junmaishu Judaime Kuraneko Zake",
+   "brewery": {
+    "id": 10034,
+    "name": "橋本酒造株式会社",
+    "name_romaji": "Hashimoto Shuzo",
+    "url": "https://find-sake.me/brewery/10034",
+    "website": "https://judaime.com/"
+   },
+   "category": "junmai",
+   "rice": "五百万石（国産）",
+   "polishing_ratio_pct": 70,
+   "polishing_by_rice": null,
+   "abv_pct": 15,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": null,
+   "starter_method": null,
+   "pressing_filtration": "木槽酒袋しぼり",
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 3,
+    "aroma": 2,
+    "body": 3,
+    "finish": 3,
+    "drinkability": 4
+   },
+   "volumes_ml": [
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-11-15"
+  },
+  {
    "public_id": 16086,
    "url": "https://find-sake.me/sake/16086",
    "name": "菊姫 にごり酒",
@@ -12224,64 +12170,6 @@
    "updated_at": "2026-08-20"
   },
   {
-   "public_id": 18325,
-   "url": "https://find-sake.me/sake/18325",
-   "name": "酒袋吊るし 醪のささやき",
-   "name_kana": "さかぶくろつるし もろみのささやき",
-   "name_romaji": "Sakabukuro Tsurushi Moromi no Sasayaki",
-   "brewery": {
-    "id": 10034,
-    "name": "橋本酒造株式会社",
-    "name_romaji": "Hashimoto Shuzo",
-    "url": "https://find-sake.me/brewery/10034",
-    "website": "https://judaime.com/"
-   },
-   "category": "honjozo",
-   "rice": "国産米",
-   "polishing_ratio_pct": 70,
-   "polishing_by_rice": null,
-   "abv_pct": 18.5,
-   "sake_meter_value": null,
-   "titratable_acidity": null,
-   "ranges": {
-    "abv_pct": [
-     18,
-     19
-    ]
-   },
-   "yeast": null,
-   "water_source": null,
-   "starter_method": null,
-   "pressing_filtration": "酒袋吊るし（雫取り・無加圧）",
-   "pasteurization": "生原酒（要冷蔵）",
-   "undisclosed": [],
-   "aroma_type": null,
-   "acidity_type": "balanced",
-   "tags": [
-    "shizuku",
-    "nama",
-    "genshu"
-   ],
-   "taste": {
-    "sweet_dry": 4,
-    "acidity": 3,
-    "umami": 3,
-    "aroma": 3,
-    "body": 5,
-    "finish": 5,
-    "drinkability": 2
-   },
-   "volumes_ml": [
-    720,
-    1800
-   ],
-   "brewery_confirmed": {
-    "spec": false,
-    "taste": false
-   },
-   "updated_at": "2026-09-04"
-  },
-  {
    "public_id": 18343,
    "url": "https://find-sake.me/sake/18343",
    "name": "五凛 純米酒",
@@ -13299,8 +13187,8 @@
   {
    "public_id": 20204,
    "url": "https://find-sake.me/sake/20204",
-   "name": "木槽 酒袋 しぼり 純米原酒 実盛",
-   "name_kana": "きぶね さかぶくろ しぼり じゅんまいげんしゅ さねもり",
+   "name": "木槽酒袋しぼり 純米原酒 実盛",
+   "name_kana": "きぶねさかぶくろしぼり じゅんまいげんしゅ さねもり",
    "name_romaji": "Kibune Sakabukuro Shibori Junmai Genshu Sanemori",
    "brewery": {
     "id": 10034,
@@ -13310,13 +13198,18 @@
     "website": "https://judaime.com/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（国産）",
    "polishing_ratio_pct": 70,
    "polishing_by_rice": null,
-   "abv_pct": 16,
-   "sake_meter_value": null,
+   "abv_pct": 16.5,
+   "sake_meter_value": 4,
    "titratable_acidity": null,
-   "ranges": {},
+   "ranges": {
+    "abv_pct": [
+     16,
+     17
+    ]
+   },
    "yeast": null,
    "water_source": null,
    "starter_method": null,
@@ -13330,21 +13223,23 @@
    ],
    "taste": {
     "sweet_dry": 4,
-    "acidity": 2,
+    "acidity": 3,
     "umami": 4,
     "aroma": 3,
-    "body": 4,
+    "body": 5,
     "finish": 4,
     "drinkability": 3
    },
    "volumes_ml": [
-    720
+    300,
+    720,
+    1800
    ],
    "brewery_confirmed": {
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-04"
+   "updated_at": "2026-11-15"
   },
   {
    "public_id": 20228,
@@ -13499,57 +13394,6 @@
    "updated_at": "2026-10-06"
   },
   {
-   "public_id": 20636,
-   "url": "https://find-sake.me/sake/20636",
-   "name": "純米大吟醸 十代目 原酒 生詰",
-   "name_kana": "じゅんまいだいぎんじょう じゅうだいめ げんしゅ なまづめ",
-   "name_romaji": "Junmai Daiginjo Judaime Genshu Namazume",
-   "brewery": {
-    "id": 10034,
-    "name": "橋本酒造株式会社",
-    "name_romaji": "Hashimoto Shuzo",
-    "url": "https://find-sake.me/brewery/10034",
-    "website": "https://judaime.com/"
-   },
-   "category": "junmai_daiginjo",
-   "rice": "五百万石",
-   "polishing_ratio_pct": null,
-   "polishing_by_rice": null,
-   "abv_pct": 16,
-   "sake_meter_value": null,
-   "titratable_acidity": null,
-   "ranges": {},
-   "yeast": null,
-   "water_source": null,
-   "starter_method": null,
-   "pressing_filtration": "木槽酒袋しぼり",
-   "pasteurization": "原酒、生詰",
-   "undisclosed": [],
-   "aroma_type": null,
-   "acidity_type": "balanced",
-   "tags": [
-    "genshu",
-    "namachozo"
-   ],
-   "taste": {
-    "sweet_dry": 4,
-    "acidity": 3,
-    "umami": 3,
-    "aroma": 4,
-    "body": 4,
-    "finish": 4,
-    "drinkability": 3
-   },
-   "volumes_ml": [
-    720
-   ],
-   "brewery_confirmed": {
-    "spec": false,
-    "taste": false
-   },
-   "updated_at": "2026-09-04"
-  },
-  {
    "public_id": 20728,
    "url": "https://find-sake.me/sake/20728",
    "name": "加賀鶴 本醸造",
@@ -13611,18 +13455,13 @@
     "website": "https://judaime.com/"
    },
    "category": "junmai",
-   "rice": "五百万石",
+   "rice": "五百万石（国産）",
    "polishing_ratio_pct": 55,
    "polishing_by_rice": null,
-   "abv_pct": 15.5,
+   "abv_pct": 15,
    "sake_meter_value": null,
    "titratable_acidity": null,
-   "ranges": {
-    "abv_pct": [
-     15,
-     15.9
-    ]
-   },
+   "ranges": {},
    "yeast": null,
    "water_source": null,
    "starter_method": null,
@@ -13636,20 +13475,19 @@
     "sweet_dry": 4,
     "acidity": 3,
     "umami": 4,
-    "aroma": 3,
+    "aroma": 2,
     "body": 3,
-    "finish": 4,
+    "finish": 3,
     "drinkability": 4
    },
    "volumes_ml": [
-    720,
-    1800
+    300
    ],
    "brewery_confirmed": {
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-04"
+   "updated_at": "2026-11-15"
   },
   {
    "public_id": 20811,
@@ -16271,59 +16109,6 @@
    "updated_at": "2026-10-06"
   },
   {
-   "public_id": 25597,
-   "url": "https://find-sake.me/sake/25597",
-   "name": "酒袋吊るし 十代目 しぼりたて生酒",
-   "name_kana": "さかぶくろつるし じゅうだいめ しぼりたてなまざけ",
-   "name_romaji": "Sakabukuro Tsurushi Judaime Shiboritate Namazake",
-   "brewery": {
-    "id": 10034,
-    "name": "橋本酒造株式会社",
-    "name_romaji": "Hashimoto Shuzo",
-    "url": "https://find-sake.me/brewery/10034",
-    "website": "https://judaime.com/"
-   },
-   "category": "honjozo",
-   "rice": null,
-   "polishing_ratio_pct": null,
-   "polishing_by_rice": null,
-   "abv_pct": 18,
-   "sake_meter_value": null,
-   "titratable_acidity": null,
-   "ranges": {},
-   "yeast": null,
-   "water_source": null,
-   "starter_method": null,
-   "pressing_filtration": "酒袋吊るし（雫取り・無加圧）、無濾過",
-   "pasteurization": "生原酒（要冷蔵）",
-   "undisclosed": [],
-   "aroma_type": "banana",
-   "acidity_type": "balanced",
-   "tags": [
-    "muroka",
-    "shizuku",
-    "nama",
-    "genshu"
-   ],
-   "taste": {
-    "sweet_dry": 4,
-    "acidity": 3,
-    "umami": 4,
-    "aroma": 3,
-    "body": 5,
-    "finish": 4,
-    "drinkability": 2
-   },
-   "volumes_ml": [
-    720
-   ],
-   "brewery_confirmed": {
-    "spec": false,
-    "taste": false
-   },
-   "updated_at": "2026-09-04"
-  },
-  {
    "public_id": 25644,
    "url": "https://find-sake.me/sake/25644",
    "name": "夢醸 あらばしり 純米生原酒",
@@ -16375,6 +16160,56 @@
     "taste": false
    },
    "updated_at": "2026-08-20"
+  },
+  {
+   "public_id": 25739,
+   "url": "https://find-sake.me/sake/25739",
+   "name": "大日盛 上撰",
+   "name_kana": "だいにちざかり じょうせん",
+   "name_romaji": "Dainichizakari Josen",
+   "brewery": {
+    "id": 10034,
+    "name": "橋本酒造株式会社",
+    "name_romaji": "Hashimoto Shuzo",
+    "url": "https://find-sake.me/brewery/10034",
+    "website": "https://judaime.com/"
+   },
+   "category": "futsushu",
+   "rice": "国産米",
+   "polishing_ratio_pct": null,
+   "polishing_by_rice": null,
+   "abv_pct": 15,
+   "sake_meter_value": 2,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": null,
+   "starter_method": null,
+   "pressing_filtration": "木槽酒袋しぼり",
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 4,
+    "acidity": 3,
+    "umami": 3,
+    "aroma": 2,
+    "body": 3,
+    "finish": 4,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    180,
+    720,
+    1800
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-11-15"
   },
   {
    "public_id": 25868,
@@ -23029,9 +22864,9 @@
   {
    "public_id": 37330,
    "url": "https://find-sake.me/sake/37330",
-   "name": "大吟醸 現代の名工",
-   "name_kana": "だいぎんじょう げんだいのめいこう",
-   "name_romaji": "Daiginjo Gendai no Meiko",
+   "name": "十年熟成大吟醸原酒 現代の名工",
+   "name_kana": "じゅうねんじゅくせい だいぎんじょうげんしゅ げんだいのめいこう",
+   "name_romaji": "Junen Jukusei Daiginjo Genshu Gendai no Meiko",
    "brewery": {
     "id": 10034,
     "name": "橋本酒造株式会社",
@@ -23040,44 +22875,93 @@
     "website": "https://judaime.com/"
    },
    "category": "daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（国産）",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
-   "abv_pct": 16.5,
+   "abv_pct": 17,
    "sake_meter_value": 3,
-   "titratable_acidity": null,
-   "ranges": {
-    "abv_pct": [
-     16,
-     17
-    ]
-   },
+   "titratable_acidity": 1.4,
+   "ranges": {},
    "yeast": null,
    "water_source": null,
    "starter_method": null,
    "pressing_filtration": "木槽酒袋しぼり",
-   "pasteurization": "十年熟成",
+   "pasteurization": "原酒、十年熟成",
    "undisclosed": [],
    "aroma_type": "matured",
    "acidity_type": "balanced",
-   "tags": [],
+   "tags": [
+    "genshu"
+   ],
    "taste": {
     "sweet_dry": 3,
     "acidity": 3,
-    "umami": 3,
+    "umami": 4,
     "aroma": 4,
     "body": 4,
     "finish": 3,
-    "drinkability": 3
+    "drinkability": 2
    },
    "volumes_ml": [
-    720
+    300,
+    720,
+    1800
    ],
    "brewery_confirmed": {
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-04"
+   "updated_at": "2026-11-15"
+  },
+  {
+   "public_id": 37331,
+   "url": "https://find-sake.me/sake/37331",
+   "name": "酒袋吊るししずく酒 吟彩金箔",
+   "name_kana": "さかぶくろつるし しずくざけ ぎんさいきんぱく",
+   "name_romaji": "Sakabukuro Tsurushi Shizukuzake Ginsai Kinpaku",
+   "brewery": {
+    "id": 10034,
+    "name": "橋本酒造株式会社",
+    "name_romaji": "Hashimoto Shuzo",
+    "url": "https://find-sake.me/brewery/10034",
+    "website": "https://judaime.com/"
+   },
+   "category": "futsushu",
+   "rice": "五百万石（国産）",
+   "polishing_ratio_pct": 70,
+   "polishing_by_rice": null,
+   "abv_pct": 16,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": null,
+   "starter_method": null,
+   "pressing_filtration": "酒袋吊るし（雫取り・無加圧）",
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [
+    "shizuku"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 2,
+    "aroma": 2,
+    "body": 2,
+    "finish": 4,
+    "drinkability": 4
+   },
+   "volumes_ml": [
+    1800
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-11-15"
   },
   {
    "public_id": 37450,
@@ -23500,9 +23384,9 @@
   {
    "public_id": 38106,
    "url": "https://find-sake.me/sake/38106",
-   "name": "黄綬褒章受章 記念酒 大吟醸 前良平",
-   "name_kana": "おうじゅほうしょうじゅしょう きねんしゅ だいぎんじょう まえりょうへい",
-   "name_romaji": "Oju Hosho Jusho Kinenshu Daiginjo Mae Ryohei",
+   "name": "十七年秘蔵酒 大吟醸原酒 黄綬褒章受章記念 前 良平",
+   "name_kana": "じゅうななねん ひぞうしゅ だいぎんじょう げんしゅ おうじゅほうしょう じゅしょう きねん まえ りょうへい",
+   "name_romaji": "Junananen Hizoshu Daiginjo Genshu Oju Hosho Jusho Kinen Mae Ryohei",
    "brewery": {
     "id": 10034,
     "name": "橋本酒造株式会社",
@@ -23511,7 +23395,7 @@
     "website": "https://judaime.com/"
    },
    "category": "daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（国産）",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -23522,21 +23406,22 @@
    "water_source": null,
    "starter_method": null,
    "pressing_filtration": "木槽酒袋しぼり",
-   "pasteurization": "原酒、火入れ、熟成",
+   "pasteurization": "原酒、火入れ、十七年熟成",
    "undisclosed": [],
    "aroma_type": "matured",
    "acidity_type": "balanced",
    "tags": [
-    "genshu"
+    "genshu",
+    "koshu"
    ],
    "taste": {
     "sweet_dry": 3,
     "acidity": 3,
-    "umami": 3,
+    "umami": 4,
     "aroma": 4,
     "body": 4,
     "finish": 3,
-    "drinkability": 3
+    "drinkability": 2
    },
    "volumes_ml": [
     720
@@ -23545,7 +23430,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-04"
+   "updated_at": "2026-11-15"
   },
   {
    "public_id": 38192,
@@ -24702,6 +24587,56 @@
     "taste": false
    },
    "updated_at": "2026-10-06"
+  },
+  {
+   "public_id": 40682,
+   "url": "https://find-sake.me/sake/40682",
+   "name": "熟成大吟醸 2002年醸造",
+   "name_kana": "じゅくせいだいぎんじょう 2002ねんじょうぞう",
+   "name_romaji": "Jukusei Daiginjo 2002 Nen Jozo",
+   "brewery": {
+    "id": 10034,
+    "name": "橋本酒造株式会社",
+    "name_romaji": "Hashimoto Shuzo",
+    "url": "https://find-sake.me/brewery/10034",
+    "website": "https://judaime.com/"
+   },
+   "category": "daiginjo",
+   "rice": "山田錦（国産）",
+   "polishing_ratio_pct": 35,
+   "polishing_by_rice": null,
+   "abv_pct": 17,
+   "sake_meter_value": 4,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": null,
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": "長期熟成酒",
+   "undisclosed": [],
+   "aroma_type": "matured",
+   "acidity_type": "balanced",
+   "tags": [
+    "koshu"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 4,
+    "aroma": 4,
+    "body": 4,
+    "finish": 2,
+    "drinkability": 2
+   },
+   "volumes_ml": [
+    1800
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-11-15"
   },
   {
    "public_id": 40714,
@@ -27167,59 +27102,6 @@
    "updated_at": "2026-08-20"
   },
   {
-   "public_id": 44174,
-   "url": "https://find-sake.me/sake/44174",
-   "name": "酒袋吊るし 純米生原酒 重右衛門",
-   "name_kana": "さかぶくろつるし じゅんまいなまげんしゅ じゅうえもん",
-   "name_romaji": "Sakabukuro Tsurushi Junmai Nama Genshu Juemon",
-   "brewery": {
-    "id": 10034,
-    "name": "橋本酒造株式会社",
-    "name_romaji": "Hashimoto Shuzo",
-    "url": "https://find-sake.me/brewery/10034",
-    "website": "https://judaime.com/"
-   },
-   "category": "junmai",
-   "rice": "五百万石",
-   "polishing_ratio_pct": 70,
-   "polishing_by_rice": null,
-   "abv_pct": 17,
-   "sake_meter_value": null,
-   "titratable_acidity": null,
-   "ranges": {},
-   "yeast": null,
-   "water_source": null,
-   "starter_method": null,
-   "pressing_filtration": "酒袋吊るし（雫取り・無加圧）",
-   "pasteurization": "生原酒（要冷蔵）",
-   "undisclosed": [],
-   "aroma_type": null,
-   "acidity_type": "balanced",
-   "tags": [
-    "shizuku",
-    "nama",
-    "genshu"
-   ],
-   "taste": {
-    "sweet_dry": 4,
-    "acidity": 3,
-    "umami": 4,
-    "aroma": 4,
-    "body": 5,
-    "finish": 4,
-    "drinkability": 2
-   },
-   "volumes_ml": [
-    720,
-    1800
-   ],
-   "brewery_confirmed": {
-    "spec": false,
-    "taste": false
-   },
-   "updated_at": "2026-09-04"
-  },
-  {
    "public_id": 44250,
    "url": "https://find-sake.me/sake/44250",
    "name": "吉田蔵u Thank you Thank you Thank you",
@@ -27568,62 +27450,6 @@
     "taste": false
    },
    "updated_at": "2026-10-06"
-  },
-  {
-   "public_id": 44936,
-   "url": "https://find-sake.me/sake/44936",
-   "name": "真艫 本醸造 原酒",
-   "name_kana": "まとも ほんじょうぞう げんしゅ",
-   "name_romaji": "Matomo Honjozo Genshu",
-   "brewery": {
-    "id": 10034,
-    "name": "橋本酒造株式会社",
-    "name_romaji": "Hashimoto Shuzo",
-    "url": "https://find-sake.me/brewery/10034",
-    "website": "https://judaime.com/"
-   },
-   "category": "honjozo",
-   "rice": "五百万石",
-   "polishing_ratio_pct": 55,
-   "polishing_by_rice": null,
-   "abv_pct": 18.5,
-   "sake_meter_value": 4,
-   "titratable_acidity": 1.7,
-   "ranges": {
-    "abv_pct": [
-     18,
-     18.9
-    ]
-   },
-   "yeast": null,
-   "water_source": null,
-   "starter_method": null,
-   "pressing_filtration": "木槽酒袋しぼり（袋搾り）",
-   "pasteurization": "原酒",
-   "undisclosed": [],
-   "aroma_type": null,
-   "acidity_type": "balanced",
-   "tags": [
-    "genshu"
-   ],
-   "taste": {
-    "sweet_dry": 4,
-    "acidity": 4,
-    "umami": 3,
-    "aroma": 2,
-    "body": 5,
-    "finish": 5,
-    "drinkability": 2
-   },
-   "volumes_ml": [
-    720,
-    1800
-   ],
-   "brewery_confirmed": {
-    "spec": false,
-    "taste": false
-   },
-   "updated_at": "2026-09-04"
   },
   {
    "public_id": 45046,
@@ -29472,12 +29298,12 @@
     "website": "https://judaime.com/"
    },
    "category": "junmai_daiginjo",
-   "rice": "五百万石",
+   "rice": "五百万石（国産）",
    "polishing_ratio_pct": 50,
    "polishing_by_rice": null,
    "abv_pct": 15,
    "sake_meter_value": 4,
-   "titratable_acidity": null,
+   "titratable_acidity": 1.5,
    "ranges": {},
    "yeast": null,
    "water_source": null,
@@ -29485,12 +29311,12 @@
    "pressing_filtration": "木槽酒袋しぼり",
    "pasteurization": null,
    "undisclosed": [],
-   "aroma_type": "melon_peach",
+   "aroma_type": null,
    "acidity_type": "balanced",
    "tags": [],
    "taste": {
     "sweet_dry": 3,
-    "acidity": 3,
+    "acidity": 4,
     "umami": 3,
     "aroma": 4,
     "body": 3,
@@ -29507,7 +29333,7 @@
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-04"
+   "updated_at": "2026-11-15"
   },
   {
    "public_id": 48642,
@@ -31705,7 +31531,7 @@
     "website": "https://judaime.com/"
    },
    "category": "daiginjo",
-   "rice": "山田錦",
+   "rice": "山田錦（国産）",
    "polishing_ratio_pct": 40,
    "polishing_by_rice": null,
    "abv_pct": 17,
@@ -31716,7 +31542,7 @@
    "water_source": null,
    "starter_method": null,
    "pressing_filtration": "木槽酒袋しぼり",
-   "pasteurization": "原酒、熟成大吟醸ブレンド",
+   "pasteurization": "原酒",
    "undisclosed": [],
    "aroma_type": "matured",
    "acidity_type": "balanced",
@@ -31726,22 +31552,20 @@
    "taste": {
     "sweet_dry": 3,
     "acidity": 3,
-    "umami": 3,
+    "umami": 4,
     "aroma": 4,
-    "body": 5,
+    "body": 4,
     "finish": 3,
     "drinkability": 3
    },
    "volumes_ml": [
-    300,
-    720,
-    1800
+    300
    ],
    "brewery_confirmed": {
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-04"
+   "updated_at": "2026-11-15"
   },
   {
    "public_id": 52406,
@@ -32471,6 +32295,56 @@
     "taste": false
    },
    "updated_at": "2026-10-06"
+  },
+  {
+   "public_id": 53071,
+   "url": "https://find-sake.me/sake/53071",
+   "name": "升々半升 十代目純米大吟醸原酒",
+   "name_kana": "ますますはんじょう じゅうだいめじゅんまいだいぎんじょうげんしゅ",
+   "name_romaji": "Masumasu Hanjo Judaime Junmai Daiginjo Genshu",
+   "brewery": {
+    "id": 10034,
+    "name": "橋本酒造株式会社",
+    "name_romaji": "Hashimoto Shuzo",
+    "url": "https://find-sake.me/brewery/10034",
+    "website": "https://judaime.com/"
+   },
+   "category": "junmai_daiginjo",
+   "rice": "五百万石（国産）",
+   "polishing_ratio_pct": 50,
+   "polishing_by_rice": null,
+   "abv_pct": 16,
+   "sake_meter_value": 4,
+   "titratable_acidity": 1.4,
+   "ranges": {},
+   "yeast": null,
+   "water_source": null,
+   "starter_method": null,
+   "pressing_filtration": "木槽酒袋しぼり",
+   "pasteurization": "原酒",
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [
+    "genshu"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 3,
+    "aroma": 4,
+    "body": 4,
+    "finish": 4,
+    "drinkability": 3
+   },
+   "volumes_ml": [
+    4500
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-11-15"
   },
   {
    "public_id": 53212,
@@ -33557,12 +33431,12 @@
     "website": "https://judaime.com/"
    },
    "category": "junmai_ginjo",
-   "rice": "五百万石",
-   "polishing_ratio_pct": 50,
+   "rice": "五百万石（国産）",
+   "polishing_ratio_pct": 60,
    "polishing_by_rice": null,
    "abv_pct": 15,
-   "sake_meter_value": 7,
-   "titratable_acidity": 1.4,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
    "ranges": {},
    "yeast": null,
    "water_source": null,
@@ -33574,24 +33448,23 @@
    "acidity_type": "balanced",
    "tags": [],
    "taste": {
-    "sweet_dry": 4,
+    "sweet_dry": 3,
     "acidity": 3,
-    "umami": 4,
-    "aroma": 3,
+    "umami": 3,
+    "aroma": 4,
     "body": 3,
-    "finish": 4,
+    "finish": 3,
     "drinkability": 4
    },
    "volumes_ml": [
     300,
-    720,
-    1800
+    720
    ],
    "brewery_confirmed": {
     "spec": false,
     "taste": false
    },
-   "updated_at": "2026-09-04"
+   "updated_at": "2026-11-15"
   },
   {
    "public_id": 54436,
@@ -34701,6 +34574,56 @@
     "taste": false
    },
    "updated_at": "2026-08-20"
+  },
+  {
+   "public_id": 56265,
+   "url": "https://find-sake.me/sake/56265",
+   "name": "熟成大吟醸 1992年醸造",
+   "name_kana": "じゅくせいだいぎんじょう 1992ねんじょうぞう",
+   "name_romaji": "Jukusei Daiginjo 1992 Nen Jozo",
+   "brewery": {
+    "id": 10034,
+    "name": "橋本酒造株式会社",
+    "name_romaji": "Hashimoto Shuzo",
+    "url": "https://find-sake.me/brewery/10034",
+    "website": "https://judaime.com/"
+   },
+   "category": "daiginjo",
+   "rice": "山田錦（国産）",
+   "polishing_ratio_pct": 35,
+   "polishing_by_rice": null,
+   "abv_pct": 17,
+   "sake_meter_value": 4,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": null,
+   "starter_method": null,
+   "pressing_filtration": null,
+   "pasteurization": "長期熟成酒",
+   "undisclosed": [],
+   "aroma_type": "matured",
+   "acidity_type": "balanced",
+   "tags": [
+    "koshu"
+   ],
+   "taste": {
+    "sweet_dry": 3,
+    "acidity": 3,
+    "umami": 4,
+    "aroma": 4,
+    "body": 4,
+    "finish": 2,
+    "drinkability": 2
+   },
+   "volumes_ml": [
+    1800
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-11-15"
   },
   {
    "public_id": 56323,
@@ -38707,54 +38630,6 @@
    "updated_at": "2026-10-06"
   },
   {
-   "public_id": 62576,
-   "url": "https://find-sake.me/sake/62576",
-   "name": "十代目 本醸造",
-   "name_kana": "じゅうだいめ ほんじょうぞう",
-   "name_romaji": "Judaime Honjozo",
-   "brewery": {
-    "id": 10034,
-    "name": "橋本酒造株式会社",
-    "name_romaji": "Hashimoto Shuzo",
-    "url": "https://find-sake.me/brewery/10034",
-    "website": "https://judaime.com/"
-   },
-   "category": "honjozo",
-   "rice": null,
-   "polishing_ratio_pct": null,
-   "polishing_by_rice": null,
-   "abv_pct": null,
-   "sake_meter_value": null,
-   "titratable_acidity": null,
-   "ranges": {},
-   "yeast": null,
-   "water_source": null,
-   "starter_method": null,
-   "pressing_filtration": "木槽酒袋しぼり",
-   "pasteurization": "熟成酒ブレンド",
-   "undisclosed": [],
-   "aroma_type": "matured",
-   "acidity_type": "balanced",
-   "tags": [],
-   "taste": {
-    "sweet_dry": 4,
-    "acidity": 3,
-    "umami": 3,
-    "aroma": 3,
-    "body": 3,
-    "finish": 4,
-    "drinkability": 3
-   },
-   "volumes_ml": [
-    1800
-   ],
-   "brewery_confirmed": {
-    "spec": false,
-    "taste": false
-   },
-   "updated_at": "2026-09-04"
-  },
-  {
    "public_id": 62661,
    "url": "https://find-sake.me/sake/62661",
    "name": "萬歳楽 甚 -Jin-",
@@ -39166,6 +39041,55 @@
     "taste": false
    },
    "updated_at": "2026-10-06"
+  },
+  {
+   "public_id": 63232,
+   "url": "https://find-sake.me/sake/63232",
+   "name": "吟醸 雪古九谷",
+   "name_kana": "ぎんじょう ゆきこくたに",
+   "name_romaji": "Ginjo Yukikokutani",
+   "brewery": {
+    "id": 10034,
+    "name": "橋本酒造株式会社",
+    "name_romaji": "Hashimoto Shuzo",
+    "url": "https://find-sake.me/brewery/10034",
+    "website": "https://judaime.com/"
+   },
+   "category": "ginjo",
+   "rice": "酒造好適米（国産）",
+   "polishing_ratio_pct": null,
+   "polishing_by_rice": null,
+   "abv_pct": 15,
+   "sake_meter_value": null,
+   "titratable_acidity": null,
+   "ranges": {},
+   "yeast": null,
+   "water_source": null,
+   "starter_method": null,
+   "pressing_filtration": "木槽酒袋しぼり",
+   "pasteurization": null,
+   "undisclosed": [],
+   "aroma_type": null,
+   "acidity_type": "balanced",
+   "tags": [],
+   "taste": {
+    "sweet_dry": 2,
+    "acidity": 3,
+    "umami": 3,
+    "aroma": 4,
+    "body": 2,
+    "finish": 4,
+    "drinkability": 4
+   },
+   "volumes_ml": [
+    180,
+    720
+   ],
+   "brewery_confirmed": {
+    "spec": false,
+    "taste": false
+   },
+   "updated_at": "2026-11-15"
   },
   {
    "public_id": 63246,
@@ -39819,57 +39743,6 @@
     "taste": false
    },
    "updated_at": "2026-08-20"
-  },
-  {
-   "public_id": 64537,
-   "url": "https://find-sake.me/sake/64537",
-   "name": "十代目 しぼりたて生酒",
-   "name_kana": "じゅうだいめ しぼりたてなまざけ",
-   "name_romaji": "Judaime Shiboritate Namazake",
-   "brewery": {
-    "id": 10034,
-    "name": "橋本酒造株式会社",
-    "name_romaji": "Hashimoto Shuzo",
-    "url": "https://find-sake.me/brewery/10034",
-    "website": "https://judaime.com/"
-   },
-   "category": "honjozo",
-   "rice": null,
-   "polishing_ratio_pct": 70,
-   "polishing_by_rice": null,
-   "abv_pct": 18,
-   "sake_meter_value": null,
-   "titratable_acidity": null,
-   "ranges": {},
-   "yeast": null,
-   "water_source": null,
-   "starter_method": null,
-   "pressing_filtration": "木槽酒袋しぼり",
-   "pasteurization": "生原酒（要冷蔵）",
-   "undisclosed": [],
-   "aroma_type": null,
-   "acidity_type": "balanced",
-   "tags": [
-    "nama",
-    "genshu"
-   ],
-   "taste": {
-    "sweet_dry": 4,
-    "acidity": 4,
-    "umami": 3,
-    "aroma": 3,
-    "body": 5,
-    "finish": 4,
-    "drinkability": 2
-   },
-   "volumes_ml": [
-    1800
-   ],
-   "brewery_confirmed": {
-    "spec": false,
-    "taste": false
-   },
-   "updated_at": "2026-09-04"
   },
   {
    "public_id": 64573,
